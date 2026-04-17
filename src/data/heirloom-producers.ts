@@ -1,19 +1,40 @@
+export interface ProducerWineRating {
+  score: string;
+  reviewer: string;
+  vintage?: string;
+}
+
 export interface HeirloomProducer {
   id: string;
   name: string;
   region: string;
+  subRegion?: string;
   country: string;
   appellations: string[];
   founded?: string;
   history: string;
   knownFor: string;
   whatMakesThemSpecial: string;
+  standoutLine?: string;
+  signatureVarietals?: string[];
   grapeVarieties: string[];
+  wineStyle?: string;
   winemakingPhilosophy: string;
   avgCostRange: string;
+  avgRetailRange?: string;
+  valueTier?: 'exceptional-value' | 'fair-price' | 'worth-the-splurge' | 'special-occasion';
   websiteUrl?: string;
+  importerUrl?: string;
   notablePress: Array<{ quote: string; source: string; trusted: boolean }>;
-  heirloomWines: Array<{ name: string; vintage: string; priceGlass?: number; priceBottle?: number }>;
+  heirloomWines: Array<{
+    name: string;
+    vintage: string;
+    priceGlass?: number;
+    priceBottle?: number;
+    tastingNotes?: string;
+    ratings?: ProducerWineRating[];
+    drinkWindow?: string;
+  }>;
   colorAccent: string;
 }
 
