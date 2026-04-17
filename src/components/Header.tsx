@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/dinner", label: "Dinner" },
   { href: "/wine", label: "Wine" },
+  { href: "/producers", label: "Producers" },
   { href: "/wine-club", label: "Wine Club" },
   { href: "/press", label: "Press" },
   { href: "/events", label: "Events" },
