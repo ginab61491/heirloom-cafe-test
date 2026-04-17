@@ -1,30 +1,46 @@
 export default function EventsPage() {
   return (
-    <div className="max-w-2xl mx-auto px-6 py-16">
-      <h1 className="font-[family-name:var(--font-serif)] text-3xl sm:text-4xl text-[var(--color-earth)] mb-8 text-center">
-        Events at Heirloom
-      </h1>
-      <p className="text-center text-[var(--color-earth-light)] leading-relaxed mb-10 max-w-lg mx-auto">
-        We host winemaker dinners, special tastings, and seasonal celebrations throughout
-        the year. Check back for upcoming events, or reach out to reserve for a private gathering.
-      </p>
+    <div className="bg-[var(--color-cream)]">
+      {/* Interior photo placeholder */}
+      <div className="h-48 sm:h-72" style={{ background: 'linear-gradient(135deg, var(--color-parchment) 0%, var(--color-terracotta) 30%, var(--color-charcoal) 100%)', opacity: 0.7 }} />
 
-      <div className="text-center mb-12">
-        <a
-          href="mailto:stephen@heirloom-sf.com"
-          className="inline-flex items-center gap-2 text-[#630000] hover:opacity-75 transition-opacity"
-        >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-            <path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-          </svg>
-          stephen@heirloom-sf.com
-        </a>
-      </div>
+      <div className="max-w-3xl mx-auto px-6 py-12">
+        <div className="gold-frame bg-[var(--color-warm-white)] relative text-center">
+          <div className="gold-frame-inner absolute inset-0" />
 
-      <div className="bg-[var(--color-warm-white)] border border-[var(--color-cream-dark)] rounded-xl p-8 text-center">
-        <p className="text-[var(--color-earth-light)] italic">
-          No upcoming events. Check back soon.
-        </p>
+          <h1 className="font-[family-name:var(--font-serif)] text-4xl text-[var(--color-charcoal)] mb-6 relative z-10">
+            Events
+          </h1>
+
+          <p className="text-[var(--color-warm-gray)] mb-6 relative z-10">
+            Stay updated through our instagram:
+          </p>
+
+          <a
+            href="https://www.instagram.com/heirloomcafe/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gold inline-block mb-10 relative z-10"
+          >
+            @heirloomcafe
+          </a>
+
+          {/* Instagram grid placeholder */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 relative z-10">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div
+                key={i}
+                className="aspect-square rounded-sm hover:opacity-80 transition-opacity cursor-pointer"
+                style={{
+                  background: `linear-gradient(${135 + i * 30}deg, var(--color-parchment) 0%, ${
+                    ['var(--color-sage)', 'var(--color-terracotta)', 'var(--color-gold)', 'var(--color-wine)', 'var(--color-sage-dark)', 'var(--color-terracotta)'][i]
+                  } 100%)`,
+                  opacity: 0.5,
+                }}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

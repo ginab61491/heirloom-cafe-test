@@ -3,74 +3,81 @@ import { wineList } from "@/data/wines";
 
 export default function DinnerPage() {
   return (
-    <div className="max-w-2xl mx-auto px-6 py-16">
-      <h1 className="font-[family-name:var(--font-serif)] text-3xl sm:text-4xl text-[var(--color-earth)] mb-2 text-center">
-        Dinner
-      </h1>
-      <p className="text-center text-sm text-[var(--color-earth-light)] mb-12">
-        Tuesday &ndash; Saturday, 5:45 &ndash; 9:30 PM
-      </p>
+    <div className="bg-[var(--color-cream)]">
+      {/* Photo placeholder */}
+      <div className="h-48 sm:h-64" style={{ background: 'linear-gradient(135deg, var(--color-parchment) 0%, var(--color-sage) 30%, var(--color-parchment) 100%)' }} />
 
-      {/* Prix Fixe */}
-      <section className="mb-14">
-        <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-earth)] mb-1 text-center">
-          Prix Fixe
-        </h2>
-        <p className="text-center text-sm text-[var(--color-earth-light)] mb-6">
-          ${prixFixe.price} / ${prixFixe.withPairings} with wine pairings
-        </p>
-        <div className="space-y-6">
-          {prixFixe.courses.map((course, i) => (
-            <div key={i} className="text-center">
-              <p className="text-[var(--color-earth)] leading-relaxed">{course.dish}</p>
-              <p className="text-sm text-[var(--color-sage)] italic mt-1">{course.pairing}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <div className="max-w-2xl mx-auto px-6 py-12">
+        <h1 className="font-[family-name:var(--font-serif)] text-4xl text-[var(--color-charcoal)] mb-10 text-center">
+          Dinner
+        </h1>
 
-      <div className="w-16 h-px bg-[var(--color-cream-dark)] mx-auto mb-14" />
+        {/* Menu in gold frame */}
+        <div className="gold-frame bg-[var(--color-warm-white)] relative mb-12">
+          <div className="gold-frame-inner absolute inset-0" />
 
-      {/* A La Carte */}
-      <section className="mb-14">
-        <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-earth)] mb-6 text-center">
-          &Agrave; La Carte
-        </h2>
-        <div className="space-y-3">
-          {aLaCarte.map((item, i) => (
-            <div key={i} className="flex justify-between gap-4">
-              <p className="text-[var(--color-earth)] leading-relaxed">{item.name}</p>
-              <p className="text-[var(--color-earth-light)] flex-shrink-0">{item.price}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <div className="w-16 h-px bg-[var(--color-cream-dark)] mx-auto mb-14" />
-
-      {/* Wine by the Glass */}
-      <section>
-        <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-earth)] mb-8 text-center">
-          Wine
-        </h2>
-        {wineList.map((section) => (
-          <div key={section.category} className="mb-8">
-            <h3 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-sage)] mb-3">
-              {section.category}
-            </h3>
-            <div className="space-y-2">
-              {section.wines.map((wine, i) => (
-                <div key={i} className="flex justify-between gap-4">
-                  <p className="text-[var(--color-earth)] text-sm leading-relaxed">{wine.name}</p>
-                  <p className="text-[var(--color-earth-light)] text-sm flex-shrink-0">
-                    {wine.glass ? `${wine.glass}/${wine.bottle}` : wine.bottle}
-                  </p>
+          {/* Prix Fixe */}
+          <div className="mb-10 relative z-10">
+            <h2 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-charcoal)] mb-1 text-center font-bold">
+              In-house menu
+            </h2>
+            <p className="text-center text-xs text-[var(--color-warm-gray)] mb-6">
+              ${prixFixe.price} / ${prixFixe.withPairings} with wine pairings
+            </p>
+            <div className="space-y-6">
+              {prixFixe.courses.map((course, i) => (
+                <div key={i} className="text-center">
+                  <p className="text-[var(--color-charcoal)] leading-relaxed tracking-wide">{course.dish}</p>
+                  <p className="text-sm text-[var(--color-wine)] italic mt-1">{course.pairing}</p>
                 </div>
               ))}
             </div>
           </div>
-        ))}
-      </section>
+
+          {/* Gold divider */}
+          <div className="w-20 h-px bg-[var(--color-gold)] mx-auto mb-10" />
+
+          {/* A La Carte */}
+          <div className="relative z-10">
+            <h2 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-charcoal)] mb-6 text-center font-bold">
+              A la carte
+            </h2>
+            <div className="space-y-4">
+              {aLaCarte.map((item, i) => (
+                <div key={i} className="flex justify-between gap-4 leading-relaxed" style={{ lineHeight: '2' }}>
+                  <p className="text-[var(--color-charcoal)] tracking-wide">{item.name}</p>
+                  <p className="text-[var(--color-gold)] font-semibold flex-shrink-0">{item.price}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Wine by the Glass in gold frame */}
+        <div className="gold-frame bg-[var(--color-warm-white)] relative">
+          <div className="gold-frame-inner absolute inset-0" />
+          <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-8 text-center relative z-10">
+            Wine
+          </h2>
+          {wineList.map((section) => (
+            <div key={section.category} className="mb-6 relative z-10">
+              <h3 className="font-[family-name:var(--font-serif)] text-base text-[var(--color-wine)] mb-3">
+                {section.category}
+              </h3>
+              <div className="space-y-2">
+                {section.wines.map((wine, i) => (
+                  <div key={i} className="flex justify-between gap-4">
+                    <p className="text-[var(--color-charcoal)] text-sm leading-relaxed tracking-wide">{wine.name}</p>
+                    <p className="text-[var(--color-gold)] text-sm flex-shrink-0 font-semibold">
+                      {wine.glass ? `${wine.glass}/${wine.bottle}` : wine.bottle}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
