@@ -3,6 +3,15 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { producers } from "@/data/stephens-wines";
+import { producerEnrichment } from "@/data/producer-enrichment";
+
+function getEnrichment(name: string) {
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  if (producerEnrichment[slug]) return producerEnrichment[slug];
+  const keys = Object.keys(producerEnrichment);
+  const partial = keys.find(k => slug.includes(k) || k.includes(slug));
+  return partial ? producerEnrichment[partial] : null;
+}
 
 const countries = [...new Set(producers.map(p => p.country))].sort();
 const regions = [...new Set(producers.map(p => p.region))].sort();
@@ -51,7 +60,7 @@ export default function StephensWineDatabase() {
   const tastedCount = producers.filter(p => p.wines.some(w => w.dateTasted)).length;
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-12">
+    <div className="max-w-5xl mx-auto px-6 py-12" style={{ backgroundImage: 'none' }}>
       {/* Intro */}
       <h1 className="font-[family-name:var(--font-serif)] text-3xl sm:text-4xl text-[var(--color-earth)] mb-4 text-center">
         Stephen&apos;s Wine Database
@@ -111,6 +120,8 @@ export default function StephensWineDatabase() {
           const latestTasted = producer.wines
             .filter(w => w.dateTasted)
             .sort((a, b) => new Date(b.dateTasted).getTime() - new Date(a.dateTasted).getTime())[0];
+          const enrichment = getEnrichment(producer.name);
+          const standout = enrichment?.standoutLine || producer.descriptor;
 
           return (
             <Link
@@ -118,12 +129,18 @@ export default function StephensWineDatabase() {
               href={`/stephens-wine-database/${producer.slug}`}
               className="block bg-[var(--color-warm-white)] border border-[var(--color-cream-dark)] rounded-xl p-5 hover:border-[var(--color-sage-light)] hover:shadow-md transition-all"
             >
-              <h3 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-earth)] mb-1">
+              <h3 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-earth)] mb-0.5">
                 {producer.name}
               </h3>
-              <p className="text-xs text-[var(--color-earth-light)] mb-3">
+              <p className="text-xs text-[var(--color-earth-light)] mb-2">
                 {producer.region}, {producer.country}
               </p>
+
+              {standout && (
+                <p className="text-xs text-[var(--color-earth)] italic leading-relaxed mb-3 line-clamp-2">
+                  {standout}
+                </p>
+              )}
 
               <div className="flex flex-wrap gap-1.5 mb-3">
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-[var(--color-sage)] text-white">
@@ -132,6 +149,11 @@ export default function StephensWineDatabase() {
                 {hasTasted && (
                   <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#630000] text-white">
                     Tasted at Heirloom
+                  </span>
+                )}
+                {producer.qualityTier && (
+                  <span className="text-[10px] px-2 py-0.5 rounded-full border border-[var(--color-cream-dark)] text-[var(--color-earth-light)]">
+                    {producer.qualityTier}
                   </span>
                 )}
               </div>
