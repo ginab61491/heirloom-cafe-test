@@ -1,0 +1,1036 @@
+[
+  {
+    "name": "Crémant d'Alsace Extra Brut",
+    "producer": "Bechtold",
+    "producerId": "bechtold",
+    "vintage": "NV",
+    "type": "sparkling",
+    "region": "Alsace",
+    "country": "France",
+    "grapeVarieties": [
+      "Auxerrois",
+      "Pinot Blanc"
+    ],
+    "priceGlass": 17,
+    "priceBottle": 68,
+    "byTheGlass": true,
+    "briefDescriptor": "Bone-dry sparkling with biscuit and orchard fruit — the aperitif that starts every great evening",
+    "tastingNotes": "Fine mousse with green apple and brioche on the nose. Crisp acidity with a chalky mineral finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "green apple",
+        "brioche",
+        "chalk"
+      ]
+    },
+    "pairingSuggestions": [
+      "oysters",
+      "goat cheese",
+      "smoked trout"
+    ],
+    "heirloomMenuPairings": [
+      "House smoked Mt. Lassen trout toast"
+    ],
+    "vintageNotes": "Non-vintage blend for consistent house style",
+    "labels": [
+      "amazing-value",
+      "hidden-gem"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2027,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "bechtold-nv"
+  },
+  {
+    "name": "Champagne 1er Cru",
+    "producer": "Bertrand-Delespierre",
+    "producerId": "bertrand-delespierre",
+    "vintage": "NV",
+    "type": "sparkling",
+    "region": "Champagne",
+    "country": "France",
+    "grapeVarieties": [
+      "Pinot Noir",
+      "Chardonnay"
+    ],
+    "priceGlass": 28,
+    "priceBottle": 112,
+    "byTheGlass": true,
+    "briefDescriptor": "Pinot-driven grower Champagne with vinous depth — this is the real thing",
+    "tastingNotes": "Rich golden hue. Toasted hazelnut, ripe pear, and a persistent fine bead. Vinous and structured.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "toasted hazelnut",
+        "ripe pear",
+        "brioche"
+      ]
+    },
+    "pairingSuggestions": [
+      "lobster",
+      "aged comté",
+      "fried chicken"
+    ],
+    "heirloomMenuPairings": [
+      "Hamachi crudo, chive aioli"
+    ],
+    "vintageNotes": "Non-vintage blend from Premier Cru Montagne de Reims",
+    "labels": [
+      "hidden-gem",
+      "sommelier-favorite"
+    ],
+    "distributionLevel": "hard-to-find",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2028,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "bertrand-delespierre-nv"
+  },
+  {
+    "name": "Champagne 1er Cru 375ml",
+    "producer": "Maillart",
+    "producerId": "maillart",
+    "vintage": "NV",
+    "type": "sparkling",
+    "region": "Champagne",
+    "country": "France",
+    "grapeVarieties": [
+      "Pinot Noir",
+      "Chardonnay",
+      "Pinot Meunier"
+    ],
+    "priceBottle": 70,
+    "byTheGlass": false,
+    "briefDescriptor": "Precise grower Champagne from Écueil — Burgundian thinking in a half bottle",
+    "tastingNotes": "Citrus zest and white flowers give way to a creamy, chalk-driven palate. Elegant and persistent.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "citrus zest",
+        "white flowers",
+        "chalk"
+      ]
+    },
+    "pairingSuggestions": [
+      "sushi",
+      "soft-ripened cheese",
+      "crudité"
+    ],
+    "heirloomMenuPairings": [
+      "Chilled asparagus, charred spring onion ricotta"
+    ],
+    "vintageNotes": "Non-vintage blend for house consistency",
+    "labels": [
+      "rising-star"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2028,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "maillart-nv"
+  },
+  {
+    "name": "Champagne Rosé 1er Cru 375ml",
+    "producer": "Dumez",
+    "producerId": "dumez",
+    "vintage": "NV",
+    "type": "sparkling",
+    "region": "Champagne",
+    "country": "France",
+    "grapeVarieties": [
+      "Pinot Noir",
+      "Chardonnay"
+    ],
+    "priceBottle": 70,
+    "byTheGlass": false,
+    "briefDescriptor": "Saignée rosé Champagne from a micro-grower — wild strawberry meets autolysis",
+    "tastingNotes": "Copper-salmon hue. Wild strawberry and blood orange on the nose, with a creamy, persistent mousse.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "wild strawberry",
+        "blood orange",
+        "toast"
+      ]
+    },
+    "pairingSuggestions": [
+      "salmon",
+      "duck",
+      "strawberry tart"
+    ],
+    "heirloomMenuPairings": [
+      "Liberty Farms duck confit"
+    ],
+    "vintageNotes": "Non-vintage saignée method",
+    "labels": [
+      "hidden-gem",
+      "hard-to-find"
+    ],
+    "distributionLevel": "allocation-only",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2027,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "dumez-nv"
+  },
+  {
+    "name": "Coste della Sesia Rosato",
+    "producer": "Le Pianelle",
+    "producerId": "le-pianelle",
+    "vintage": "2023",
+    "type": "rosé",
+    "region": "Piedmont",
+    "country": "Italy",
+    "grapeVarieties": [
+      "Nebbiolo",
+      "Croatina"
+    ],
+    "priceGlass": 17,
+    "priceBottle": 68,
+    "byTheGlass": true,
+    "briefDescriptor": "Nebbiolo rosato with real structure — pink wine for people who think they don't like pink wine",
+    "tastingNotes": "Pale copper. Red currant and dried herb on the nose. Surprisingly structured with a mineral, almost saline finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "red currant",
+        "dried herb",
+        "mineral"
+      ]
+    },
+    "pairingSuggestions": [
+      "charcuterie",
+      "grilled vegetables",
+      "light pasta"
+    ],
+    "heirloomMenuPairings": [
+      "Little gem lettuces, English peas, Dijon vinaigrette"
+    ],
+    "vintageNotes": "2023 was a balanced vintage in Piedmont",
+    "labels": [
+      "hidden-gem",
+      "amazing-value",
+      "sommelier-favorite"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2026,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "le-pianelle-2023"
+  },
+  {
+    "name": "Grüner Veltliner 'Paragon' Edna Valley",
+    "producer": "Tatomer",
+    "producerId": "tatomer",
+    "vintage": "2022",
+    "type": "white",
+    "region": "Central Coast, California",
+    "country": "USA",
+    "grapeVarieties": [
+      "Grüner Veltliner"
+    ],
+    "priceGlass": 15,
+    "priceBottle": 60,
+    "byTheGlass": true,
+    "briefDescriptor": "California Grüner with Austrian soul — peppery, mineral, and proof this grape has a future here",
+    "tastingNotes": "White pepper and snap pea on the nose. Lean and mineral-driven with vibrant acidity. Finishes clean with a citrus snap.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "white pepper",
+        "snap pea",
+        "citrus"
+      ]
+    },
+    "pairingSuggestions": [
+      "schnitzel",
+      "asparagus",
+      "sushi"
+    ],
+    "heirloomMenuPairings": [
+      "Chilled asparagus, charred spring onion ricotta",
+      "Artichoke soup, cashew cream"
+    ],
+    "vintageNotes": "2022 Central Coast benefited from a long, cool growing season",
+    "labels": [
+      "unique-style",
+      "amazing-value"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2023,
+    "drinkWindowEnd": 2027,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "tatomer-2022"
+  },
+  {
+    "name": "Alsace Riesling 'd'étoiles'",
+    "producer": "Mittnacht",
+    "producerId": "mittnacht",
+    "vintage": "2024",
+    "type": "white",
+    "region": "Alsace",
+    "country": "France",
+    "grapeVarieties": [
+      "Riesling"
+    ],
+    "priceGlass": 16,
+    "priceBottle": 64,
+    "byTheGlass": true,
+    "briefDescriptor": "Biodynamic Alsatian Riesling — crystalline fruit with racy acidity and crushed-stone minerality",
+    "tastingNotes": "Lime blossom and wet stone on the nose. Electric acidity with green apple and a long, saline finish.",
+    "tastingProfile": {
+      "acidity": 5,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "lime blossom",
+        "wet stone",
+        "green apple"
+      ]
+    },
+    "pairingSuggestions": [
+      "shellfish",
+      "Thai curry",
+      "aged gruyère"
+    ],
+    "heirloomMenuPairings": [
+      "Northern halibut, cauliflower puree"
+    ],
+    "vintageNotes": "2024 Alsace vintage — early assessments positive",
+    "labels": [
+      "minimal-intervention",
+      "amazing-value"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2025,
+    "drinkWindowEnd": 2032,
+    "agingPotential": "hold",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "mittnacht-2024"
+  },
+  {
+    "name": "Bianco Toscano 'Prunecchio'",
+    "producer": "Fattoria di Prunecchio",
+    "producerId": "fattoria-prunecchio",
+    "vintage": "2021",
+    "type": "white",
+    "region": "Tuscany",
+    "country": "Italy",
+    "grapeVarieties": [
+      "Trebbiano",
+      "Malvasia"
+    ],
+    "priceGlass": 16,
+    "priceBottle": 64,
+    "byTheGlass": true,
+    "briefDescriptor": "White Tuscan blend from indigenous grapes — proof that Tuscany isn't just about Sangiovese",
+    "tastingNotes": "Honeyed almond and white peach. Medium body with gentle acidity and a herbal finish.",
+    "tastingProfile": {
+      "acidity": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "honeyed almond",
+        "white peach",
+        "herb"
+      ]
+    },
+    "pairingSuggestions": [
+      "pasta primavera",
+      "grilled fish",
+      "bruschetta"
+    ],
+    "heirloomMenuPairings": [
+      "House made fettuccini, morel mushrooms, leek cream"
+    ],
+    "vintageNotes": "2021 Tuscany — cooler vintage with good freshness",
+    "labels": [
+      "hidden-gem"
+    ],
+    "distributionLevel": "hard-to-find",
+    "drinkWindowStart": 2023,
+    "drinkWindowEnd": 2026,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "fattoria-prunecchio-2021"
+  },
+  {
+    "name": "Douro Branco 'Redoma'",
+    "producer": "Niepoort",
+    "producerId": "niepoort",
+    "vintage": "2024",
+    "type": "white",
+    "region": "Douro",
+    "country": "Portugal",
+    "grapeVarieties": [
+      "Rabigato",
+      "Códega do Larinho",
+      "Viosinho"
+    ],
+    "priceGlass": 17,
+    "priceBottle": 68,
+    "byTheGlass": true,
+    "briefDescriptor": "One of Portugal's greatest white wines — mineral, textured, and absurdly underpriced",
+    "tastingNotes": "Crushed stone and white peach with a waxy, almost oily mid-palate. Bright acidity lifts into a long, saline finish. Drinks like wine twice the price.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "crushed stone",
+        "white peach",
+        "beeswax"
+      ]
+    },
+    "pairingSuggestions": [
+      "grilled octopus",
+      "roast chicken",
+      "aged comté"
+    ],
+    "heirloomMenuPairings": [
+      "Northern halibut, cauliflower puree",
+      "House smoked Mt. Lassen trout toast"
+    ],
+    "vintageNotes": "2024 Douro — pending vintage assessment",
+    "labels": [
+      "famous-winemaker",
+      "amazing-value",
+      "age-worthy"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2025,
+    "drinkWindowEnd": 2034,
+    "agingPotential": "hold",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "niepoort-2024"
+  },
+  {
+    "name": "Furmint",
+    "producer": "Bott Frigyes",
+    "producerId": "bott-frigyes",
+    "vintage": "2023",
+    "type": "white",
+    "region": "Southern Slovakia",
+    "country": "Slovakia",
+    "grapeVarieties": [
+      "Furmint"
+    ],
+    "priceGlass": 20,
+    "priceBottle": 80,
+    "byTheGlass": true,
+    "briefDescriptor": "Funky, electric Furmint from the Carpathians — if you didn't know Slovakia makes wine, start here",
+    "tastingNotes": "Quince and smokiness on the nose. Steely acidity with a waxy texture and nutty, oxidative notes on the finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "quince",
+        "smoke",
+        "walnut"
+      ]
+    },
+    "pairingSuggestions": [
+      "foie gras",
+      "mushroom dishes",
+      "roast pork"
+    ],
+    "heirloomMenuPairings": [
+      "House made fettuccini, morel mushrooms"
+    ],
+    "vintageNotes": "2023 Central European vintage — good balance",
+    "labels": [
+      "unique-style",
+      "hidden-gem"
+    ],
+    "distributionLevel": "allocation-only",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2030,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "bott-frigyes-2023"
+  },
+  {
+    "name": "Loire Chenin 'Arcane'",
+    "producer": "Fosse-Sèche",
+    "producerId": "fosse-seche",
+    "vintage": "2022",
+    "type": "white",
+    "region": "Loire",
+    "country": "France",
+    "grapeVarieties": [
+      "Chenin Blanc"
+    ],
+    "priceGlass": 21,
+    "priceBottle": 84,
+    "byTheGlass": true,
+    "briefDescriptor": "Biodynamic Chenin from a 150-hectare ecosystem — alive, textured, and profoundly site-specific",
+    "tastingNotes": "Lanolin and quince on the nose. Waxy, honeyed mid-palate with racy acidity. Finishes with chamomile and wet stone.",
+    "tastingProfile": {
+      "acidity": 5,
+      "body": 3,
+      "sweetness": 2,
+      "alcohol": 3,
+      "aromas": [
+        "lanolin",
+        "quince",
+        "chamomile"
+      ]
+    },
+    "pairingSuggestions": [
+      "roast chicken",
+      "goat cheese",
+      "Thai green curry"
+    ],
+    "heirloomMenuPairings": [
+      "Artichoke soup, cashew cream"
+    ],
+    "vintageNotes": "2022 Loire — warm vintage with concentrated fruit",
+    "labels": [
+      "minimal-intervention",
+      "age-worthy",
+      "heritage-estate"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2035,
+    "agingPotential": "hold",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "fosse-seche-2022"
+  },
+  {
+    "name": "Bourgogne Blanc",
+    "producer": "Buisson-Charles",
+    "producerId": "buisson",
+    "vintage": "2023",
+    "type": "white",
+    "region": "Burgundy",
+    "country": "France",
+    "grapeVarieties": [
+      "Chardonnay"
+    ],
+    "priceGlass": 22,
+    "priceBottle": 88,
+    "byTheGlass": true,
+    "briefDescriptor": "Essentially declassified Meursault — one of white Burgundy's best-kept secrets",
+    "tastingNotes": "Hazelnut and butter on the nose. Rich and round mid-palate with enough acidity to stay fresh. Finishes with a chalky mineral grip.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "hazelnut",
+        "butter",
+        "chalk"
+      ]
+    },
+    "pairingSuggestions": [
+      "roast chicken",
+      "lobster bisque",
+      "gruyère"
+    ],
+    "heirloomMenuPairings": [
+      "House made fettuccini, morel mushrooms, leek cream",
+      "Northern halibut, cauliflower puree"
+    ],
+    "vintageNotes": "2023 Burgundy — promising vintage with freshness and precision",
+    "labels": [
+      "amazing-value",
+      "sommelier-favorite"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2025,
+    "drinkWindowEnd": 2030,
+    "agingPotential": "drink-soon",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "buisson-2023"
+  },
+  {
+    "name": "Blanc 375mL",
+    "producer": "Mas de Daumas Gassac",
+    "producerId": "mas-de-daumas-gassac",
+    "vintage": "2023",
+    "type": "white",
+    "region": "Languedoc",
+    "country": "France",
+    "grapeVarieties": [
+      "Viognier",
+      "Chardonnay",
+      "Petit Manseng",
+      "Chenin Blanc"
+    ],
+    "priceBottle": 64,
+    "byTheGlass": false,
+    "briefDescriptor": "A kaleidoscope of 40+ grape varieties — no other white wine in France tastes like this",
+    "tastingNotes": "Exotic and complex — lychee, white flowers, citrus peel, and a saline, mineral core. Every sip reveals something new.",
+    "tastingProfile": {
+      "acidity": 4,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "lychee",
+        "white flowers",
+        "citrus peel"
+      ]
+    },
+    "pairingSuggestions": [
+      "Asian fusion",
+      "spiced lamb",
+      "seafood platter"
+    ],
+    "heirloomMenuPairings": [
+      "Hamachi crudo, chive aioli"
+    ],
+    "vintageNotes": "2023 Languedoc — balanced conditions",
+    "labels": [
+      "famous-winemaker",
+      "unique-style",
+      "heritage-estate"
+    ],
+    "distributionLevel": "wider-distribution",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2030,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "mas-de-daumas-gassac-2023"
+  },
+  {
+    "name": "Chinon 'L'Epée'",
+    "producer": "du Petit Thouars",
+    "producerId": "du-petit-thouars",
+    "vintage": "2019",
+    "type": "red",
+    "region": "Loire",
+    "country": "France",
+    "grapeVarieties": [
+      "Cabernet Franc"
+    ],
+    "priceGlass": 15,
+    "priceBottle": 60,
+    "byTheGlass": true,
+    "briefDescriptor": "Classic Chinon Cabernet Franc — violet, graphite, and the elegance of the Loire at its best",
+    "tastingNotes": "Violet, graphite, and dark cherry on the nose. Silky tannins with herbal undertones and a long, mineral finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "violet",
+        "graphite",
+        "dark cherry"
+      ]
+    },
+    "pairingSuggestions": [
+      "roast lamb",
+      "mushroom tart",
+      "charcuterie"
+    ],
+    "heirloomMenuPairings": [
+      "White wine braised short rib",
+      "Liberty Farms duck confit"
+    ],
+    "vintageNotes": "2019 Loire — excellent vintage with ripe fruit and balanced acidity",
+    "labels": [
+      "amazing-value",
+      "heritage-estate"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2022,
+    "drinkWindowEnd": 2029,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "du-petit-thouars-2019"
+  },
+  {
+    "name": "California Red 'Gravels'",
+    "producer": "Newfound",
+    "producerId": "newfound",
+    "vintage": "2022",
+    "type": "red",
+    "region": "California",
+    "country": "USA",
+    "grapeVarieties": [
+      "Carignan",
+      "Mourvèdre",
+      "Syrah"
+    ],
+    "priceGlass": 16,
+    "priceBottle": 64,
+    "byTheGlass": true,
+    "briefDescriptor": "New California in a glass — restraint, balance, and serious talent at a modest price",
+    "tastingNotes": "Dark cherry and garrigue herbs. Medium-bodied with fine-grained tannins and a peppery, savory finish.",
+    "tastingProfile": {
+      "acidity": 3,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "dark cherry",
+        "garrigue",
+        "pepper"
+      ]
+    },
+    "pairingSuggestions": [
+      "grilled steak",
+      "ratatouille",
+      "aged cheddar"
+    ],
+    "heirloomMenuPairings": [
+      "White wine braised short rib, butter beans"
+    ],
+    "vintageNotes": "2022 California — variable but good for balanced wines",
+    "labels": [
+      "amazing-value",
+      "rising-star",
+      "minimal-intervention"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2028,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "newfound-2022"
+  },
+  {
+    "name": "Crozes Hermitage 'Papillon'",
+    "producer": "Robin",
+    "producerId": "robin",
+    "vintage": "2023",
+    "type": "red",
+    "region": "Northern Rhône",
+    "country": "France",
+    "grapeVarieties": [
+      "Syrah"
+    ],
+    "priceGlass": 17,
+    "priceBottle": 68,
+    "byTheGlass": true,
+    "briefDescriptor": "Northern Rhône Syrah that drinks above its station — a window into Hermitage without the price",
+    "tastingNotes": "Black pepper and smoked meat on the nose. Medium-bodied with silky tannins and a violet-tinged finish.",
+    "tastingProfile": {
+      "acidity": 3,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "black pepper",
+        "smoked meat",
+        "violet"
+      ]
+    },
+    "pairingSuggestions": [
+      "lamb chops",
+      "game birds",
+      "aged gouda"
+    ],
+    "heirloomMenuPairings": [
+      "Liberty Farms duck confit, pea purée"
+    ],
+    "vintageNotes": "2023 Northern Rhône — cooler vintage with elegance",
+    "labels": [
+      "amazing-value",
+      "sommelier-favorite"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2025,
+    "drinkWindowEnd": 2031,
+    "agingPotential": "drink-soon",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "robin-2023"
+  },
+  {
+    "name": "Chianti Classico 'Fioraie'",
+    "producer": "Piemaggio",
+    "producerId": "piemaggio",
+    "vintage": "2022",
+    "type": "red",
+    "region": "Tuscany",
+    "country": "Italy",
+    "grapeVarieties": [
+      "Sangiovese"
+    ],
+    "priceGlass": 19,
+    "priceBottle": 76,
+    "byTheGlass": true,
+    "briefDescriptor": "Honest Chianti Classico — cherry, earth, and the Tuscan table wine tradition at its most food-friendly",
+    "tastingNotes": "Bright cherry and dried herb on the nose. Medium-bodied with firm tannins, fresh acidity, and an earthy, tobacco-leaf finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "cherry",
+        "dried herb",
+        "tobacco leaf"
+      ]
+    },
+    "pairingSuggestions": [
+      "pizza margherita",
+      "grilled sausage",
+      "hard cheese"
+    ],
+    "heirloomMenuPairings": [
+      "House made fettuccini, morel mushrooms"
+    ],
+    "vintageNotes": "2022 Tuscany — warm vintage with ripe, concentrated fruit",
+    "labels": [
+      "amazing-value"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2029,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "piemaggio-2022"
+  },
+  {
+    "name": "Côtes du Jura Trousseau",
+    "producer": "Courbet",
+    "producerId": "courbet",
+    "vintage": "2024",
+    "type": "red",
+    "region": "Jura",
+    "country": "France",
+    "grapeVarieties": [
+      "Trousseau"
+    ],
+    "priceGlass": 20,
+    "priceBottle": 80,
+    "byTheGlass": true,
+    "briefDescriptor": "Translucent, savory, and wildly herbal — the red grape that makes Pinot Noir look conventional",
+    "tastingNotes": "Pale ruby. Wild strawberry and dried sage on the nose. Light-bodied but complex with surprising tannic grip and a long, herbal finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": 2,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "wild strawberry",
+        "dried sage",
+        "earth"
+      ]
+    },
+    "pairingSuggestions": [
+      "comté",
+      "charcuterie",
+      "mushroom dishes"
+    ],
+    "heirloomMenuPairings": [
+      "Bacon and onion tart"
+    ],
+    "vintageNotes": "2024 Jura — early vintage assessment pending",
+    "labels": [
+      "unique-style",
+      "hidden-gem",
+      "minimal-intervention"
+    ],
+    "distributionLevel": "hard-to-find",
+    "drinkWindowStart": 2025,
+    "drinkWindowEnd": 2028,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "limited-sources",
+    "scores": [],
+    "id": "courbet-2024"
+  },
+  {
+    "name": "Bourgogne Rouge 'Les Charmeaux'",
+    "producer": "Prudhon",
+    "producerId": "prudhon",
+    "vintage": "2022",
+    "type": "red",
+    "region": "Burgundy",
+    "country": "France",
+    "grapeVarieties": [
+      "Pinot Noir"
+    ],
+    "priceGlass": 21,
+    "priceBottle": 84,
+    "byTheGlass": true,
+    "briefDescriptor": "Saint-Aubin quality at Bourgogne prices — Burgundy's best-kept secret village",
+    "tastingNotes": "Red cherry and crushed rose petal. Silky and elegant with fine tannins and a chalky, mineral-driven finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": 2,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "red cherry",
+        "rose petal",
+        "chalk"
+      ]
+    },
+    "pairingSuggestions": [
+      "roast chicken",
+      "salmon",
+      "mushroom risotto"
+    ],
+    "heirloomMenuPairings": [
+      "Liberty Farms duck confit"
+    ],
+    "vintageNotes": "2022 Burgundy — warm vintage with ripe, generous fruit",
+    "labels": [
+      "amazing-value",
+      "sommelier-favorite"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2030,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "prudhon-2022"
+  },
+  {
+    "name": "Margaux",
+    "producer": "Château Moulin de Tricot",
+    "producerId": "moulin-de-tricot",
+    "vintage": "2019",
+    "type": "red",
+    "region": "Bordeaux",
+    "country": "France",
+    "grapeVarieties": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "priceGlass": 23,
+    "priceBottle": 92,
+    "byTheGlass": true,
+    "briefDescriptor": "Affordable Margaux — Left Bank elegance with cassis and violet at a fraction of classified growth prices",
+    "tastingNotes": "Cassis, cedar, and violet on the nose. Medium-to-full body with polished tannins and a long, tobacco-scented finish. Five years in bottle have softened it beautifully.",
+    "tastingProfile": {
+      "acidity": 3,
+      "tannin": 4,
+      "body": 4,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "cassis",
+        "cedar",
+        "violet"
+      ]
+    },
+    "pairingSuggestions": [
+      "grilled steak",
+      "lamb rack",
+      "aged cheddar"
+    ],
+    "heirloomMenuPairings": [
+      "White wine braised short rib, butter beans"
+    ],
+    "vintageNotes": "2019 Bordeaux — outstanding vintage, widely considered one of the best of the decade",
+    "vintageRating": "Outstanding",
+    "labels": [
+      "amazing-value",
+      "age-worthy"
+    ],
+    "distributionLevel": "limited",
+    "drinkWindowStart": 2023,
+    "drinkWindowEnd": 2035,
+    "agingPotential": "hold",
+    "sourceConfidence": "moderately-documented",
+    "scores": [],
+    "id": "moulin-de-tricot-2019"
+  },
+  {
+    "name": "Willamette Pinot Noir 375mL",
+    "producer": "Raptor Ridge",
+    "producerId": "raptor-ridge",
+    "vintage": "2021",
+    "type": "red",
+    "region": "Willamette Valley, Oregon",
+    "country": "USA",
+    "grapeVarieties": [
+      "Pinot Noir"
+    ],
+    "priceBottle": 44,
+    "byTheGlass": false,
+    "briefDescriptor": "Oregon Pinot for the dinner table, not the auction house — elegance without cult pricing",
+    "tastingNotes": "Dark cherry and baking spice on the nose. Medium-bodied with supple tannins and a forest-floor earthiness on the finish.",
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": 2,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3,
+      "aromas": [
+        "dark cherry",
+        "baking spice",
+        "forest floor"
+      ]
+    },
+    "pairingSuggestions": [
+      "salmon",
+      "duck breast",
+      "grilled portobello"
+    ],
+    "heirloomMenuPairings": [
+      "Liberty Farms duck confit"
+    ],
+    "vintageNotes": "2021 Willamette — cool vintage with bright acidity and elegance",
+    "labels": [
+      "amazing-value"
+    ],
+    "distributionLevel": "wider-distribution",
+    "drinkWindowStart": 2023,
+    "drinkWindowEnd": 2028,
+    "agingPotential": "drink-now",
+    "sourceConfidence": "well-documented",
+    "scores": [],
+    "id": "raptor-ridge-2021"
+  }
+]

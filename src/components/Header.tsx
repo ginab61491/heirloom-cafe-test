@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/about", label: "About", img: "/images/storefront-window.jpeg" },
   { href: "/dinner", label: "Dinner", img: "/images/steak-plating.jpeg" },
   { href: "/wine", label: "Wine", img: "/images/wine-shelf.jpeg" },
+  { href: "/wine-database", label: "Wine Database", img: "/images/wine-shelf.jpeg" },
   { href: "/events", label: "Events", img: "/images/dining-room.jpeg" },
   { href: "/press", label: "Press", img: "/images/candlelit-table.jpeg" },
 ];
