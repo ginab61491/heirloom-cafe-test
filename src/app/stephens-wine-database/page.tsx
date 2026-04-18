@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { producers } from "@/data/stephens-wines";
 import { producerEnrichment } from "@/data/producer-enrichment";
+import PasswordGate from "@/components/PasswordGate";
 
 function getEnrichment(name: string) {
   const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -60,6 +61,7 @@ export default function StephensWineDatabase() {
   const tastedCount = producers.filter(p => p.wines.some(w => w.dateTasted)).length;
 
   return (
+    <PasswordGate>
     <div className="max-w-5xl mx-auto px-6 py-12" style={{ backgroundImage: 'none' }}>
       {/* Intro */}
       <h1 className="font-[family-name:var(--font-serif)] text-3xl sm:text-4xl text-[var(--color-earth)] mb-4 text-center">
@@ -169,5 +171,6 @@ export default function StephensWineDatabase() {
         })}
       </div>
     </div>
+    </PasswordGate>
   );
 }

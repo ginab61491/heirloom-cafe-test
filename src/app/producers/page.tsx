@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { heirloomProducers, type HeirloomProducer } from "@/data/heirloom-producers";
 import { producerEnrichment } from "@/data/producer-enrichment";
+import PasswordGate from "@/components/PasswordGate";
 
 // Merge enrichment into producers at module level
 const enrichedProducers: HeirloomProducer[] = heirloomProducers.map(p => {
@@ -86,6 +87,7 @@ export default function ProducersPage() {
   }, [search, countryFilter, varietalFilter, valueFilter, sort]);
 
   return (
+    <PasswordGate>
     <div className="max-w-6xl mx-auto px-6 py-12">
       <div className="text-center mb-12">
         <h1 className="font-[family-name:var(--font-serif)] text-4xl sm:text-5xl text-[var(--color-earth)] mb-3">
@@ -299,5 +301,6 @@ export default function ProducersPage() {
         }
       `}</style>
     </div>
+    </PasswordGate>
   );
 }
