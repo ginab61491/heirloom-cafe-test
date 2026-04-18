@@ -97,3 +97,21 @@ h1, h2, h3, h4 {
   background-color: var(--color-gold-hover);
   box-shadow: inset 0 1px 4px rgba(0,0,0,0.12);
 }
+
+/* Subtle pulse for reservation button */
+@keyframes pulse {
+  0%, 90%, 100% { transform: scale(1); }
+  95% { transform: scale(1.02); }
+}
+
+/* Menu item hover */
+.menu-item-hover:hover {
+  border-left: 2px solid var(--color-gold);
+  padding-left: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Wine list hover glow */
+.wine-hover:hover {
+  box-shadow: 0 0 12px rgba(212, 184, 106, 0.15);
+}

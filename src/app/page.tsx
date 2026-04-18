@@ -3,57 +3,51 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex-1">
-      {/* Hero */}
-      <section className="relative min-h-[70vh] flex items-center justify-center" style={{ background: 'linear-gradient(135deg, var(--color-sage) 0%, var(--color-parchment) 50%, var(--color-cream) 100%)' }}>
-        <div className="text-center px-6">
-          <h1 className="font-[family-name:var(--font-serif)] text-6xl sm:text-7xl text-[var(--color-charcoal)] mb-2 leading-tight">
+      {/* Full-screen hero */}
+      <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
+        <img
+          src="/images/hero-overhead-table.jpeg"
+          alt="Overhead view of a beautifully set table at Heirloom Cafe"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/70" />
+        <div className="relative text-center px-6 pb-16 z-10">
+          <h1 className="font-[family-name:var(--font-serif)] text-5xl sm:text-7xl text-[var(--color-cream)] mb-3 leading-tight drop-shadow-lg">
             heirloom caf&eacute;
           </h1>
-          <p className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-warm-gray)] italic mb-2">
-            2500 Folsom Street, San Francisco
+          <p className="text-[var(--color-cream)] text-lg sm:text-xl mb-8 opacity-90 tracking-wide">
+            Aged wines. Seasonal food. Simple pleasures.
           </p>
-          <p className="text-sm text-[var(--color-warm-gray)] mb-10">
-            Tuesday &ndash; Saturday, 5:45 &ndash; 9:30 PM
-          </p>
-          <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold text-lg px-10 py-4">
+          <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold text-lg px-10 py-4 animate-[pulse_8s_ease-in-out_infinite]">
             Make a Reservation
           </a>
+          {/* Scroll indicator */}
+          <div className="mt-12 animate-bounce">
+            <svg className="w-6 h-6 mx-auto text-[var(--color-cream)] opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+            </svg>
+          </div>
         </div>
       </section>
 
-      {/* Intro */}
-      <section className="max-w-2xl mx-auto px-6 py-16 text-center">
-        <p className="text-[var(--color-warm-gray)] leading-relaxed text-lg">
-          Our wine cellar and our love of mature wines are the foundation of our restaurant.
-          The kitchen is dedicated to a menu that is concise, seasonal, highly selective,
-          and exceedingly tasteful.
-        </p>
-      </section>
-
-      {/* Feature cards */}
-      <section className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-          <Link href="/dinner" className="group">
-            <div className="gold-frame bg-[var(--color-warm-white)] text-center py-10 px-6 hover:shadow-lg transition-shadow relative">
-              <div className="gold-frame-inner absolute inset-0" />
-              <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-2">Dinner Menu</h3>
-              <p className="text-sm text-[var(--color-warm-gray)]">View our current seasonal menu</p>
-            </div>
-          </Link>
-          <Link href="/wine" className="group">
-            <div className="gold-frame bg-[var(--color-warm-white)] text-center py-10 px-6 hover:shadow-lg transition-shadow relative">
-              <div className="gold-frame-inner absolute inset-0" />
-              <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-2">Our Wines</h3>
-              <p className="text-sm text-[var(--color-warm-gray)]">Explore our carefully aged cellar</p>
-            </div>
-          </Link>
-          <Link href="/producers" className="group">
-            <div className="gold-frame bg-[var(--color-warm-white)] text-center py-10 px-6 hover:shadow-lg transition-shadow relative">
-              <div className="gold-frame-inner absolute inset-0" />
-              <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-2">The Producers</h3>
-              <p className="text-sm text-[var(--color-warm-gray)]">Meet the winemakers behind our cellar</p>
-            </div>
-          </Link>
+      {/* Three section previews */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            { href: "/dinner", img: "/images/steak-plating.jpeg", title: "The Menu", desc: "Seasonal, intentional, exceedingly tasteful" },
+            { href: "/stephens-wine-database", img: "/images/wine-shelf.jpeg", title: "The Cellar", desc: "Aged wines from California and Europe" },
+            { href: "/about", img: "/images/stephen-and-amy.jpeg", title: "The Story", desc: "A neighborhood restaurant, a personal cellar" },
+          ].map((card) => (
+            <Link key={card.href} href={card.href} className="group block">
+              <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-3">
+                <img src={card.img} alt={card.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                <div className="absolute inset-0 border-2 border-transparent group-hover:border-[var(--color-gold)] transition-colors duration-300 rounded-lg m-2" />
+              </div>
+              <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-1">{card.title}</h3>
+              <p className="text-sm text-[var(--color-warm-gray)]">{card.desc}</p>
+            </Link>
+          ))}
         </div>
       </section>
     </div>

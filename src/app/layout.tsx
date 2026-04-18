@@ -17,8 +17,15 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Heirloom Café — 2500 Folsom Street, San Francisco",
-  description: "Seasonal, local, intentional. A chef-driven neighborhood restaurant with an aged wine cellar and AI-powered wine pairing.",
+  title: "Heirloom Café — San Francisco",
+  description: "Aged wines. Seasonal food. Simple pleasures. 2500 Folsom Street, San Francisco.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon-16x16.png", sizes: "16x16" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col text-[var(--color-earth)] font-[family-name:var(--font-body)]">
+      <body className="min-h-full flex flex-col">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

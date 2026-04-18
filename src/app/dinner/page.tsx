@@ -4,8 +4,11 @@ import { wineList } from "@/data/wines";
 export default function DinnerPage() {
   return (
     <div className="bg-[var(--color-cream)]">
-      {/* Photo placeholder */}
-      <div className="h-48 sm:h-64" style={{ background: 'linear-gradient(135deg, var(--color-parchment) 0%, var(--color-sage) 30%, var(--color-parchment) 100%)' }} />
+      {/* Hero */}
+      <div className="relative h-56 sm:h-72 overflow-hidden">
+        <img src="/images/steak-plating.jpeg" alt="Beautifully plated steak at Heirloom Cafe" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-black/20" />
+      </div>
 
       <div className="max-w-2xl mx-auto px-6 py-12">
         <h1 className="font-[family-name:var(--font-serif)] text-4xl text-[var(--color-charcoal)] mb-10 text-center">

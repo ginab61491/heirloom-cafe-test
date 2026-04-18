@@ -3,8 +3,11 @@ import Link from "next/link";
 export default function WinePage() {
   return (
     <div className="bg-[var(--color-cream)]">
-      {/* Photo placeholder */}
-      <div className="h-48 sm:h-72" style={{ background: 'linear-gradient(180deg, var(--color-charcoal) 0%, var(--color-sage-dark) 50%, var(--color-parchment) 100%)' }} />
+      {/* Hero */}
+      <div className="relative h-56 sm:h-72 overflow-hidden">
+        <img src="/images/wine-shelf.jpeg" alt="Aged wine bottles on Heirloom Cafe's shelf" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-black/20" />
+      </div>
 
       <div className="max-w-2xl mx-auto px-6 py-12">
         <div className="gold-frame bg-[var(--color-warm-white)] relative text-center">
