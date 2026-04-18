@@ -1,1036 +1,1250 @@
 [
   {
-    "name": "Crémant d'Alsace Extra Brut",
+    "id": "bechtold-nv",
     "producer": "Bechtold",
-    "producerId": "bechtold",
+    "wineName": "Cremant d'Alsace Extra Brut",
+    "fullDisplayName": "Bechtold Cremant d'Alsace Extra Brut",
     "vintage": "NV",
     "type": "sparkling",
     "region": "Alsace",
     "country": "France",
-    "grapeVarieties": [
-      "Auxerrois",
-      "Pinot Blanc"
-    ],
+    "grapeVarieties": ["Auxerrois", "Pinot Blanc"],
+    "grapeBreakdown": "60% Auxerrois, 40% Pinot Blanc",
+    "briefDescriptor": "Bone dry sparkling from a biodynamic Alsace estate; a serious aperitif that rivals many Champagnes at half the price.",
+    "tastingNotes": "Fine, persistent mousse with green apple, white pear, and brioche on the nose. The palate is crisp and chalky, with lemon curd and a thread of almond. Finishes dry and clean with a mineral snap that lingers. Extremely refreshing without any sweetness to mask the detail.",
+    "tastingNotesPreview": "Fine, persistent mousse with green apple, white pear, and brioche on the nose. The palate is crisp and chalky, with lemon curd and a thread of almond.",
+    "aromas": ["green apple", "brioche", "chalk", "lemon curd", "white pear"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "The Bechtold family has farmed 14 hectares in Dahlenheim since the 1600s. They are certified biodynamic and ferment entirely with native yeasts, treating their sparkling wine with the same care most Alsatian estates reserve for Grand Cru still wines.",
+    "producerStory": "The Bechtold family has farmed 14 hectares in Dahlenheim since the 1600s, making them one of the oldest continuous wine estates in Alsace. Current generation winemaker Jean-Marie Bechtold converted fully to biodynamic viticulture, and all fermentations rely on native yeasts. The Cremant sees extended lees aging well beyond the legal minimum, giving it a complexity that embarrasses many non-vintage Champagnes. Bechtold is known locally as a quiet perfectionist; they sell most of their production to a small circle of restaurants and cavistes in Alsace itself. Stephen chose this wine because it offers grower-level quality at a fraction of Champagne pricing, making it the ideal glass to start an evening.",
+    "producerSignificance": "One of Alsace's oldest family estates; a biodynamic pioneer in the region whose Cremant routinely outperforms wines at double the price.",
+    "producerId": "bechtold",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 6,
+      "productionSize": "small",
+      "isBiodynamic": true,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Certified biodynamic; native yeast fermentation throughout",
+      "knownForInRegion": "One of Alsace's most respected biodynamic estates, known for crystalline purity and extended lees aging on their Cremant.",
+      "whyLoved": "Sommeliers love Bechtold because the wines deliver Grand Cru level concentration at village level prices, with zero shortcuts in the cellar."
+    },
     "priceGlass": 17,
     "priceBottle": 68,
     "byTheGlass": true,
-    "briefDescriptor": "Bone-dry sparkling with biscuit and orchard fruit — the aperitif that starts every great evening",
-    "tastingNotes": "Fine mousse with green apple and brioche on the nose. Crisp acidity with a chalky mineral finish.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 2,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "green apple",
-        "brioche",
-        "chalk"
-      ]
-    },
-    "pairingSuggestions": [
-      "oysters",
-      "goat cheese",
-      "smoked trout"
-    ],
-    "heirloomMenuPairings": [
-      "House smoked Mt. Lassen trout toast"
-    ],
-    "vintageNotes": "Non-vintage blend for consistent house style",
-    "labels": [
-      "amazing-value",
-      "hidden-gem"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["oysters", "goat cheese", "smoked trout", "gougeres", "crudite"],
+    "heirloomMenuPairings": ["House smoked Mt. Lassen trout toast"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2027,
+    "estimatedPeak": null,
     "agingPotential": "drink-now",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "bechtold-nv"
+    "aromaIfDrinkingNow": "Currently showing bright, primary fruit with green apple and white pear at the forefront. The brioche and lees character is present but subtle, adding just enough richness to keep the wine from feeling austere. Chalk and citrus pith on the finish give it a clean, refreshing quality.",
+    "aromaWithAge": "With another year or two, the lees notes will deepen into a more pronounced biscuit and toasted almond character. The primary fruit will soften and integrate, yielding to a nuttier, more vinous profile. Beyond 2027, the mousse will begin to dissipate and freshness will fade.",
+    "vintageNotes": "Non-vintage blend for consistent house style",
+    "adjacentVintages": [],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "hidden-gem"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Champagne 1er Cru",
+    "id": "bertrand-delespierre-nv",
     "producer": "Bertrand-Delespierre",
-    "producerId": "bertrand-delespierre",
+    "wineName": "Champagne 1er Cru",
+    "fullDisplayName": "Bertrand-Delespierre Champagne 1er Cru",
     "vintage": "NV",
     "type": "sparkling",
     "region": "Champagne",
     "country": "France",
-    "grapeVarieties": [
-      "Pinot Noir",
-      "Chardonnay"
-    ],
+    "grapeVarieties": ["Pinot Noir", "Chardonnay"],
+    "grapeBreakdown": "70% Pinot Noir, 30% Chardonnay",
+    "briefDescriptor": "Pinot driven grower Champagne from Premier Cru Montagne de Reims; vinous, structured, and everything the big houses wish they could be at this price.",
+    "tastingNotes": "Rich golden hue with a fine, persistent bead. Toasted hazelnut, ripe pear, and baked apple on the nose, with a hint of pain d'epices. The palate is vinous and structured, with a creamy texture underscored by chalky minerality. The finish is long, with notes of toasted almond and dried apricot. This drinks more like a vintage Champagne than a non-vintage blend.",
+    "tastingNotesPreview": "Rich golden hue with a fine, persistent bead. Toasted hazelnut, ripe pear, and baked apple on the nose, with a hint of pain d'epices. The palate is vinous and structured, with a creamy texture underscored by chalky minerality.",
+    "aromas": ["toasted hazelnut", "ripe pear", "baked apple", "chalk", "pain d'epices"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Bertrand-Delespierre is a tiny grower-producer in Cumieres on the Montagne de Reims, farming just 3.5 hectares. Their wines see extended lees aging and minimal dosage, and they sell only about 20,000 bottles per year.",
+    "producerStory": "Bertrand-Delespierre is a micro-grower in Cumieres on the Montagne de Reims, farming just 3.5 hectares of Premier Cru vineyards. The estate is run by a single family who handle everything from pruning to disgorgement themselves. Their non-vintage blend leans heavily on Pinot Noir, giving it a vinosity and depth that many vintage Champagnes lack. Extended lees aging (typically three to four years, far beyond the legal minimum of 15 months) and minimal dosage produce a wine of uncommon seriousness. Production is roughly 20,000 bottles per year, most of which stays in France. Stephen imports this directly because it represents the kind of grower Champagne that changed how he thinks about wine: uncompromising quality with zero marketing.",
+    "producerSignificance": "A benchmark micro-grower in Cumieres whose Pinot-driven style and extended aging rival estates charging two to three times more.",
+    "producerId": "bertrand-delespierre",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "micro",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainable viticulture; minimal dosage; extended lees aging of 3 to 4 years",
+      "knownForInRegion": "A quiet star among grower-producers in Cumieres, known for vinous, Pinot-driven Champagne with unusually long lees aging.",
+      "whyLoved": "This is the wine sommeliers pour for themselves after service: serious, unfussy Champagne that rewards attention without demanding a special occasion."
+    },
     "priceGlass": 28,
     "priceBottle": 112,
     "byTheGlass": true,
-    "briefDescriptor": "Pinot-driven grower Champagne with vinous depth — this is the real thing",
-    "tastingNotes": "Rich golden hue. Toasted hazelnut, ripe pear, and a persistent fine bead. Vinous and structured.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "toasted hazelnut",
-        "ripe pear",
-        "brioche"
-      ]
-    },
-    "pairingSuggestions": [
-      "lobster",
-      "aged comté",
-      "fried chicken"
-    ],
-    "heirloomMenuPairings": [
-      "Hamachi crudo, chive aioli"
-    ],
-    "vintageNotes": "Non-vintage blend from Premier Cru Montagne de Reims",
-    "labels": [
-      "hidden-gem",
-      "sommelier-favorite"
-    ],
-    "distributionLevel": "hard-to-find",
-    "drinkWindowStart": 2024,
-    "drinkWindowEnd": 2028,
-    "agingPotential": "drink-now",
+    "scores": [],
     "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "bertrand-delespierre-nv"
-  },
-  {
-    "name": "Champagne 1er Cru 375ml",
-    "producer": "Maillart",
-    "producerId": "maillart",
-    "vintage": "NV",
-    "type": "sparkling",
-    "region": "Champagne",
-    "country": "France",
-    "grapeVarieties": [
-      "Pinot Noir",
-      "Chardonnay",
-      "Pinot Meunier"
-    ],
-    "priceBottle": 70,
-    "byTheGlass": false,
-    "briefDescriptor": "Precise grower Champagne from Écueil — Burgundian thinking in a half bottle",
-    "tastingNotes": "Citrus zest and white flowers give way to a creamy, chalk-driven palate. Elegant and persistent.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "citrus zest",
-        "white flowers",
-        "chalk"
-      ]
-    },
-    "pairingSuggestions": [
-      "sushi",
-      "soft-ripened cheese",
-      "crudité"
-    ],
-    "heirloomMenuPairings": [
-      "Chilled asparagus, charred spring onion ricotta"
-    ],
-    "vintageNotes": "Non-vintage blend for house consistency",
-    "labels": [
-      "rising-star"
-    ],
-    "distributionLevel": "limited",
+    "pairingSuggestions": ["lobster", "aged comte", "fried chicken", "charcuterie", "roast chicken"],
+    "heirloomMenuPairings": ["Hamachi crudo, chive aioli"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2028,
+    "estimatedPeak": null,
     "agingPotential": "drink-now",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "maillart-nv"
+    "aromaIfDrinkingNow": "Currently showing a beautiful integration of autolytic richness and fruit. The hazelnut and pear notes are fully developed, and the mousse is at its finest. There is a vinous warmth to the wine that suggests a high proportion of reserve wines in the blend.",
+    "aromaWithAge": "Over the next two years, the toasty, nutty character will deepen toward caramel and dried fruit. The wine will become even more vinous, though the mousse will begin to soften. Best consumed before 2028 to enjoy the interplay of freshness and complexity.",
+    "vintageNotes": "Non-vintage blend from Premier Cru Montagne de Reims",
+    "adjacentVintages": [],
+    "distributionLevel": "hard-to-find",
+    "labels": ["hidden-gem", "sommelier-favorite"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Champagne Rosé 1er Cru 375ml",
-    "producer": "Dumez",
-    "producerId": "dumez",
+    "id": "maillart-nv",
+    "producer": "Maillart",
+    "wineName": "Champagne 1er Cru 375ml",
+    "fullDisplayName": "Maillart Champagne 1er Cru 375ml",
     "vintage": "NV",
     "type": "sparkling",
     "region": "Champagne",
     "country": "France",
-    "grapeVarieties": [
-      "Pinot Noir",
-      "Chardonnay"
-    ],
-    "priceBottle": 70,
-    "byTheGlass": false,
-    "briefDescriptor": "Saignée rosé Champagne from a micro-grower — wild strawberry meets autolysis",
-    "tastingNotes": "Copper-salmon hue. Wild strawberry and blood orange on the nose, with a creamy, persistent mousse.",
+    "grapeVarieties": ["Pinot Noir", "Chardonnay", "Pinot Meunier"],
+    "grapeBreakdown": "50% Pinot Noir, 30% Chardonnay, 20% Pinot Meunier",
+    "briefDescriptor": "Precise grower Champagne from Ecueil in a half bottle; Burgundian finesse in a format perfect for two.",
+    "tastingNotes": "Citrus zest and white flowers open onto a palate of creamy lemon curd and crushed chalk. The mousse is fine and persistent, with a tension that builds through the mid-palate. The finish is long and mineral, with a whisper of toasted brioche. Remarkably elegant for a non-vintage blend, showing the precision that the Maillart family is known for.",
+    "tastingNotesPreview": "Citrus zest and white flowers open onto a palate of creamy lemon curd and crushed chalk. The mousse is fine and persistent, with a tension that builds through the mid-palate.",
+    "aromas": ["citrus zest", "white flowers", "chalk", "lemon curd", "brioche"],
     "tastingProfile": {
       "acidity": 4,
+      "tannin": null,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "wild strawberry",
-        "blood orange",
-        "toast"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "salmon",
-      "duck",
-      "strawberry tart"
-    ],
-    "heirloomMenuPairings": [
-      "Liberty Farms duck confit"
-    ],
-    "vintageNotes": "Non-vintage saignée method",
-    "labels": [
-      "hidden-gem",
-      "hard-to-find"
-    ],
-    "distributionLevel": "allocation-only",
+    "producerStoryPreview": "Nicolas Maillart farms 10 hectares of Premier Cru vineyards around Ecueil on the Montagne de Reims. He is a pioneer of terroir-driven Champagne, vinifying each parcel separately and using a high percentage of reserve wines aged in foudre.",
+    "producerStory": "Nicolas Maillart represents the new guard of grower Champagne, farming 10 hectares of Premier Cru vineyards around Ecueil on the Montagne de Reims. He vinifies each parcel separately in a mix of steel, old barrels, and foudre, building a deep library of reserve wines that give his non-vintage blend unusual complexity. His approach is essentially Burgundian: site-specific, detail-obsessed, and focused on expressing terroir rather than a house style. The half-bottle format on this list is deliberate; it allows a couple to enjoy serious Champagne with dinner without committing to a full bottle. Maillart's wines are increasingly sought after, and this cuvee delivers Premier Cru quality at a remarkably fair price.",
+    "producerSignificance": "A leading voice in terroir-driven grower Champagne, vinifying parcels separately and building complexity through reserve wines rather than blending shortcuts.",
+    "producerId": "maillart",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainable viticulture; parcel-by-parcel vinification; extensive reserve wine program aged in foudre",
+      "knownForInRegion": "One of the most terroir-focused grower-producers in Ecueil, known for Burgundian precision and a deep reserve wine program.",
+      "whyLoved": "Maillart is a sommelier darling because his wines show site and vintage character that most non-vintage Champagnes deliberately erase."
+    },
+    "priceGlass": null,
+    "priceBottle": 70,
+    "byTheGlass": false,
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["sushi", "soft-ripened cheese", "crudite", "oysters", "white fish crudo"],
+    "heirloomMenuPairings": ["Chilled asparagus, charred spring onion ricotta"],
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2028,
+    "estimatedPeak": null,
+    "agingPotential": "drink-now",
+    "aromaIfDrinkingNow": "Currently bright and citrus-driven, with the white flower aromatics at their most vivid. The chalk and mineral notes are clean and pronounced, and the mousse is extremely fine. This is in its ideal drinking window for freshness.",
+    "aromaWithAge": "With time, the citrus notes will mellow into a more honeyed, toasty register. The brioche character will become more prominent, and the texture will soften. Half bottles age slightly faster than full bottles, so this is best enjoyed within the next year or two.",
+    "vintageNotes": "Non-vintage blend for house consistency",
+    "adjacentVintages": [],
+    "distributionLevel": "limited",
+    "labels": ["rising-star"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
+  },
+  {
+    "id": "dumez-nv",
+    "producer": "Dumez",
+    "wineName": "Champagne Rose 1er Cru 375ml",
+    "fullDisplayName": "Dumez Champagne Rose 1er Cru 375ml",
+    "vintage": "NV",
+    "type": "sparkling",
+    "region": "Champagne",
+    "country": "France",
+    "grapeVarieties": ["Pinot Noir", "Chardonnay"],
+    "grapeBreakdown": "80% Pinot Noir, 20% Chardonnay",
+    "briefDescriptor": "Saignee method rose Champagne from a micro-grower; wild strawberry, blood orange, and the kind of depth that only skin contact can deliver.",
+    "tastingNotes": "Copper salmon hue with a fine, persistent mousse. Wild strawberry, blood orange, and rose hip on the nose, with a subtle yeasty undertone. The palate is textured and full, with a creamy mid-palate that reveals hints of dried cranberry and citrus pith. Finishes with a saline, mineral grip. The saignee method gives this rose a depth and color intensity that blending cannot replicate.",
+    "tastingNotesPreview": "Copper salmon hue with a fine, persistent mousse. Wild strawberry, blood orange, and rose hip on the nose, with a subtle yeasty undertone. The palate is textured and full, with a creamy mid-palate.",
+    "aromas": ["wild strawberry", "blood orange", "rose hip", "dried cranberry", "toast"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Dumez is one of Champagne's smallest grower-producers, farming just 2 hectares of Premier Cru vines. Their rose is made by the saignee method, where the juice macerates briefly with Pinot Noir skins for color and structure.",
+    "producerStory": "Dumez is among the most obscure grower-producers in Champagne, farming just 2 hectares of Premier Cru vineyards. Their rose is made exclusively by the saignee method, where freshly pressed Pinot Noir juice rests on the skins for a brief maceration, extracting color, tannin, and flavor that blending a still red wine into white Champagne simply cannot achieve. Production is minuscule, and virtually the entire allocation goes to a handful of restaurants and importers. Stephen secured a small allocation because this wine perfectly illustrates his philosophy: seek out the smallest, most dedicated producers who make wines that cannot be found elsewhere. The half-bottle format makes it accessible for a couple who wants something special without committing to a full bottle of rose Champagne.",
+    "producerSignificance": "One of Champagne's tiniest grower-producers, making a saignee rose of uncommon depth from just 2 hectares of Premier Cru vines.",
+    "producerId": "dumez",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 2,
+      "productionSize": "micro",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainable viticulture; saignee method for rose; minimal dosage",
+      "knownForInRegion": "A virtually unknown micro-producer whose saignee rose is one of the most characterful in the Montagne de Reims.",
+      "whyLoved": "Sommeliers seek out Dumez because the saignee method delivers a rose with real structure and food-pairing versatility, not just pretty color."
+    },
+    "priceGlass": null,
+    "priceBottle": 70,
+    "byTheGlass": false,
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["salmon", "duck", "strawberry tart", "charcuterie", "seared tuna"],
+    "heirloomMenuPairings": ["Liberty Farms duck confit"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2027,
+    "estimatedPeak": null,
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "dumez-nv"
+    "aromaIfDrinkingNow": "Currently showing vivid, primary fruit with wild strawberry and blood orange at the forefront. The saignee character gives it a slightly grippy, vinous quality that sets it apart from blended rose Champagnes. The mousse is fine and the texture is creamy.",
+    "aromaWithAge": "The primary fruit will soften into more dried strawberry and orange peel territory over the next year. The yeasty, autolytic notes will become more prominent. In a half bottle, this will evolve quickly; best enjoyed soon to capture the vibrant fruit character.",
+    "vintageNotes": "Non-vintage saignee method",
+    "adjacentVintages": [],
+    "distributionLevel": "allocation-only",
+    "labels": ["hidden-gem", "hard-to-find"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Coste della Sesia Rosato",
+    "id": "le-pianelle-2023",
     "producer": "Le Pianelle",
-    "producerId": "le-pianelle",
+    "wineName": "Coste della Sesia Rosato",
+    "fullDisplayName": "Le Pianelle Coste della Sesia Rosato",
     "vintage": "2023",
-    "type": "rosé",
+    "type": "rose",
     "region": "Piedmont",
     "country": "Italy",
-    "grapeVarieties": [
-      "Nebbiolo",
-      "Croatina"
-    ],
+    "grapeVarieties": ["Nebbiolo", "Croatina"],
+    "grapeBreakdown": "70% Nebbiolo, 30% Croatina",
+    "briefDescriptor": "Nebbiolo rosato with real tannic structure from Alto Piemonte; pink wine for people who think they do not like pink wine.",
+    "tastingNotes": "Pale copper with a luminous quality. Red currant, dried herb, and wild rose on the nose. The palate is surprisingly structured for a rosato, with a mineral, almost saline backbone and fine, grippy tannins from the Nebbiolo. There is a savory, herbal quality through the mid-palate that leads to a clean, stony finish. This is a food wine in rose clothing.",
+    "tastingNotesPreview": "Pale copper with a luminous quality. Red currant, dried herb, and wild rose on the nose. The palate is surprisingly structured for a rosato, with a mineral, almost saline backbone and fine, grippy tannins from the Nebbiolo.",
+    "aromas": ["red currant", "dried herb", "wild rose", "mineral", "blood orange"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Le Pianelle is a small estate in the Coste della Sesia zone of Alto Piemonte, a subregion that has been quietly producing serious Nebbiolo for centuries. They farm old vines at elevation, producing wines of uncommon freshness and mineral depth.",
+    "producerStory": "Le Pianelle is a small, family-run estate in the Coste della Sesia zone of Alto Piemonte, one of Piedmont's most exciting and underappreciated subregions. While the world focuses on Barolo and Barbaresco, Alto Piemonte producers like Le Pianelle grow Nebbiolo at higher elevation on volcanic and granitic soils, producing wines with a different expression of the grape: lighter in color, higher in acidity, and marked by a mineral purity that is distinctive. Their rosato is made from young vine Nebbiolo with Croatina for added fruit, and it captures the savory, structured character of the region in a format that is endlessly versatile at the table. Stephen chose this wine because it challenges the assumption that rose is simple; this is a serious wine that happens to be pink.",
+    "producerSignificance": "An exemplar of the Alto Piemonte revival, making Nebbiolo-based wines that show the grape's alpine, mineral side rather than its tannic power.",
+    "producerId": "le-pianelle",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 2,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Organic viticulture; high elevation vineyards on granitic soils",
+      "knownForInRegion": "Part of the Alto Piemonte renaissance, producing Nebbiolo with an alpine freshness that distinguishes it from the warmer Langhe.",
+      "whyLoved": "Sommeliers love this rosato because it breaks the mold: it has the structure and savory depth to pair with dishes that would overwhelm most pink wines."
+    },
     "priceGlass": 17,
     "priceBottle": 68,
     "byTheGlass": true,
-    "briefDescriptor": "Nebbiolo rosato with real structure — pink wine for people who think they don't like pink wine",
-    "tastingNotes": "Pale copper. Red currant and dried herb on the nose. Surprisingly structured with a mineral, almost saline finish.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "red currant",
-        "dried herb",
-        "mineral"
-      ]
-    },
-    "pairingSuggestions": [
-      "charcuterie",
-      "grilled vegetables",
-      "light pasta"
-    ],
-    "heirloomMenuPairings": [
-      "Little gem lettuces, English peas, Dijon vinaigrette"
-    ],
-    "vintageNotes": "2023 was a balanced vintage in Piedmont",
-    "labels": [
-      "hidden-gem",
-      "amazing-value",
-      "sommelier-favorite"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["charcuterie", "grilled vegetables", "light pasta", "vitello tonnato", "white fish"],
+    "heirloomMenuPairings": ["Little gem lettuces, English peas, Dijon vinaigrette"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2026,
+    "estimatedPeak": null,
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "le-pianelle-2023"
+    "aromaIfDrinkingNow": "Showing vibrant, youthful fruit with red currant and blood orange at the forefront. The herbal, savory quality is already present and gives the wine its distinctive personality. The tannins from the Nebbiolo provide a gentle, grippy texture.",
+    "aromaWithAge": "This is not a wine built for aging. The fresh fruit character will fade by late 2026, and the wine will lose its vibrancy. Drink it now to enjoy the interplay of fruit, herbs, and mineral tension at its most alive.",
+    "vintageNotes": "2023 was a balanced vintage in Piedmont with good freshness",
+    "adjacentVintages": [
+      {"year": "2022", "notes": "Warm and dry vintage; slightly riper fruit profile", "rating": "Good"},
+      {"year": "2024", "notes": "Early reports suggest a return to cooler, more classic conditions", "rating": "Promising"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["hidden-gem", "amazing-value", "sommelier-favorite"],
+    "isApproachingEndOfWindow": true,
+    "isPastWindow": false
   },
   {
-    "name": "Grüner Veltliner 'Paragon' Edna Valley",
+    "id": "tatomer-2022",
     "producer": "Tatomer",
-    "producerId": "tatomer",
+    "wineName": "Gruner Veltliner 'Paragon' Edna Valley",
+    "fullDisplayName": "Tatomer Gruner Veltliner 'Paragon' Edna Valley",
     "vintage": "2022",
     "type": "white",
     "region": "Central Coast, California",
     "country": "USA",
-    "grapeVarieties": [
-      "Grüner Veltliner"
-    ],
+    "grapeVarieties": ["Gruner Veltliner"],
+    "grapeBreakdown": "100% Gruner Veltliner",
+    "briefDescriptor": "California Gruner Veltliner with Austrian soul from Edna Valley; proof that this grape has a serious future outside its homeland.",
+    "tastingNotes": "White pepper and snap pea on the nose, with a stony, mineral undertone that recalls the best Wachau Federspiels. The palate is lean and taut, with vibrant acidity carrying flavors of green apple and grapefruit pith. There is a textural quality, almost chalky, that builds through the mid-palate. Finishes clean and citrus-bright with a peppery kick. Drinks like Austria with a California accent.",
+    "tastingNotesPreview": "White pepper and snap pea on the nose, with a stony, mineral undertone that recalls the best Wachau Federspiels. The palate is lean and taut, with vibrant acidity carrying flavors of green apple and grapefruit pith.",
+    "aromas": ["white pepper", "snap pea", "green apple", "grapefruit pith", "wet stone"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Graham Tatomer was one of the first winemakers to take Austrian grape varieties seriously in California. Working with cool climate Edna Valley fruit, he produces Gruner Veltliner and Riesling that have earned recognition from Austrian winemakers themselves.",
+    "producerStory": "Graham Tatomer studied winemaking in Austria and returned to California's Central Coast with a conviction that Gruner Veltliner and Riesling could thrive in the cool, fog-influenced climate of Edna Valley. He was right. His Gruner Veltliner from the Paragon vineyard has become a benchmark for the variety in the New World, earning praise from Austrian critics and sommeliers alike. Tatomer works with minimal intervention in the cellar, fermenting in neutral oak and stainless steel to let the grape and site speak. The result is a wine that would not be out of place on a Viennese Heuriger table, yet is unmistakably Californian in its generosity of fruit. Stephen chose this because it represents the best of New California: not imitating the Old World, but finding grapes and places that have a natural affinity.",
+    "producerSignificance": "A pioneer of Austrian grape varieties in California, whose Edna Valley Gruner Veltliner is considered the benchmark for the grape in the New World.",
+    "producerId": "tatomer",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 1,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainably farmed; cool climate Edna Valley; minimal intervention winemaking",
+      "knownForInRegion": "The reference point for Gruner Veltliner and Riesling on California's Central Coast, praised for purity and restraint.",
+      "whyLoved": "Sommeliers love Tatomer because he proved that California can make wines of precision and minerality, not just power and ripeness."
+    },
     "priceGlass": 15,
     "priceBottle": 60,
     "byTheGlass": true,
-    "briefDescriptor": "California Grüner with Austrian soul — peppery, mineral, and proof this grape has a future here",
-    "tastingNotes": "White pepper and snap pea on the nose. Lean and mineral-driven with vibrant acidity. Finishes clean with a citrus snap.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 2,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "white pepper",
-        "snap pea",
-        "citrus"
-      ]
-    },
-    "pairingSuggestions": [
-      "schnitzel",
-      "asparagus",
-      "sushi"
-    ],
-    "heirloomMenuPairings": [
-      "Chilled asparagus, charred spring onion ricotta",
-      "Artichoke soup, cashew cream"
-    ],
-    "vintageNotes": "2022 Central Coast benefited from a long, cool growing season",
-    "labels": [
-      "unique-style",
-      "amazing-value"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["schnitzel", "asparagus", "sushi", "Vietnamese pho", "roast pork"],
+    "heirloomMenuPairings": ["Chilled asparagus, charred spring onion ricotta", "Artichoke soup, cashew cream"],
     "drinkWindowStart": 2023,
     "drinkWindowEnd": 2027,
+    "estimatedPeak": "2024 to 2026",
     "agingPotential": "drink-now",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "tatomer-2022"
+    "aromaIfDrinkingNow": "The wine is at a sweet spot where primary pepper and snap pea aromatics are fully developed and the mineral backbone is showing well. There is a youthful crispness to the acidity that keeps the wine energetic. The Edna Valley coolness really comes through.",
+    "aromaWithAge": "Gruner Veltliner can develop interesting secondary notes of lentil and white truffle with a few years of bottle age. This wine may gain some textural weight and a more savory character through 2026, but the primary peppery fruit will begin to fade. Best consumed by 2027.",
+    "vintageNotes": "2022 Central Coast benefited from a long, cool growing season",
+    "adjacentVintages": [
+      {"year": "2021", "notes": "Drought year but Edna Valley fared well due to marine influence; slightly more concentrated", "rating": "Very Good"},
+      {"year": "2023", "notes": "Cooler and wetter than average; excellent acidity retention", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["unique-style", "amazing-value"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Alsace Riesling 'd'étoiles'",
+    "id": "mittnacht-2024",
     "producer": "Mittnacht",
-    "producerId": "mittnacht",
+    "wineName": "Alsace Riesling 'd'etoiles'",
+    "fullDisplayName": "Mittnacht Alsace Riesling 'd'etoiles'",
     "vintage": "2024",
     "type": "white",
     "region": "Alsace",
     "country": "France",
-    "grapeVarieties": [
-      "Riesling"
-    ],
+    "grapeVarieties": ["Riesling"],
+    "grapeBreakdown": "100% Riesling",
+    "briefDescriptor": "Biodynamic Alsatian Riesling with crystalline fruit and racy acidity; pure, electric, and a stunning expression of Alsace terroir.",
+    "tastingNotes": "Lime blossom and wet stone on the nose, with a flinty, almost struck-match quality beneath. The palate is electric, with razor-sharp acidity carrying green apple, Meyer lemon, and a thread of white peach. The mid-palate has a silky weight despite the lean frame. Finishes long and saline, with a crushed-stone minerality that lingers. This is Riesling at its most transparent and site-expressive.",
+    "tastingNotesPreview": "Lime blossom and wet stone on the nose, with a flinty, almost struck-match quality beneath. The palate is electric, with razor-sharp acidity carrying green apple, Meyer lemon, and a thread of white peach.",
+    "aromas": ["lime blossom", "wet stone", "green apple", "Meyer lemon", "flint"],
+    "tastingProfile": {
+      "acidity": 5,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Christophe Mittnacht is a biodynamic grower in Hunawihr, at the heart of Alsace's finest terroirs. His 'd'etoiles' bottling is designed to capture Riesling at its most crystalline and mineral, fermented bone dry with native yeasts.",
+    "producerStory": "Christophe Mittnacht farms biodynamically in Hunawihr, surrounded by some of Alsace's most celebrated Grand Cru vineyards including Rosacker and Schoenenbourg. The 'd'etoiles' cuvee is his entry-level Riesling, but calling it entry-level does a disservice; it is made from young vine fruit grown on the same soils as his Grand Cru wines and vinified with the same care. Fermentation uses only native yeasts, with no chaptalization or fining. The wine is bone dry despite Riesling's reputation for sweetness. Mittnacht represents the biodynamic movement in Alsace at its most serious: not a marketing label but a farming philosophy that produces wines of remarkable purity and energy. Stephen chose this because it is the purest expression of dry Riesling on his list, and because the price is extraordinarily generous for what you get in the glass.",
+    "producerSignificance": "A leading biodynamic grower in Hunawihr whose bone-dry Rieslings have become benchmarks for purity and mineral expression in Alsace.",
+    "producerId": "mittnacht",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": true,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Certified biodynamic; native yeast fermentation; no chaptalization or fining",
+      "knownForInRegion": "One of Alsace's most respected biodynamic producers, farming around Hunawihr's Grand Cru sites and producing Rieslings of crystalline purity.",
+      "whyLoved": "Sommeliers appreciate Mittnacht because his wines combine the energy of biodynamic farming with the precision of classical Alsatian winemaking."
+    },
     "priceGlass": 16,
     "priceBottle": 64,
     "byTheGlass": true,
-    "briefDescriptor": "Biodynamic Alsatian Riesling — crystalline fruit with racy acidity and crushed-stone minerality",
-    "tastingNotes": "Lime blossom and wet stone on the nose. Electric acidity with green apple and a long, saline finish.",
-    "tastingProfile": {
-      "acidity": 5,
-      "body": 2,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "lime blossom",
-        "wet stone",
-        "green apple"
-      ]
-    },
-    "pairingSuggestions": [
-      "shellfish",
-      "Thai curry",
-      "aged gruyère"
-    ],
-    "heirloomMenuPairings": [
-      "Northern halibut, cauliflower puree"
-    ],
-    "vintageNotes": "2024 Alsace vintage — early assessments positive",
-    "labels": [
-      "minimal-intervention",
-      "amazing-value"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["shellfish", "Thai curry", "aged gruyere", "sashimi", "roast chicken"],
+    "heirloomMenuPairings": ["Northern halibut, cauliflower puree"],
     "drinkWindowStart": 2025,
     "drinkWindowEnd": 2032,
+    "estimatedPeak": "2027 to 2030",
     "agingPotential": "hold",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "mittnacht-2024"
+    "aromaIfDrinkingNow": "Very young and primary, showing bright citrus and floral notes with an almost austere minerality. The acidity is piercing and the wine feels tightly wound. There is enormous potential here but it has not yet unfurled.",
+    "aromaWithAge": "Over the next three to five years, the primary citrus will deepen into honeyed, petrol-tinged complexity that great Alsatian Riesling is known for. The mid-palate will flesh out, and the mineral notes will become more pronounced and layered. This wine has the structure to evolve beautifully through 2032.",
+    "vintageNotes": "2024 Alsace vintage; early assessments are positive with good acidity retention",
+    "adjacentVintages": [
+      {"year": "2023", "notes": "Warm vintage with ripe fruit; slightly less acidity than 2024", "rating": "Good"},
+      {"year": "2022", "notes": "Hot and dry; atypically rich for Alsace Riesling", "rating": "Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["minimal-intervention", "amazing-value"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Bianco Toscano 'Prunecchio'",
+    "id": "fattoria-prunecchio-2021",
     "producer": "Fattoria di Prunecchio",
-    "producerId": "fattoria-prunecchio",
+    "wineName": "Bianco Toscano 'Prunecchio'",
+    "fullDisplayName": "Fattoria di Prunecchio Bianco Toscano",
     "vintage": "2021",
     "type": "white",
     "region": "Tuscany",
     "country": "Italy",
-    "grapeVarieties": [
-      "Trebbiano",
-      "Malvasia"
-    ],
+    "grapeVarieties": ["Trebbiano", "Malvasia"],
+    "grapeBreakdown": "60% Trebbiano, 40% Malvasia",
+    "briefDescriptor": "White Tuscan blend from indigenous grapes; proof that Tuscany's white wine tradition deserves the same respect as its reds.",
+    "tastingNotes": "Honeyed almond and white peach on the nose, with a subtle chamomile and dried herb character. The palate is medium bodied with a gentle, waxy texture and moderate acidity. There is an almond skin bitterness on the mid-palate that adds complexity. Finishes with herbal, slightly floral notes and a hint of beeswax. An old-fashioned style of white Tuscany that rewards patience at the table.",
+    "tastingNotesPreview": "Honeyed almond and white peach on the nose, with a subtle chamomile and dried herb character. The palate is medium bodied with a gentle, waxy texture and moderate acidity.",
+    "aromas": ["honeyed almond", "white peach", "chamomile", "beeswax", "dried herb"],
+    "tastingProfile": {
+      "acidity": 3,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Fattoria di Prunecchio is a small, traditional estate in the hills of Tuscany that has resisted the temptation to plant international varieties. They continue to grow Trebbiano and Malvasia, grapes that many Tuscan estates have abandoned in favor of Chardonnay.",
+    "producerStory": "Fattoria di Prunecchio is a quiet, traditional estate in the Tuscan hills that has stayed true to indigenous white grape varieties while much of the region has replanted to Chardonnay or Vermentino. Their Bianco Toscano is a blend of old vine Trebbiano and Malvasia, vinified simply in stainless steel to preserve the delicate aromatic character of the grapes. The estate is tiny and the wine is made in small quantities, finding its way primarily onto the lists of Italian restaurants that care about authenticity over fashion. There is nothing flashy about this wine; it is an honest, food-friendly white that tastes like the Tuscan countryside. Stephen chose it because it fills a specific niche on the list: a textured, medium-bodied white that pairs beautifully with pasta, risotto, and lighter preparations.",
+    "producerSignificance": "A guardian of traditional Tuscan white winemaking, producing indigenous Trebbiano and Malvasia blends in a region dominated by Sangiovese and international varieties.",
+    "producerId": "fattoria-prunecchio",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional farming; old vine Trebbiano and Malvasia; stainless steel vinification",
+      "knownForInRegion": "One of the few remaining Tuscan estates focused on indigenous white varieties, producing Bianco Toscano in a traditional, unfussy style.",
+      "whyLoved": "This wine appeals to sommeliers who value authenticity; it tastes like a place rather than a varietal, and it pairs with Italian food in a way that Chardonnay simply cannot."
+    },
     "priceGlass": 16,
     "priceBottle": 64,
     "byTheGlass": true,
-    "briefDescriptor": "White Tuscan blend from indigenous grapes — proof that Tuscany isn't just about Sangiovese",
-    "tastingNotes": "Honeyed almond and white peach. Medium body with gentle acidity and a herbal finish.",
-    "tastingProfile": {
-      "acidity": 3,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "honeyed almond",
-        "white peach",
-        "herb"
-      ]
-    },
-    "pairingSuggestions": [
-      "pasta primavera",
-      "grilled fish",
-      "bruschetta"
-    ],
-    "heirloomMenuPairings": [
-      "House made fettuccini, morel mushrooms, leek cream"
-    ],
-    "vintageNotes": "2021 Tuscany — cooler vintage with good freshness",
-    "labels": [
-      "hidden-gem"
-    ],
-    "distributionLevel": "hard-to-find",
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["pasta primavera", "grilled fish", "bruschetta", "risotto", "white bean soup"],
+    "heirloomMenuPairings": ["House made fettuccini, morel mushrooms, leek cream"],
     "drinkWindowStart": 2023,
     "drinkWindowEnd": 2026,
+    "estimatedPeak": "2023 to 2025",
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "fattoria-prunecchio-2021"
+    "aromaIfDrinkingNow": "The wine has settled into a mature, secondary phase where the primary fruit has softened and the almond and beeswax notes are most prominent. It is drinking beautifully now, with a rounded, mellow quality that makes it extremely food-friendly.",
+    "aromaWithAge": "This is not a wine to hold further. By late 2026, the fruit will have faded and the wine will taste tired. The Trebbiano and Malvasia blend does not have the acidity structure for extended aging. Drink it now.",
+    "vintageNotes": "2021 Tuscany; cooler vintage with good freshness and balanced ripeness",
+    "adjacentVintages": [
+      {"year": "2020", "notes": "Warmer vintage; slightly richer and less fresh", "rating": "Good"},
+      {"year": "2022", "notes": "Hot year; more concentrated but less elegant", "rating": "Good"}
+    ],
+    "distributionLevel": "hard-to-find",
+    "labels": ["hidden-gem"],
+    "isApproachingEndOfWindow": true,
+    "isPastWindow": false
   },
   {
-    "name": "Douro Branco 'Redoma'",
+    "id": "niepoort-2024",
     "producer": "Niepoort",
-    "producerId": "niepoort",
+    "wineName": "Douro Branco 'Redoma'",
+    "fullDisplayName": "Niepoort Douro Branco 'Redoma'",
     "vintage": "2024",
     "type": "white",
     "region": "Douro",
     "country": "Portugal",
-    "grapeVarieties": [
-      "Rabigato",
-      "Códega do Larinho",
-      "Viosinho"
-    ],
+    "grapeVarieties": ["Rabigato", "Codega do Larinho", "Viosinho"],
+    "grapeBreakdown": "40% Rabigato, 30% Codega do Larinho, 30% Viosinho",
+    "briefDescriptor": "One of Portugal's greatest white wines; mineral, textured, and absurdly underpriced for its quality. A sommelier's desert island wine.",
+    "tastingNotes": "Crushed stone and white peach on the nose, with a waxy, almost lanolin quality. The palate is medium bodied with a textured, oily mid-palate that belies the bright acidity underneath. Flavors of lemon curd, wet granite, and a whisper of saline develop through the finish. The interplay of richness and acidity is extraordinary. This drinks like wine at twice the price, and sommeliers across the world have taken notice.",
+    "tastingNotesPreview": "Crushed stone and white peach on the nose, with a waxy, almost lanolin quality. The palate is medium bodied with a textured, oily mid-palate that belies the bright acidity underneath.",
+    "aromas": ["crushed stone", "white peach", "beeswax", "lemon curd", "wet granite"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Dirk Niepoort is one of Portugal's most visionary winemakers, known for transforming the Douro from a port-only region into a source of world-class table wines. The Redoma Branco is his benchmark white, blending indigenous Douro varieties from old vines.",
+    "producerStory": "Dirk Niepoort descends from a Dutch family that has been making port in the Douro Valley since 1842, but his legacy will be defined by what he did with table wine. In the 1990s, he began bottling still wines from the ancient mixed plantings of indigenous varieties that had always existed in the Douro but were used exclusively for port production. The Redoma Branco was among the first, and it remains his benchmark. Made from old vine Rabigato, Codega do Larinho, and Viosinho, fermented in a mix of used oak and cement lagares, it is a wine of remarkable textural complexity and mineral purity. Niepoort's work opened the door for an entire generation of Douro table wine producers. Stephen chose the Redoma because it is, glass for glass, one of the greatest values in white wine anywhere in the world.",
+    "producerSignificance": "The winemaker who transformed the Douro from a port-only region into a source of world-class table wine, and whose Redoma Branco remains the benchmark.",
+    "producerId": "niepoort",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 5,
+      "productionSize": "medium",
+      "isBiodynamic": false,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Organic viticulture; old vine field blends; fermentation in used oak and cement lagares",
+      "knownForInRegion": "The pioneer of modern Douro table wines, working with indigenous varieties from ancient mixed plantings that most producers were ignoring.",
+      "whyLoved": "The Redoma Branco is a sommelier's secret weapon: world-class quality at a price that lets you pour it generously without guilt."
+    },
     "priceGlass": 17,
     "priceBottle": 68,
     "byTheGlass": true,
-    "briefDescriptor": "One of Portugal's greatest white wines — mineral, textured, and absurdly underpriced",
-    "tastingNotes": "Crushed stone and white peach with a waxy, almost oily mid-palate. Bright acidity lifts into a long, saline finish. Drinks like wine twice the price.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "crushed stone",
-        "white peach",
-        "beeswax"
-      ]
-    },
-    "pairingSuggestions": [
-      "grilled octopus",
-      "roast chicken",
-      "aged comté"
-    ],
-    "heirloomMenuPairings": [
-      "Northern halibut, cauliflower puree",
-      "House smoked Mt. Lassen trout toast"
-    ],
-    "vintageNotes": "2024 Douro — pending vintage assessment",
-    "labels": [
-      "famous-winemaker",
-      "amazing-value",
-      "age-worthy"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["grilled octopus", "roast chicken", "aged comte", "bacalhau", "risotto"],
+    "heirloomMenuPairings": ["Northern halibut, cauliflower puree", "House smoked Mt. Lassen trout toast"],
     "drinkWindowStart": 2025,
     "drinkWindowEnd": 2034,
+    "estimatedPeak": "2027 to 2031",
     "agingPotential": "hold",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "niepoort-2024"
+    "aromaIfDrinkingNow": "Very young and primary, showing bright stone fruit and citrus with the mineral and waxy notes just beginning to emerge. The acidity is vivid and the wine feels energetic but tightly wound. It is delicious now but far from its full potential.",
+    "aromaWithAge": "Over the next five to seven years, the Redoma will develop its characteristic honeyed, waxy complexity while retaining its mineral spine. The stone fruit will deepen into apricot and quince territory, and the texture will become more unctuous. Aged Redoma Branco is one of Portugal's most compelling white wines, developing a Burgundian richness while retaining Douro freshness.",
+    "vintageNotes": "2024 Douro; pending vintage assessment",
+    "adjacentVintages": [
+      {"year": "2023", "notes": "Hot, dry vintage; riper and more concentrated than average", "rating": "Good"},
+      {"year": "2022", "notes": "Balanced vintage with good freshness; well-regarded", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["famous-winemaker", "amazing-value", "age-worthy"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Furmint",
+    "id": "bott-frigyes-2023",
     "producer": "Bott Frigyes",
-    "producerId": "bott-frigyes",
+    "wineName": "Furmint",
+    "fullDisplayName": "Bott Frigyes Furmint",
     "vintage": "2023",
     "type": "white",
     "region": "Southern Slovakia",
     "country": "Slovakia",
-    "grapeVarieties": [
-      "Furmint"
-    ],
+    "grapeVarieties": ["Furmint"],
+    "grapeBreakdown": "100% Furmint",
+    "briefDescriptor": "Electric, slightly oxidative Furmint from the Carpathians; if you did not know Slovakia makes wine, this is where to start.",
+    "tastingNotes": "Quince and smokiness on the nose, with a waxy, almost resinous quality. The palate is steely and taut, with razor-sharp acidity and a waxy texture that gives the wine surprising weight. Nutty, slightly oxidative notes appear on the mid-palate, recalling fino sherry but with more fruit. The finish is long, with smoke, walnut skin, and a mineral, saline persistence. This is an utterly unique wine that defies easy comparison.",
+    "tastingNotesPreview": "Quince and smokiness on the nose, with a waxy, almost resinous quality. The palate is steely and taut, with razor-sharp acidity and a waxy texture that gives the wine surprising weight.",
+    "aromas": ["quince", "smoke", "walnut", "beeswax", "flint"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Bott Frigyes is a Hungarian-born winemaker who farms in the Tokaj-adjacent wine region of southern Slovakia. His dry Furmint is made in a deliberately oxidative style that recalls the historic wines of the region before sweetness became the default.",
+    "producerStory": "Bott Frigyes is a Hungarian-born winemaker working in southern Slovakia, in the northern reaches of the greater Tokaj wine region. While Hungarian Tokaj is famous for its sweet Aszu wines, Bott focuses on dry Furmint, the same grape, in a style that recalls the wines made here before the 20th century sweet wine boom. His approach is deliberately slightly oxidative, aging the wine in old Hungarian oak casks and embracing the nutty, smoky character that develops. The result is a wine that sits at the intersection of several traditions: the acidity of Riesling, the textural weight of Chenin Blanc, and the oxidative complexity of Jura wines. Production is tiny, and the wine is virtually unknown outside a small circle of adventurous sommeliers. Stephen was drawn to this wine because it is genuinely unlike anything else on the list, and because it challenges guests to expand their definition of white wine.",
+    "producerSignificance": "A rare producer of dry, oxidative Furmint from the Slovak side of the greater Tokaj region, making wines that recall a pre-modern tradition.",
+    "producerId": "bott-frigyes",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 1,
+      "productionSize": "micro",
+      "isBiodynamic": false,
+      "isOrganic": true,
+      "isNatural": true,
+      "farmingNote": "Organic viticulture; native yeast fermentation; old Hungarian oak aging; minimal sulfur",
+      "knownForInRegion": "One of the only producers making serious dry Furmint on the Slovak side of the Tokaj appellation, in an oxidative style rooted in historical precedent.",
+      "whyLoved": "This is the wine sommeliers pour when they want to blow someone's mind. It is utterly original, impossible to place blind, and a guaranteed conversation starter."
+    },
     "priceGlass": 20,
     "priceBottle": 80,
     "byTheGlass": true,
-    "briefDescriptor": "Funky, electric Furmint from the Carpathians — if you didn't know Slovakia makes wine, start here",
-    "tastingNotes": "Quince and smokiness on the nose. Steely acidity with a waxy texture and nutty, oxidative notes on the finish.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "quince",
-        "smoke",
-        "walnut"
-      ]
-    },
-    "pairingSuggestions": [
-      "foie gras",
-      "mushroom dishes",
-      "roast pork"
-    ],
-    "heirloomMenuPairings": [
-      "House made fettuccini, morel mushrooms"
-    ],
-    "vintageNotes": "2023 Central European vintage — good balance",
-    "labels": [
-      "unique-style",
-      "hidden-gem"
-    ],
-    "distributionLevel": "allocation-only",
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["foie gras", "mushroom dishes", "roast pork", "aged hard cheese", "smoked fish"],
+    "heirloomMenuPairings": ["House made fettuccini, morel mushrooms"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2030,
+    "estimatedPeak": "2025 to 2028",
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "bott-frigyes-2023"
+    "aromaIfDrinkingNow": "The oxidative, smoky character is already well-developed and gives the wine its distinctive personality. The quince and walnut notes are prominent, and the acidity is bracing. The wine has settled into a comfortable drinking window where all elements are in balance.",
+    "aromaWithAge": "The oxidative notes will continue to deepen, moving toward more pronounced nuttiness and honey. The fruit will recede further, and the wine will become more sherry-like in character. This style of Furmint can age well, but the transformation is toward savory complexity rather than fresh fruit.",
+    "vintageNotes": "2023 Central European vintage; good balance between ripeness and acidity",
+    "adjacentVintages": [
+      {"year": "2022", "notes": "Very warm year; slightly less acidity but more concentration", "rating": "Good"},
+      {"year": "2024", "notes": "Pending assessment", "rating": "Unknown"}
+    ],
+    "distributionLevel": "allocation-only",
+    "labels": ["unique-style", "hidden-gem"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Loire Chenin 'Arcane'",
-    "producer": "Fosse-Sèche",
-    "producerId": "fosse-seche",
+    "id": "fosse-seche-2022",
+    "producer": "Fosse-Seche",
+    "wineName": "Loire Chenin 'Arcane'",
+    "fullDisplayName": "Fosse-Seche Loire Chenin 'Arcane'",
     "vintage": "2022",
     "type": "white",
     "region": "Loire",
     "country": "France",
-    "grapeVarieties": [
-      "Chenin Blanc"
-    ],
+    "grapeVarieties": ["Chenin Blanc"],
+    "grapeBreakdown": "100% Chenin Blanc",
+    "briefDescriptor": "Biodynamic Chenin from a 150-hectare ecosystem estate; alive, textured, and profoundly connected to its place.",
+    "tastingNotes": "Lanolin and quince on the nose, with a waxy, honeyed quality that builds as the wine opens. The palate is medium bodied with racy acidity that cuts through the richness, carrying flavors of baked apple, chamomile, and a subtle ginger spice. The mid-palate has a woolly texture that is characteristic of the best Loire Chenin. Finishes long with wet stone minerality and a hint of dried apricot. This is Chenin Blanc at its most multidimensional.",
+    "tastingNotesPreview": "Lanolin and quince on the nose, with a waxy, honeyed quality that builds as the wine opens. The palate is medium bodied with racy acidity that cuts through the richness, carrying flavors of baked apple, chamomile, and a subtle ginger spice.",
+    "aromas": ["lanolin", "quince", "chamomile", "wet stone", "dried apricot"],
+    "tastingProfile": {
+      "acidity": 5,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 2,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Fosse-Seche is not just a winery; it is a 150-hectare biodynamic estate in Saumurois where vineyards, forests, meadows, and animals coexist as a self-sustaining ecosystem. Only a fraction of the land is planted to vine, and the biodiversity is staggering.",
+    "producerStory": "Fosse-Seche is one of the most remarkable wine estates in France, though few outside sommelier circles know its name. The property encompasses 150 hectares in the Saumurois, of which only a small portion is planted to vine. The rest is forest, meadow, orchard, and pasture for the animals whose manure fuels the biodynamic preparations. The result is a self-sustaining agricultural ecosystem that produces wines of extraordinary vitality and site-specificity. The 'Arcane' cuvee is their benchmark Chenin Blanc, sourced from old vines on tuffeau limestone and fermented with native yeasts in a mix of old barrels and clay amphorae. Guillaume Pire, who runs the estate, believes that great wine begins with healthy soil, and every decision at Fosse-Seche follows from that conviction. Stephen chose this wine because it represents the most holistic approach to winemaking on his list, and because it is a profound expression of what Chenin Blanc can achieve in the Loire.",
+    "producerSignificance": "A model biodynamic estate in the Saumurois where vineyards are part of a 150-hectare self-sustaining ecosystem, producing Chenin Blanc of extraordinary vitality.",
+    "producerId": "fosse-seche",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 2,
+      "productionSize": "small",
+      "isBiodynamic": true,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Certified biodynamic; 150-hectare polyculture ecosystem; native yeast; mix of old barrel and amphora aging",
+      "knownForInRegion": "A visionary biodynamic estate in Saumurois whose approach to polyculture and biodiversity is a model for the entire Loire Valley.",
+      "whyLoved": "Sommeliers admire Fosse-Seche because the wines taste alive in a way that is hard to articulate; there is a vibrancy and complexity that reflects the health of the entire ecosystem."
+    },
     "priceGlass": 21,
     "priceBottle": 84,
     "byTheGlass": true,
-    "briefDescriptor": "Biodynamic Chenin from a 150-hectare ecosystem — alive, textured, and profoundly site-specific",
-    "tastingNotes": "Lanolin and quince on the nose. Waxy, honeyed mid-palate with racy acidity. Finishes with chamomile and wet stone.",
-    "tastingProfile": {
-      "acidity": 5,
-      "body": 3,
-      "sweetness": 2,
-      "alcohol": 3,
-      "aromas": [
-        "lanolin",
-        "quince",
-        "chamomile"
-      ]
-    },
-    "pairingSuggestions": [
-      "roast chicken",
-      "goat cheese",
-      "Thai green curry"
-    ],
-    "heirloomMenuPairings": [
-      "Artichoke soup, cashew cream"
-    ],
-    "vintageNotes": "2022 Loire — warm vintage with concentrated fruit",
-    "labels": [
-      "minimal-intervention",
-      "age-worthy",
-      "heritage-estate"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["roast chicken", "goat cheese", "Thai green curry", "pork rillettes", "lobster"],
+    "heirloomMenuPairings": ["Artichoke soup, cashew cream"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2035,
+    "estimatedPeak": "2027 to 2032",
     "agingPotential": "hold",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "fosse-seche-2022"
+    "aromaIfDrinkingNow": "The wine is young and primary, showing vivid quince and citrus with the waxy, lanolin character just beginning to emerge. The acidity is bracing and the wine feels energetic. It is approachable now but clearly has much more to give.",
+    "aromaWithAge": "Great Loire Chenin Blanc is one of the world's most age-worthy white wines. Over the next decade, the Arcane will develop honeyed, truffle-like complexity while the acidity acts as a preservative, keeping the wine fresh and vibrant. Expect dried fruit, beeswax, and a deepening mineral character. The best bottles will be compelling through 2035 and possibly beyond.",
+    "vintageNotes": "2022 Loire; warm vintage with concentrated fruit and excellent phenolic ripeness",
+    "adjacentVintages": [
+      {"year": "2021", "notes": "Frost-affected vintage; lower yields but very concentrated survivors", "rating": "Good"},
+      {"year": "2023", "notes": "More classic, cooler profile; excellent acidity", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["minimal-intervention", "age-worthy", "heritage-estate"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Bourgogne Blanc",
+    "id": "buisson-2023",
     "producer": "Buisson-Charles",
-    "producerId": "buisson",
+    "wineName": "Bourgogne Blanc",
+    "fullDisplayName": "Buisson-Charles Bourgogne Blanc",
     "vintage": "2023",
     "type": "white",
     "region": "Burgundy",
     "country": "France",
-    "grapeVarieties": [
-      "Chardonnay"
-    ],
+    "grapeVarieties": ["Chardonnay"],
+    "grapeBreakdown": "100% Chardonnay",
+    "briefDescriptor": "Essentially declassified Meursault from one of white Burgundy's best kept secrets; this is serious Chardonnay wearing a humble label.",
+    "tastingNotes": "Hazelnut and butter on the nose, with a toasted brioche quality that suggests quality lees aging. The palate is rich and round, with a creamy texture and flavors of ripe pear, lemon curd, and a subtle vanilla note from oak. Despite the richness, there is enough acidity to keep the wine fresh and structured. Finishes with a chalky, mineral grip that is unmistakably Meursault in character. The disconnect between the humble Bourgogne appellation and the quality in the glass is startling.",
+    "tastingNotesPreview": "Hazelnut and butter on the nose, with a toasted brioche quality that suggests quality lees aging. The palate is rich and round, with a creamy texture and flavors of ripe pear, lemon curd, and a subtle vanilla note from oak.",
+    "aromas": ["hazelnut", "butter", "ripe pear", "chalk", "lemon curd"],
+    "tastingProfile": {
+      "acidity": 4,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Domaine Buisson-Charles is a small, family-run estate in Meursault that has been making wine since the 19th century. Their Bourgogne Blanc comes from parcels at the foot of the Meursault slope, and it is vinified with the same care as their village and Premier Cru wines.",
+    "producerStory": "Domaine Buisson-Charles is a quiet, family-run estate in the heart of Meursault, one of Burgundy's most celebrated white wine villages. The domaine has been in the family since the 1800s, and current winemaker Patrick Essa (who married into the Buisson family) has steadily raised the quality while keeping prices remarkably fair. The Bourgogne Blanc comes from parcels just below the Meursault village boundary, and it is vinified in barrel with the same protocols used for their village and Premier Cru wines: native yeast fermentation, regular batonnage, and 12 months of aging in a mix of new and used oak. The result is a wine that tastes like Meursault in everything but name. Stephen chose this because it is the most generous value in white Burgundy on his list, and because it introduces guests to the richness of Meursault without the intimidating price tag.",
+    "producerSignificance": "A Meursault estate whose Bourgogne Blanc is an open secret among Burgundy insiders, offering village-level quality at regional pricing.",
+    "producerId": "buisson",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 5,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainable viticulture; native yeast fermentation; barrel aging with batonnage",
+      "knownForInRegion": "One of Meursault's most consistent and fairly priced domaines, known for richly textured Chardonnay that overdelivers at every appellation level.",
+      "whyLoved": "Sommeliers love Buisson-Charles because it lets them pour serious white Burgundy by the glass without bankrupting the program. The Bourgogne Blanc is the gateway."
+    },
     "priceGlass": 22,
     "priceBottle": 88,
     "byTheGlass": true,
-    "briefDescriptor": "Essentially declassified Meursault — one of white Burgundy's best-kept secrets",
-    "tastingNotes": "Hazelnut and butter on the nose. Rich and round mid-palate with enough acidity to stay fresh. Finishes with a chalky mineral grip.",
-    "tastingProfile": {
-      "acidity": 4,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "hazelnut",
-        "butter",
-        "chalk"
-      ]
-    },
-    "pairingSuggestions": [
-      "roast chicken",
-      "lobster bisque",
-      "gruyère"
-    ],
-    "heirloomMenuPairings": [
-      "House made fettuccini, morel mushrooms, leek cream",
-      "Northern halibut, cauliflower puree"
-    ],
-    "vintageNotes": "2023 Burgundy — promising vintage with freshness and precision",
-    "labels": [
-      "amazing-value",
-      "sommelier-favorite"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["roast chicken", "lobster bisque", "gruyere", "risotto", "scallops"],
+    "heirloomMenuPairings": ["House made fettuccini, morel mushrooms, leek cream", "Northern halibut, cauliflower puree"],
     "drinkWindowStart": 2025,
     "drinkWindowEnd": 2030,
+    "estimatedPeak": "2026 to 2029",
     "agingPotential": "drink-soon",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "buisson-2023"
+    "aromaIfDrinkingNow": "The wine is very young, showing primary fruit and fresh oak integration. The hazelnut and butter notes are present but the wine has not yet fully knitted together. It is pleasant now but the components are still finding their balance.",
+    "aromaWithAge": "Over the next two to three years, the oak will integrate fully and the wine will develop a richer, more honeyed character with notes of toasted almond and brioche. The chalky minerality will become more pronounced as the primary fruit softens. This has the structure to age gracefully through 2030, developing the buttery, nutty complexity that makes Meursault so sought after.",
+    "vintageNotes": "2023 Burgundy; promising vintage with freshness and precision",
+    "adjacentVintages": [
+      {"year": "2022", "notes": "Warm vintage with ripe, generous fruit; slightly less tension", "rating": "Very Good"},
+      {"year": "2021", "notes": "Frost-reduced yields; concentrated and mineral", "rating": "Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "sommelier-favorite"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Blanc 375mL",
+    "id": "mas-de-daumas-gassac-2023",
     "producer": "Mas de Daumas Gassac",
-    "producerId": "mas-de-daumas-gassac",
+    "wineName": "Blanc 375ml",
+    "fullDisplayName": "Mas de Daumas Gassac Blanc 375ml",
     "vintage": "2023",
     "type": "white",
     "region": "Languedoc",
     "country": "France",
-    "grapeVarieties": [
-      "Viognier",
-      "Chardonnay",
-      "Petit Manseng",
-      "Chenin Blanc"
-    ],
-    "priceBottle": 64,
-    "byTheGlass": false,
-    "briefDescriptor": "A kaleidoscope of 40+ grape varieties — no other white wine in France tastes like this",
-    "tastingNotes": "Exotic and complex — lychee, white flowers, citrus peel, and a saline, mineral core. Every sip reveals something new.",
+    "grapeVarieties": ["Viognier", "Chardonnay", "Petit Manseng", "Chenin Blanc"],
+    "grapeBreakdown": "A field blend of over 40 grape varieties including Viognier, Chardonnay, Petit Manseng, and Chenin Blanc among many others",
+    "briefDescriptor": "A kaleidoscope of 40+ grape varieties from the legendary 'Lafite of the Languedoc'; no other white wine in France tastes like this.",
+    "tastingNotes": "Exotic and layered from the first sniff: lychee, white flowers, citrus peel, and a beguiling spice that is hard to place. The palate is medium bodied with bright acidity and a saline, mineral core that grounds the exuberance. There is a textural complexity that comes from blending so many varieties, each contributing a different dimension. Finishes with white pepper, honeysuckle, and a mineral persistence. Every sip reveals something new, and the wine changes continuously in the glass.",
+    "tastingNotesPreview": "Exotic and layered from the first sniff: lychee, white flowers, citrus peel, and a beguiling spice that is hard to place. The palate is medium bodied with bright acidity and a saline, mineral core that grounds the exuberance.",
+    "aromas": ["lychee", "white flowers", "citrus peel", "honeysuckle", "white pepper"],
     "tastingProfile": {
       "acidity": 4,
+      "tannin": null,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "lychee",
-        "white flowers",
-        "citrus peel"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "Asian fusion",
-      "spiced lamb",
-      "seafood platter"
-    ],
-    "heirloomMenuPairings": [
-      "Hamachi crudo, chive aioli"
-    ],
-    "vintageNotes": "2023 Languedoc — balanced conditions",
-    "labels": [
-      "famous-winemaker",
-      "unique-style",
-      "heritage-estate"
-    ],
-    "distributionLevel": "wider-distribution",
+    "producerStoryPreview": "Mas de Daumas Gassac was founded in 1978 by Aime and Veronique Guibert after a geologist friend identified their glacial soil as exceptional terroir. Often called the 'Lafite of the Languedoc,' the estate proved that southern France could produce wines of Grand Cru quality.",
+    "producerStory": "Mas de Daumas Gassac is one of the most storied estates in the Languedoc, founded in 1978 by Aime and Veronique Guibert after Professor Henri Enjalbert identified their rare glacial soil deposits as potentially exceptional terroir. The estate quickly earned the nickname 'the Lafite of the Languedoc' and proved that southern France could produce wines of Grand Cru ambition. The Blanc is their most unusual wine, blending over 40 grape varieties, many of them obscure or nearly extinct, into a single cuvee. Viognier, Chardonnay, Petit Manseng, and Chenin Blanc form the backbone, but there are dozens of other varieties in the mix. The result is a wine unlike any other in France: kaleidoscopic, impossible to replicate, and a testament to the importance of biodiversity in the vineyard. Stephen chose the half-bottle format because it allows guests to experience this legendary estate without a full-bottle commitment.",
+    "producerSignificance": "The estate that proved the Languedoc could produce wines of Grand Cru quality, known worldwide as the 'Lafite of the Languedoc' and famous for its unprecedented 40+ variety field blends.",
+    "producerId": "mas-de-daumas-gassac",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 2,
+      "productionSize": "medium",
+      "isBiodynamic": false,
+      "isOrganic": true,
+      "isNatural": false,
+      "farmingNote": "Organic viticulture; rare glacial soils; over 40 grape varieties in the white blend",
+      "knownForInRegion": "The founding estate of quality Languedoc winemaking, known globally for Grand Cru-level wines from an unlikely terroir.",
+      "whyLoved": "Sommeliers reach for Daumas Gassac when they want to challenge assumptions: this is a wine that cannot be categorized, only experienced."
+    },
+    "priceGlass": null,
+    "priceBottle": 64,
+    "byTheGlass": false,
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["Asian fusion", "spiced lamb", "seafood platter", "Moroccan tagine", "fresh goat cheese"],
+    "heirloomMenuPairings": ["Hamachi crudo, chive aioli"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2030,
+    "estimatedPeak": "2025 to 2028",
     "agingPotential": "drink-now",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "mas-de-daumas-gassac-2023"
+    "aromaIfDrinkingNow": "The wine is showing beautifully right now, with the exotic aromatics at full bloom and the mineral backbone providing structure. The kaleidoscopic quality is at its most vivid in youth, when each of the 40+ varieties is contributing its distinct aromatic signature.",
+    "aromaWithAge": "With age, the individual varietal characters will merge into a more unified, honeyed whole. The wine will develop secondary notes of almond, dried flowers, and spice while the primary exotic fruit softens. The Blanc ages surprisingly well for a Languedoc white, retaining freshness through 2030.",
+    "vintageNotes": "2023 Languedoc; balanced conditions with good freshness retention",
+    "adjacentVintages": [
+      {"year": "2022", "notes": "Hot and dry; riper and more concentrated", "rating": "Very Good"},
+      {"year": "2021", "notes": "Cooler year; more restrained and mineral", "rating": "Good"}
+    ],
+    "distributionLevel": "wider-distribution",
+    "labels": ["famous-winemaker", "unique-style", "heritage-estate"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Chinon 'L'Epée'",
+    "id": "du-petit-thouars-2019",
     "producer": "du Petit Thouars",
-    "producerId": "du-petit-thouars",
+    "wineName": "Chinon 'L'Epee'",
+    "fullDisplayName": "du Petit Thouars Chinon 'L'Epee'",
     "vintage": "2019",
     "type": "red",
     "region": "Loire",
     "country": "France",
-    "grapeVarieties": [
-      "Cabernet Franc"
-    ],
-    "priceGlass": 15,
-    "priceBottle": 60,
-    "byTheGlass": true,
-    "briefDescriptor": "Classic Chinon Cabernet Franc — violet, graphite, and the elegance of the Loire at its best",
-    "tastingNotes": "Violet, graphite, and dark cherry on the nose. Silky tannins with herbal undertones and a long, mineral finish.",
+    "grapeVarieties": ["Cabernet Franc"],
+    "grapeBreakdown": "100% Cabernet Franc",
+    "briefDescriptor": "Classic Chinon Cabernet Franc from a chateau with centuries of history; violet, graphite, and the elegance of the Loire at its peak.",
+    "tastingNotes": "Violet, graphite, and dark cherry on the nose, with a subtle leafy, herbal undertone that is the hallmark of great Chinon. The palate is medium bodied with silky, fine-grained tannins and a juicy acidity that keeps the wine vibrant. The mid-palate reveals flavors of blackcurrant, crushed rock, and a hint of green bell pepper that adds complexity rather than greenness. Finishes long and mineral, with the graphite note returning on the close. Five years of bottle age have brought this into a beautiful drinking window.",
+    "tastingNotesPreview": "Violet, graphite, and dark cherry on the nose, with a subtle leafy, herbal undertone that is the hallmark of great Chinon. The palate is medium bodied with silky, fine-grained tannins and a juicy acidity that keeps the wine vibrant.",
+    "aromas": ["violet", "graphite", "dark cherry", "blackcurrant", "crushed rock"],
     "tastingProfile": {
       "acidity": 4,
       "tannin": 3,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "violet",
-        "graphite",
-        "dark cherry"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "roast lamb",
-      "mushroom tart",
-      "charcuterie"
-    ],
-    "heirloomMenuPairings": [
-      "White wine braised short rib",
-      "Liberty Farms duck confit"
-    ],
-    "vintageNotes": "2019 Loire — excellent vintage with ripe fruit and balanced acidity",
-    "labels": [
-      "amazing-value",
-      "heritage-estate"
-    ],
-    "distributionLevel": "limited",
+    "producerStoryPreview": "Chateau du Petit Thouars is one of the oldest wine estates in the Loire, with a history stretching back to the Renaissance. The chateau has been in the same family for generations, and their Chinon is made from Cabernet Franc grown on tuffeau limestone slopes.",
+    "producerStory": "Chateau du Petit Thouars is a historic estate in the Loire Valley whose winemaking roots stretch back centuries. The chateau itself is a monument, and the vineyards are planted on the tuffeau limestone slopes that give Chinon its distinctive mineral signature. The L'Epee cuvee is their flagship Cabernet Franc, named for its precision and finesse. Cabernet Franc here is nothing like the variety's New World incarnations; it is medium-bodied, floral, herbal, and defined by elegance rather than power. The 2019 vintage is exceptional across the Loire, and this wine has benefited from five years of patient aging. Stephen chose this because it represents the Loire at its most classical: a wine that pairs with virtually anything at the table, from charcuterie to duck to roast vegetables, and that rewards contemplation as much as companionship.",
+    "producerSignificance": "A historic Loire chateau producing classical Chinon that epitomizes Cabernet Franc's potential for elegance, minerality, and food-friendliness.",
+    "producerId": "du-petit-thouars",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 6,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional viticulture on tuffeau limestone; extended aging before release",
+      "knownForInRegion": "One of Chinon's most historic estates, known for elegant, mineral-driven Cabernet Franc that ages gracefully.",
+      "whyLoved": "Sommeliers value du Petit Thouars because their Chinon is the perfect dinner wine: medium bodied, versatile, and endlessly rewarding at the table."
+    },
+    "priceGlass": 15,
+    "priceBottle": 60,
+    "byTheGlass": true,
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["roast lamb", "mushroom tart", "charcuterie", "roast duck", "grilled vegetables"],
+    "heirloomMenuPairings": ["White wine braised short rib", "Liberty Farms duck confit"],
     "drinkWindowStart": 2022,
     "drinkWindowEnd": 2029,
+    "estimatedPeak": "2025 to 2028",
     "agingPotential": "drink-now",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "du-petit-thouars-2019"
+    "aromaIfDrinkingNow": "The wine has entered its ideal drinking window. The primary fruit has softened and integrated with the tannins, and secondary notes of leather, dried herbs, and earth are emerging. The violet and graphite aromatics remain vivid. This is a Chinon that is currently showing beautifully.",
+    "aromaWithAge": "Over the next two to three years, the tertiary development will continue, with the fruit receding further and savory, earthy notes becoming dominant. The tannins will continue to soften. By 2029, the wine will be fully mature and beginning to fade. This is in its sweet spot right now.",
+    "vintageNotes": "2019 Loire; excellent vintage with ripe fruit and balanced acidity, widely considered one of the best recent Loire vintages",
+    "adjacentVintages": [
+      {"year": "2018", "notes": "Very warm vintage; riper and fuller than 2019", "rating": "Very Good"},
+      {"year": "2020", "notes": "Another excellent year; slightly more concentrated", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "heritage-estate"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "California Red 'Gravels'",
+    "id": "newfound-2022",
     "producer": "Newfound",
-    "producerId": "newfound",
+    "wineName": "California Red 'Gravels'",
+    "fullDisplayName": "Newfound California Red 'Gravels'",
     "vintage": "2022",
     "type": "red",
     "region": "California",
     "country": "USA",
-    "grapeVarieties": [
-      "Carignan",
-      "Mourvèdre",
-      "Syrah"
-    ],
+    "grapeVarieties": ["Carignan", "Mourvedre", "Syrah"],
+    "grapeBreakdown": "50% Carignan, 30% Mourvedre, 20% Syrah",
+    "briefDescriptor": "New California in a glass; a restrained, balanced Rhone-inspired blend from a young winemaker with serious talent and modest pricing.",
+    "tastingNotes": "Dark cherry and garrigue herbs on the nose, with a subtle lavender and cracked pepper quality. The palate is medium bodied with fine-grained tannins and a savory, herbal mid-palate that is more southern France than California. There is a juicy, crunchy fruit quality that keeps the wine lively, and the finish is peppery and clean with a hint of iron. This is the kind of California red that the new generation of sommeliers is championing: balanced, food-friendly, and uninterested in power for its own sake.",
+    "tastingNotesPreview": "Dark cherry and garrigue herbs on the nose, with a subtle lavender and cracked pepper quality. The palate is medium bodied with fine-grained tannins and a savory, herbal mid-palate that is more southern France than California.",
+    "aromas": ["dark cherry", "garrigue", "black pepper", "lavender", "iron"],
+    "tastingProfile": {
+      "acidity": 3,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "alcohol": 3
+    },
+    "producerStoryPreview": "Newfound Wines is a small California project focused on old vine Rhone and Mediterranean varieties, sourced from vineyards across the state. The winemaker works with whole cluster fermentation and minimal intervention to produce wines of restraint and balance.",
+    "producerStory": "Newfound Wines represents the new guard of California winemaking: small production, old vine sourcing, minimal intervention, and a commitment to balance over power. The Gravels cuvee is a Rhone-inspired blend of Carignan, Mourvedre, and Syrah, sourced from old vine vineyards across California and fermented with a significant proportion of whole clusters. The approach is more Rhone than Napa, prioritizing herbal complexity, moderate alcohol, and food-friendliness over the extraction and oak that defined an earlier era of California wine. Production is small, and the wines sell primarily through restaurants and a mailing list. Stephen chose Newfound because it embodies his philosophy for California reds on the list: wines that taste like somewhere, not like a style, and that can hold their own next to French and Italian selections without trying to outmuscle them.",
+    "producerSignificance": "A rising voice in the new California movement, making old vine, Rhone-inspired blends that prioritize balance, restraint, and food-friendliness over extraction and power.",
+    "producerId": "newfound",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 1,
+      "productionSize": "micro",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Old vine sourcing; whole cluster fermentation; minimal intervention; moderate alcohol",
+      "knownForInRegion": "Part of the new California wave focused on old vine Mediterranean varieties, whole cluster technique, and wines of restraint.",
+      "whyLoved": "Sommeliers love Newfound because the wines offer the complexity and food-friendliness of top Rhone at a fraction of the price, with a distinctly Californian identity."
+    },
     "priceGlass": 16,
     "priceBottle": 64,
     "byTheGlass": true,
-    "briefDescriptor": "New California in a glass — restraint, balance, and serious talent at a modest price",
-    "tastingNotes": "Dark cherry and garrigue herbs. Medium-bodied with fine-grained tannins and a peppery, savory finish.",
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["grilled steak", "ratatouille", "aged cheddar", "lamb merguez", "grilled eggplant"],
+    "heirloomMenuPairings": ["White wine braised short rib, butter beans"],
+    "drinkWindowStart": 2024,
+    "drinkWindowEnd": 2028,
+    "estimatedPeak": "2025 to 2027",
+    "agingPotential": "drink-now",
+    "aromaIfDrinkingNow": "The wine is showing crunchy, primary fruit with dark cherry and garrigue at the forefront. The whole cluster component adds a spicy, stemmy complexity. The tannins are already well-integrated, and the wine is drinking beautifully now with a lively, food-friendly energy.",
+    "aromaWithAge": "The primary fruit will soften over the next two years, yielding to more earthy, savory notes. The Carignan will bring some dried herb and leather character as it evolves. This is not a wine built for long aging; its charm is in its youthful energy and balance. Best consumed by 2028.",
+    "vintageNotes": "2022 California; variable but favorable for balanced, moderate-alcohol wines",
+    "adjacentVintages": [
+      {"year": "2021", "notes": "Drought year; more concentrated and slightly higher alcohol", "rating": "Good"},
+      {"year": "2023", "notes": "Wetter winter; fresher and lighter in style", "rating": "Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "rising-star", "minimal-intervention"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
+  },
+  {
+    "id": "robin-2023",
+    "producer": "Robin",
+    "wineName": "Crozes-Hermitage 'Papillon'",
+    "fullDisplayName": "Robin Crozes-Hermitage 'Papillon'",
+    "vintage": "2023",
+    "type": "red",
+    "region": "Northern Rhone",
+    "country": "France",
+    "grapeVarieties": ["Syrah"],
+    "grapeBreakdown": "100% Syrah",
+    "briefDescriptor": "Northern Rhone Syrah that drinks above its station; a window into Hermitage style without the classified growth price tag.",
+    "tastingNotes": "Black pepper and smoked meat on the nose, with a floral, violet lift that is classic Northern Rhone Syrah. The palate is medium bodied with silky tannins and a savory, meaty quality. Flavors of blackberry, olive tapenade, and a hint of iron develop through the mid-palate. The finish is peppery and long, with a violet-tinged elegance that lingers. This is serious Syrah at a modest price, delivering the savory complexity that makes Northern Rhone the reference point for the grape worldwide.",
+    "tastingNotesPreview": "Black pepper and smoked meat on the nose, with a floral, violet lift that is classic Northern Rhone Syrah. The palate is medium bodied with silky tannins and a savory, meaty quality.",
+    "aromas": ["black pepper", "smoked meat", "violet", "olive tapenade", "blackberry"],
     "tastingProfile": {
       "acidity": 3,
       "tannin": 3,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "dark cherry",
-        "garrigue",
-        "pepper"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "grilled steak",
-      "ratatouille",
-      "aged cheddar"
-    ],
-    "heirloomMenuPairings": [
-      "White wine braised short rib, butter beans"
-    ],
-    "vintageNotes": "2022 California — variable but good for balanced wines",
-    "labels": [
-      "amazing-value",
-      "rising-star",
-      "minimal-intervention"
-    ],
-    "distributionLevel": "limited",
-    "drinkWindowStart": 2024,
-    "drinkWindowEnd": 2028,
-    "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "newfound-2022"
-  },
-  {
-    "name": "Crozes Hermitage 'Papillon'",
-    "producer": "Robin",
+    "producerStoryPreview": "Domaine Robin is a small, family estate in Crozes-Hermitage that has been quietly making terroir-driven Syrah for generations. The 'Papillon' cuvee is their signature wine, sourced from granite-rich parcels near the Hermitage hill.",
+    "producerStory": "Domaine Robin is a small, family-run estate in Crozes-Hermitage, the largest appellation in the Northern Rhone and one that is often dismissed as Hermitage's lesser neighbor. But producers like Robin prove that Crozes at its best can deliver Hermitage-level complexity at a fraction of the price. The 'Papillon' cuvee comes from granite-rich parcels near the base of the Hermitage hill, giving the wine a mineral depth and savory complexity that lesser Crozes bottlings lack. Winemaking is traditional: partial whole cluster fermentation, aging in a mix of old barrels and concrete, and minimal intervention. The result is a Syrah that is recognizably Northern Rhone in its peppery, meaty, floral character. Stephen chose this wine because it fills the Syrah slot on the list with authenticity and value, delivering the Northern Rhone experience without the escalating prices of Hermitage and Cote-Rotie.",
+    "producerSignificance": "A Crozes-Hermitage estate that demonstrates the appellation's true potential, producing granite-influenced Syrah that rivals wines from more celebrated Northern Rhone communes.",
     "producerId": "robin",
-    "vintage": "2023",
-    "type": "red",
-    "region": "Northern Rhône",
-    "country": "France",
-    "grapeVarieties": [
-      "Syrah"
-    ],
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional viticulture; granite-rich parcels; partial whole cluster; mixed vessel aging",
+      "knownForInRegion": "Among the better addresses in Crozes-Hermitage, known for site-specific Syrah from granite soils near the Hermitage hill.",
+      "whyLoved": "Sommeliers reach for Robin when a guest wants to experience Northern Rhone Syrah at a price that allows generous pouring."
+    },
     "priceGlass": 17,
     "priceBottle": 68,
     "byTheGlass": true,
-    "briefDescriptor": "Northern Rhône Syrah that drinks above its station — a window into Hermitage without the price",
-    "tastingNotes": "Black pepper and smoked meat on the nose. Medium-bodied with silky tannins and a violet-tinged finish.",
-    "tastingProfile": {
-      "acidity": 3,
-      "tannin": 3,
-      "body": 3,
-      "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "black pepper",
-        "smoked meat",
-        "violet"
-      ]
-    },
-    "pairingSuggestions": [
-      "lamb chops",
-      "game birds",
-      "aged gouda"
-    ],
-    "heirloomMenuPairings": [
-      "Liberty Farms duck confit, pea purée"
-    ],
-    "vintageNotes": "2023 Northern Rhône — cooler vintage with elegance",
-    "labels": [
-      "amazing-value",
-      "sommelier-favorite"
-    ],
-    "distributionLevel": "limited",
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["lamb chops", "game birds", "aged gouda", "grilled sausage", "beef stew"],
+    "heirloomMenuPairings": ["Liberty Farms duck confit, pea puree"],
     "drinkWindowStart": 2025,
     "drinkWindowEnd": 2031,
+    "estimatedPeak": "2026 to 2029",
     "agingPotential": "drink-soon",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "robin-2023"
+    "aromaIfDrinkingNow": "Very young, showing vivid primary fruit and pepper with the smoky, meaty notes just beginning to develop. The tannins are fine but still tight. The wine benefits from a generous decant or another year of patience.",
+    "aromaWithAge": "Over the next three to five years, the primary fruit will soften and the savory, meaty character will become more prominent. The wine will develop secondary notes of leather, dried herbs, and bacon fat. The tannins will resolve into a silky texture. Peak enjoyment will be from 2026 through 2029.",
+    "vintageNotes": "2023 Northern Rhone; cooler vintage with elegance and fine aromatics",
+    "adjacentVintages": [
+      {"year": "2022", "notes": "Hot and concentrated; bigger and more tannic", "rating": "Very Good"},
+      {"year": "2024", "notes": "Pending assessment", "rating": "Unknown"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "sommelier-favorite"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Chianti Classico 'Fioraie'",
+    "id": "piemaggio-2022",
     "producer": "Piemaggio",
-    "producerId": "piemaggio",
+    "wineName": "Chianti Classico 'Fioraie'",
+    "fullDisplayName": "Piemaggio Chianti Classico 'Fioraie'",
     "vintage": "2022",
     "type": "red",
     "region": "Tuscany",
     "country": "Italy",
-    "grapeVarieties": [
-      "Sangiovese"
-    ],
-    "priceGlass": 19,
-    "priceBottle": 76,
-    "byTheGlass": true,
-    "briefDescriptor": "Honest Chianti Classico — cherry, earth, and the Tuscan table wine tradition at its most food-friendly",
-    "tastingNotes": "Bright cherry and dried herb on the nose. Medium-bodied with firm tannins, fresh acidity, and an earthy, tobacco-leaf finish.",
+    "grapeVarieties": ["Sangiovese"],
+    "grapeBreakdown": "100% Sangiovese",
+    "briefDescriptor": "Honest Chianti Classico from a small estate; cherry, earth, and the Tuscan table wine tradition at its most food friendly and authentic.",
+    "tastingNotes": "Bright cherry and dried herb on the nose, with a subtle tobacco leaf and sun-baked earth quality. The palate is medium bodied with firm, chalky tannins and fresh, vibrant acidity that is Sangiovese's calling card. Flavors of sour cherry, dried oregano, and a hint of leather develop through the mid-palate. Finishes with an earthy, tobacco-scented persistence. This is Chianti Classico as it should be: unpretentious, food-driven, and irresistibly drinkable.",
+    "tastingNotesPreview": "Bright cherry and dried herb on the nose, with a subtle tobacco leaf and sun-baked earth quality. The palate is medium bodied with firm, chalky tannins and fresh, vibrant acidity that is Sangiovese's calling card.",
+    "aromas": ["cherry", "dried herb", "tobacco leaf", "leather", "earth"],
     "tastingProfile": {
       "acidity": 4,
       "tannin": 3,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "cherry",
-        "dried herb",
-        "tobacco leaf"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "pizza margherita",
-      "grilled sausage",
-      "hard cheese"
-    ],
-    "heirloomMenuPairings": [
-      "House made fettuccini, morel mushrooms"
-    ],
-    "vintageNotes": "2022 Tuscany — warm vintage with ripe, concentrated fruit",
-    "labels": [
-      "amazing-value"
-    ],
-    "distributionLevel": "limited",
+    "producerStoryPreview": "Piemaggio is a small, family-owned estate in the heart of the Chianti Classico zone, between Greve and Castellina. They produce a traditional style of Chianti from 100% Sangiovese, eschewing the international varieties that many neighbors have adopted.",
+    "producerStory": "Piemaggio is a small estate in the heart of Chianti Classico, nestled between Greve and Castellina in the rolling hills of central Tuscany. While many Chianti Classico producers have modernized with French oak, international grape blends, and ambitious pricing, Piemaggio has stayed true to the tradition: 100% Sangiovese, aged in large Slavonian oak casks, and priced for the dinner table rather than the collector's shelf. The 'Fioraie' bottling is their signature Chianti Classico, named for the wildflowers that grow between the vine rows. The estate is family-owned and the production is small, which means the wine is rarely encountered outside Italy and a few discerning import markets. Stephen chose this because every wine list needs a Chianti Classico you can pour without hesitation, and this one delivers authentic Sangiovese at a fair price.",
+    "producerSignificance": "A traditionalist Chianti Classico estate producing 100% Sangiovese in large oak, upholding the region's table wine heritage while many neighbors chase modernity.",
+    "producerId": "piemaggio",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional viticulture; 100% Sangiovese; aged in large Slavonian oak casks",
+      "knownForInRegion": "A quiet traditionalist in Chianti Classico, producing pure Sangiovese in large oak while neighbors increasingly blend with international varieties.",
+      "whyLoved": "Sommeliers appreciate Piemaggio because it represents what Chianti Classico was always meant to be: an honest, food-driven red wine at a price that encourages generosity."
+    },
+    "priceGlass": 19,
+    "priceBottle": 76,
+    "byTheGlass": true,
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["pizza margherita", "grilled sausage", "hard cheese", "pasta with ragu", "roast chicken"],
+    "heirloomMenuPairings": ["House made fettuccini, morel mushrooms"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2029,
+    "estimatedPeak": "2025 to 2027",
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "piemaggio-2022"
+    "aromaIfDrinkingNow": "Showing bright, youthful Sangiovese character with vivid cherry fruit and fresh herbal notes. The tannins are present but not aggressive, and the acidity gives the wine an energetic, mouthwatering quality. This is in a great place for current drinking.",
+    "aromaWithAge": "Over the next three to four years, the primary cherry fruit will soften into dried fruit and leather territory. The tannins will become more resolved, and earthy, tobacco notes will become more prominent. Traditional Chianti Classico like this can evolve gracefully, but it is not built for long cellaring beyond 2029.",
+    "vintageNotes": "2022 Tuscany; warm vintage with ripe, concentrated fruit",
+    "adjacentVintages": [
+      {"year": "2021", "notes": "Cooler and more elegant; higher acidity and less concentration", "rating": "Good"},
+      {"year": "2023", "notes": "Variable conditions; early assessments mixed", "rating": "Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Côtes du Jura Trousseau",
+    "id": "courbet-2024",
     "producer": "Courbet",
-    "producerId": "courbet",
+    "wineName": "Cotes du Jura Trousseau",
+    "fullDisplayName": "Courbet Cotes du Jura Trousseau",
     "vintage": "2024",
     "type": "red",
     "region": "Jura",
     "country": "France",
-    "grapeVarieties": [
-      "Trousseau"
-    ],
-    "priceGlass": 20,
-    "priceBottle": 80,
-    "byTheGlass": true,
-    "briefDescriptor": "Translucent, savory, and wildly herbal — the red grape that makes Pinot Noir look conventional",
-    "tastingNotes": "Pale ruby. Wild strawberry and dried sage on the nose. Light-bodied but complex with surprising tannic grip and a long, herbal finish.",
+    "grapeVarieties": ["Trousseau"],
+    "grapeBreakdown": "100% Trousseau",
+    "briefDescriptor": "Translucent, savory, and wildly herbal; the Jura's signature red grape that makes Pinot Noir look conventional.",
+    "tastingNotes": "Pale ruby with a translucent quality. Wild strawberry and dried sage on the nose, with an earthy, almost mushroomy undertone. The palate is light bodied but surprisingly complex, with fine-grained tannins that add a gentle grip. Flavors of cranberry, dried thyme, and smoked tea develop on the mid-palate. The finish is long for such a light wine, with herbal persistence and a stony minerality. This is a wine for curious drinkers who want something genuinely different.",
+    "tastingNotesPreview": "Pale ruby with a translucent quality. Wild strawberry and dried sage on the nose, with an earthy, almost mushroomy undertone. The palate is light bodied but surprisingly complex, with fine-grained tannins that add a gentle grip.",
+    "aromas": ["wild strawberry", "dried sage", "earth", "cranberry", "smoked tea"],
     "tastingProfile": {
       "acidity": 4,
       "tannin": 2,
       "body": 2,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "wild strawberry",
-        "dried sage",
-        "earth"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "comté",
-      "charcuterie",
-      "mushroom dishes"
-    ],
-    "heirloomMenuPairings": [
-      "Bacon and onion tart"
-    ],
-    "vintageNotes": "2024 Jura — early vintage assessment pending",
-    "labels": [
-      "unique-style",
-      "hidden-gem",
-      "minimal-intervention"
-    ],
-    "distributionLevel": "hard-to-find",
+    "producerStoryPreview": "Domaine Courbet is a family estate in the Jura that has been making wine from indigenous varieties for generations. The Jura is one of France's smallest and most distinctive wine regions, and Trousseau is its signature red grape, producing translucent wines of extraordinary aromatic complexity.",
+    "producerStory": "Domaine Courbet is a family estate in the Jura, one of France's most distinctive and increasingly fashionable wine regions, wedged between Burgundy and Switzerland. The Jura has always marched to its own drum: oxidative whites, vin jaune, and red wines from varieties found virtually nowhere else. Trousseau is the Jura's red grape of choice, producing wines that are pale, light-bodied, and astonishingly complex in their aromatic range. Courbet's version is a benchmark, grown on the clay and marl soils that give Jura Trousseau its characteristic earthy, herbal quality. The wine is made with minimal intervention, using native yeasts and gentle extraction. Stephen chose this wine because it is the most unique red on the list; nothing else tastes like Trousseau, and it rewards adventurous drinkers with an experience they will not forget.",
+    "producerSignificance": "A traditional Jura family estate producing benchmark Trousseau that exemplifies the region's singular identity and its growing influence on sommelier culture worldwide.",
+    "producerId": "courbet",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 4,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional Jura viticulture; clay and marl soils; native yeast fermentation; gentle extraction",
+      "knownForInRegion": "A reliable source of benchmark Trousseau in the Cotes du Jura, capturing the variety's distinctive translucent, herbal character.",
+      "whyLoved": "Sommeliers love Jura Trousseau because it is a sommelier's red: endlessly complex, impossible to mistake for anything else, and guaranteed to spark a conversation."
+    },
+    "priceGlass": 20,
+    "priceBottle": 80,
+    "byTheGlass": true,
+    "scores": [],
+    "sourceConfidence": "limited-sources",
+    "pairingSuggestions": ["comte", "charcuterie", "mushroom dishes", "roast chicken", "terrines"],
+    "heirloomMenuPairings": ["Bacon and onion tart"],
     "drinkWindowStart": 2025,
     "drinkWindowEnd": 2028,
+    "estimatedPeak": null,
     "agingPotential": "drink-now",
-    "sourceConfidence": "limited-sources",
-    "scores": [],
-    "id": "courbet-2024"
+    "aromaIfDrinkingNow": "Very young and primary, showing vivid wild strawberry fruit with the herbal and earthy notes already prominent. The translucent color is striking, and the aromas are more complex than the light body would suggest. The wine has an immediate, inviting charm.",
+    "aromaWithAge": "Trousseau is not typically a variety for long aging. Over the next two years, the primary fruit will soften and the earthy, mushroomy character will become more prominent. Beyond 2028, the delicate fruit will fade and the wine will lose its charm. Drink this young.",
+    "vintageNotes": "2024 Jura; early vintage assessment pending",
+    "adjacentVintages": [
+      {"year": "2023", "notes": "Good balance; slightly more concentrated than average", "rating": "Good"},
+      {"year": "2022", "notes": "Warm year; riper fruit but retained freshness", "rating": "Good"}
+    ],
+    "distributionLevel": "hard-to-find",
+    "labels": ["unique-style", "hidden-gem", "minimal-intervention"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Bourgogne Rouge 'Les Charmeaux'",
+    "id": "prudhon-2022",
     "producer": "Prudhon",
-    "producerId": "prudhon",
+    "wineName": "Bourgogne Rouge 'Les Charmeaux'",
+    "fullDisplayName": "Prudhon Bourgogne Rouge 'Les Charmeaux'",
     "vintage": "2022",
     "type": "red",
     "region": "Burgundy",
     "country": "France",
-    "grapeVarieties": [
-      "Pinot Noir"
-    ],
-    "priceGlass": 21,
-    "priceBottle": 84,
-    "byTheGlass": true,
-    "briefDescriptor": "Saint-Aubin quality at Bourgogne prices — Burgundy's best-kept secret village",
-    "tastingNotes": "Red cherry and crushed rose petal. Silky and elegant with fine tannins and a chalky, mineral-driven finish.",
+    "grapeVarieties": ["Pinot Noir"],
+    "grapeBreakdown": "100% Pinot Noir",
+    "briefDescriptor": "Saint-Aubin quality at Bourgogne prices from one of Burgundy's most undervalued domaines; silky, mineral, and an extraordinary value.",
+    "tastingNotes": "Red cherry and crushed rose petal on the nose, with a subtle earthiness and a whisper of spice from judicious oak. The palate is silky and elegant, with fine tannins and a chalky, mineral-driven mid-palate. Flavors of raspberry, pomegranate, and a hint of iron develop through to the finish. The persistence is impressive for a Bourgogne-level wine, with a stony minerality that recalls the limestone slopes of Saint-Aubin just up the hill. This is Burgundy for people who love the texture and nuance of Pinot Noir without the lottery-ticket pricing.",
+    "tastingNotesPreview": "Red cherry and crushed rose petal on the nose, with a subtle earthiness and a whisper of spice from judicious oak. The palate is silky and elegant, with fine tannins and a chalky, mineral-driven mid-palate.",
+    "aromas": ["red cherry", "rose petal", "chalk", "raspberry", "iron"],
     "tastingProfile": {
       "acidity": 4,
       "tannin": 2,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "red cherry",
-        "rose petal",
-        "chalk"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "roast chicken",
-      "salmon",
-      "mushroom risotto"
-    ],
-    "heirloomMenuPairings": [
-      "Liberty Farms duck confit"
-    ],
-    "vintageNotes": "2022 Burgundy — warm vintage with ripe, generous fruit",
-    "labels": [
-      "amazing-value",
-      "sommelier-favorite"
-    ],
-    "distributionLevel": "limited",
+    "producerStoryPreview": "Domaine Prudhon is a small estate in Saint-Aubin, one of Burgundy's most exciting source villages. Their Bourgogne Rouge comes from vines at the base of the Saint-Aubin slope and is vinified with the same care as their village and Premier Cru wines.",
+    "producerStory": "Domaine Prudhon is based in Saint-Aubin, a village that has quietly become one of the most exciting sources of value in all of Burgundy. While neighboring Puligny-Montrachet and Chassagne-Montrachet command astronomical prices, Saint-Aubin offers similar terroir at a fraction of the cost. The Prudhon family has been making wine here for generations, and their approach is classically Burgundian: low yields, whole cluster inclusion, gentle extraction, and aging in a mix of new and used oak. Their Bourgogne Rouge, 'Les Charmeaux,' comes from parcels at the base of the Saint-Aubin slope, and it is treated in the cellar with the same seriousness as their village wines. The result is a Bourgogne that tastes like something much more expensive. Stephen chose this because it is the most accessible entry point to great Burgundy on the list, offering genuine Pinot Noir finesse at a price that allows regular enjoyment.",
+    "producerSignificance": "A Saint-Aubin domaine whose Bourgogne Rouge routinely overperforms its appellation, offering a taste of Burgundy's Cote de Beaune magic at regional pricing.",
+    "producerId": "prudhon",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 4,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional Burgundian viticulture; low yields; whole cluster inclusion; mixed oak aging",
+      "knownForInRegion": "One of Saint-Aubin's most reliable domaines, known for silky, mineral-driven Pinot Noir that consistently outperforms its humble Bourgogne appellation.",
+      "whyLoved": "Sommeliers love Prudhon because the Bourgogne Rouge is the wine they pour when someone says they cannot afford Burgundy. It changes minds."
+    },
+    "priceGlass": 21,
+    "priceBottle": 84,
+    "byTheGlass": true,
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["roast chicken", "salmon", "mushroom risotto", "duck breast", "charcuterie"],
+    "heirloomMenuPairings": ["Liberty Farms duck confit"],
     "drinkWindowStart": 2024,
     "drinkWindowEnd": 2030,
+    "estimatedPeak": "2025 to 2028",
     "agingPotential": "drink-now",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "prudhon-2022"
+    "aromaIfDrinkingNow": "The wine is in an excellent place right now, showing fresh red fruit with the silky texture and mineral backbone well integrated. The rose petal aromatics are vivid, and the tannins are already resolved into a smooth, fine-grained texture. This is drinking beautifully.",
+    "aromaWithAge": "Over the next three to four years, the primary red fruit will soften into dried cherry and earth territory. The mineral character will become more prominent, and subtle mushroom and forest floor notes will emerge. The 2022 warmth gives this wine enough flesh to age gracefully through 2030.",
+    "vintageNotes": "2022 Burgundy; warm vintage with ripe, generous fruit and supple tannins",
+    "adjacentVintages": [
+      {"year": "2021", "notes": "Frost-affected, low yields; concentrated and mineral", "rating": "Good"},
+      {"year": "2023", "notes": "More classic, cooler profile; excellent freshness", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "sommelier-favorite"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Margaux",
-    "producer": "Château Moulin de Tricot",
-    "producerId": "moulin-de-tricot",
+    "id": "moulin-de-tricot-2019",
+    "producer": "Chateau Moulin de Tricot",
+    "wineName": "Margaux",
+    "fullDisplayName": "Chateau Moulin de Tricot Margaux",
     "vintage": "2019",
     "type": "red",
     "region": "Bordeaux",
     "country": "France",
-    "grapeVarieties": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "priceGlass": 23,
-    "priceBottle": 92,
-    "byTheGlass": true,
-    "briefDescriptor": "Affordable Margaux — Left Bank elegance with cassis and violet at a fraction of classified growth prices",
-    "tastingNotes": "Cassis, cedar, and violet on the nose. Medium-to-full body with polished tannins and a long, tobacco-scented finish. Five years in bottle have softened it beautifully.",
+    "grapeVarieties": ["Cabernet Sauvignon", "Merlot"],
+    "grapeBreakdown": "55% Cabernet Sauvignon, 45% Merlot",
+    "briefDescriptor": "Affordable Margaux from an outstanding Bordeaux vintage; Left Bank elegance with cassis and violet at a fraction of classified growth prices.",
+    "tastingNotes": "Cassis, cedar, and violet on the nose, with a subtle graphite and cigar box complexity that develops as the wine opens. The palate is medium to full bodied, with polished, fine-grained tannins and a structure that is classic Left Bank Bordeaux. Flavors of blackcurrant, tobacco, and a hint of dark chocolate develop on the mid-palate. The finish is long and cedar-scented, with a mineral persistence. Five years in bottle have softened the tannins beautifully, revealing the elegance that Margaux is famous for without the sticker shock.",
+    "tastingNotesPreview": "Cassis, cedar, and violet on the nose, with a subtle graphite and cigar box complexity that develops as the wine opens. The palate is medium to full bodied, with polished, fine-grained tannins and a structure that is classic Left Bank Bordeaux.",
+    "aromas": ["cassis", "cedar", "violet", "graphite", "cigar box"],
     "tastingProfile": {
       "acidity": 3,
       "tannin": 4,
       "body": 4,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "cassis",
-        "cedar",
-        "violet"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "grilled steak",
-      "lamb rack",
-      "aged cheddar"
-    ],
-    "heirloomMenuPairings": [
-      "White wine braised short rib, butter beans"
-    ],
-    "vintageNotes": "2019 Bordeaux — outstanding vintage, widely considered one of the best of the decade",
-    "vintageRating": "Outstanding",
-    "labels": [
-      "amazing-value",
-      "age-worthy"
-    ],
-    "distributionLevel": "limited",
+    "producerStoryPreview": "Chateau Moulin de Tricot is a small, family-owned property in the Margaux appellation. While their neighbors include some of Bordeaux's most famous classified growths, Moulin de Tricot remains a petit chateau, producing classical Margaux at prices that recall an earlier era.",
+    "producerStory": "Chateau Moulin de Tricot is a small, unclassified estate in the Margaux appellation, surrounded by some of Bordeaux's most famous and expensive properties. The appellation of Margaux is one of the most prestigious in the wine world, known for producing Bordeaux of particular finesse and perfume. But not every Margaux costs a fortune, and Moulin de Tricot is proof that the terroir, not the classification, is what matters. The chateau produces a classical blend of Cabernet Sauvignon and Merlot, aged in a mix of French oak, and the 2019 vintage is exceptional. 2019 is widely regarded as one of the finest Bordeaux vintages of the century, and even modest properties benefited from the ideal growing conditions. Stephen chose this wine because it offers genuine Margaux character, the perfume, the polish, the cedar-scented elegance, at a price that allows a restaurant to pour it without apology.",
+    "producerSignificance": "A petit chateau in Margaux that demonstrates the appellation's magic is in the terroir, not the classification, delivering Left Bank elegance at accessible pricing.",
+    "producerId": "moulin-de-tricot",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 3,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Traditional Bordeaux viticulture; Cabernet Sauvignon and Merlot blend; French oak aging",
+      "knownForInRegion": "A reliable petit chateau in Margaux that consistently delivers appellation character at a fraction of classified growth pricing.",
+      "whyLoved": "Sommeliers love this because it lets them pour real Margaux by the glass, giving guests access to one of Bordeaux's great appellations without the financial barrier."
+    },
+    "priceGlass": 23,
+    "priceBottle": 92,
+    "byTheGlass": true,
+    "scores": [],
+    "sourceConfidence": "moderately-documented",
+    "pairingSuggestions": ["grilled steak", "lamb rack", "aged cheddar", "braised short rib", "truffle dishes"],
+    "heirloomMenuPairings": ["White wine braised short rib, butter beans"],
     "drinkWindowStart": 2023,
     "drinkWindowEnd": 2035,
+    "estimatedPeak": "2026 to 2032",
     "agingPotential": "hold",
-    "sourceConfidence": "moderately-documented",
-    "scores": [],
-    "id": "moulin-de-tricot-2019"
+    "aromaIfDrinkingNow": "The wine has opened up beautifully after five years in bottle. The tannins have softened to a polished, velvety texture, and the secondary aromas of cedar, tobacco, and graphite are now fully developed. The cassis fruit remains vibrant, and the overall impression is of a wine in its early prime.",
+    "aromaWithAge": "Over the next five to eight years, the fruit will continue to evolve from fresh cassis toward dried black fruit and leather. The cedar and tobacco notes will become more prominent, and tertiary aromas of earth, mushroom, and truffle may emerge. The 2019 vintage gives this wine the structure to age gracefully through 2035, though it will become increasingly savory and less fruit-forward.",
+    "vintageNotes": "2019 Bordeaux; outstanding vintage, widely considered one of the best of the decade with ideal growing conditions",
+    "adjacentVintages": [
+      {"year": "2018", "notes": "Excellent vintage; riper and more generous", "rating": "Excellent"},
+      {"year": "2020", "notes": "Very good vintage; slightly more austere and structured", "rating": "Very Good"}
+    ],
+    "distributionLevel": "limited",
+    "labels": ["amazing-value", "age-worthy"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   },
   {
-    "name": "Willamette Pinot Noir 375mL",
+    "id": "raptor-ridge-2021",
     "producer": "Raptor Ridge",
-    "producerId": "raptor-ridge",
+    "wineName": "Willamette Pinot Noir 375ml",
+    "fullDisplayName": "Raptor Ridge Willamette Pinot Noir 375ml",
     "vintage": "2021",
     "type": "red",
     "region": "Willamette Valley, Oregon",
     "country": "USA",
-    "grapeVarieties": [
-      "Pinot Noir"
-    ],
-    "priceBottle": 44,
-    "byTheGlass": false,
-    "briefDescriptor": "Oregon Pinot for the dinner table, not the auction house — elegance without cult pricing",
-    "tastingNotes": "Dark cherry and baking spice on the nose. Medium-bodied with supple tannins and a forest-floor earthiness on the finish.",
+    "grapeVarieties": ["Pinot Noir"],
+    "grapeBreakdown": "100% Pinot Noir",
+    "briefDescriptor": "Oregon Pinot Noir for the dinner table in a half bottle; elegance without cult pricing, from one of Willamette Valley's steadiest producers.",
+    "tastingNotes": "Dark cherry and baking spice on the nose, with a subtle forest floor earthiness and a hint of dried rose. The palate is medium bodied with supple, fine-grained tannins and a bright acidity that keeps the wine lively. Flavors of black raspberry, clove, and a subtle cola note develop through the mid-palate. The finish is earthy and spice-tinged, with a forest floor quality that is classic Willamette. The half bottle format makes this an ideal pairing for a couple sharing a main course.",
+    "tastingNotesPreview": "Dark cherry and baking spice on the nose, with a subtle forest floor earthiness and a hint of dried rose. The palate is medium bodied with supple, fine-grained tannins and a bright acidity that keeps the wine lively.",
+    "aromas": ["dark cherry", "baking spice", "forest floor", "black raspberry", "clove"],
     "tastingProfile": {
       "acidity": 4,
       "tannin": 2,
       "body": 3,
       "sweetness": 1,
-      "alcohol": 3,
-      "aromas": [
-        "dark cherry",
-        "baking spice",
-        "forest floor"
-      ]
+      "alcohol": 3
     },
-    "pairingSuggestions": [
-      "salmon",
-      "duck breast",
-      "grilled portobello"
-    ],
-    "heirloomMenuPairings": [
-      "Liberty Farms duck confit"
-    ],
-    "vintageNotes": "2021 Willamette — cool vintage with bright acidity and elegance",
-    "labels": [
-      "amazing-value"
-    ],
-    "distributionLevel": "wider-distribution",
+    "producerStoryPreview": "Raptor Ridge is a family-owned winery in the Chehalem Mountains AVA of the Willamette Valley, known for site-driven Pinot Noir produced with a light hand. They have farmed their estate vineyards sustainably since the winery's founding in 1995.",
+    "producerStory": "Raptor Ridge is a family-owned winery in the Chehalem Mountains AVA, one of the Willamette Valley's most distinctive sub-appellations. Founded in 1995, the estate has built a quiet reputation for site-driven Pinot Noir made with minimal intervention. Their vineyards are sustainably farmed at elevation, producing fruit with natural acidity and an earthy, forest floor character that is the hallmark of the best Chehalem wines. While many Oregon Pinot Noirs have crept up in price toward Burgundy territory, Raptor Ridge remains accessible, delivering genuine varietal character and terroir expression without the cult premium. The half bottle on Stephen's list is a practical choice: it allows a couple to enjoy Oregon Pinot Noir with dinner, in a format that is often overlooked but perfectly suited to restaurant dining.",
+    "producerSignificance": "A steady, site-driven producer in the Chehalem Mountains AVA whose accessible pricing and consistent quality make them an important ambassador for Oregon Pinot Noir.",
+    "producerId": "raptor-ridge",
+    "producerDetails": {
+      "familyOwned": true,
+      "generations": 2,
+      "productionSize": "small",
+      "isBiodynamic": false,
+      "isOrganic": false,
+      "isNatural": false,
+      "farmingNote": "Sustainably farmed estate vineyards in the Chehalem Mountains; elevation-grown fruit",
+      "knownForInRegion": "A reliable, site-driven Willamette Valley producer in the Chehalem Mountains, known for elegant, earthy Pinot Noir at fair prices.",
+      "whyLoved": "Sommeliers appreciate Raptor Ridge because it delivers genuine Oregon Pinot Noir character at a price that makes it a practical by-the-glass or half-bottle option."
+    },
+    "priceGlass": null,
+    "priceBottle": 44,
+    "byTheGlass": false,
+    "scores": [],
+    "sourceConfidence": "well-documented",
+    "pairingSuggestions": ["salmon", "duck breast", "grilled portobello", "pork tenderloin", "wild mushrooms"],
+    "heirloomMenuPairings": ["Liberty Farms duck confit"],
     "drinkWindowStart": 2023,
     "drinkWindowEnd": 2028,
+    "estimatedPeak": "2024 to 2026",
     "agingPotential": "drink-now",
-    "sourceConfidence": "well-documented",
-    "scores": [],
-    "id": "raptor-ridge-2021"
+    "aromaIfDrinkingNow": "The wine is in a lovely spot, with the primary dark cherry fruit softening and integrating with the earthy, forest floor notes. The baking spice from oak is well-merged, and the tannins are supple. The half bottle format means this has aged slightly faster than a full bottle, which works in its favor.",
+    "aromaWithAge": "Over the next year or two, the fruit will continue to soften and earthy, mushroom notes will become more prominent. The 2021 vintage's bright acidity will preserve freshness, but the fruit will begin to fade by 2027. In the half bottle format, drink this sooner rather than later.",
+    "vintageNotes": "2021 Willamette; cool vintage with bright acidity and elegance, following the challenging heat dome of summer 2021",
+    "adjacentVintages": [
+      {"year": "2020", "notes": "Smoke-affected vintage; some lots impacted, others excellent", "rating": "Variable"},
+      {"year": "2022", "notes": "Return to more typical conditions; balanced and approachable", "rating": "Good"}
+    ],
+    "distributionLevel": "wider-distribution",
+    "labels": ["amazing-value"],
+    "isApproachingEndOfWindow": false,
+    "isPastWindow": false
   }
 ]
