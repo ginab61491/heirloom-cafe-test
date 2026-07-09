@@ -33,10 +33,24 @@ export default function Home() {
       {/* Three section previews */}
       <section className="max-w-5xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Menu card — photo slideshow */}
+          <Link href="/dinner" className="group block">
+            <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-3">
+              <img src="/images/dish-soup.jpeg"    alt="Dish" className="menu-slide group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/dish-chicken.jpeg" alt="Dish" className="menu-slide group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/dish-salmon.jpeg"  alt="Dish" className="menu-slide group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/dish-steak.jpeg"   alt="Dish" className="menu-slide group-hover:scale-105 transition-transform duration-500" />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300 z-10" />
+              <div className="absolute inset-0 border-2 border-transparent group-hover:border-[var(--color-gold)] transition-colors duration-300 rounded-lg m-2 z-10" />
+            </div>
+            <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-1">The Menu</h3>
+            <p className="text-sm text-[var(--color-warm-gray)]">Seasonal, intentional, exceedingly tasteful</p>
+          </Link>
+
+          {/* Cellar & Story cards */}
           {[
-            { href: "/dinner", img: "/images/steak-plating.jpeg", title: "The Menu", desc: "Seasonal, intentional, exceedingly tasteful" },
-            { href: "/stephens-wine-database", img: "/images/wine-shelf.jpeg", title: "The Cellar", desc: "Aged wines from California and Europe" },
-            { href: "/about", img: "/images/stephen-and-amy.jpeg", title: "The Story", desc: "A neighborhood restaurant, a personal cellar" },
+            { href: "/wine", img: "/images/cellar.jpg", title: "The Cellar", desc: "Aged wines from California and Europe" },
+            { href: "/about", img: "/images/front-door.jpg", title: "The Story", desc: "A neighborhood restaurant, a personal cellar" },
           ].map((card) => (
             <Link key={card.href} href={card.href} className="group block">
               <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-3">

@@ -4,10 +4,13 @@ import { wineList } from "@/data/wines";
 export default function DinnerPage() {
   return (
     <div className="bg-[var(--color-cream)]">
-      {/* Hero */}
+      {/* Hero — crossfade slideshow */}
       <div className="relative h-56 sm:h-72 overflow-hidden">
-        <img src="/images/steak-plating.jpeg" alt="Beautifully plated steak at Heirloom Cafe" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/20" />
+        <img src="/images/dish-soup.jpeg"    alt="Dish" className="menu-slide" />
+        <img src="/images/dish-chicken.jpeg" alt="Dish" className="menu-slide" />
+        <img src="/images/dish-salmon.jpeg"  alt="Dish" className="menu-slide" />
+        <img src="/images/dish-steak.jpeg"   alt="Dish" className="menu-slide" />
+        <div className="absolute inset-0 bg-black/20 z-10" />
       </div>
 
       <div className="max-w-2xl mx-auto px-6 py-12">
