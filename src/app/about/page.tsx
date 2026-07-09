@@ -71,8 +71,7 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center relative z-10">
             <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold">Make a Reservation</a>
-            <a href="http://www.kitchenwork.com/" target="_blank" rel="noopener noreferrer" className="btn-gold">Subscribe to kitchenwork</a>
-            <a href="mailto:stephen@heirloom-sf.com?subject=Mailing List" className="btn-gold">Join our Mailing List!</a>
+<a href="mailto:stephen@heirloom-sf.com?subject=Mailing List" className="btn-gold">Join our Mailing List!</a>
           </div>
         </div>
       </div>

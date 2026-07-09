@@ -18,10 +18,7 @@ export default function Footer() {
           <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold text-center">
             Make a Reservation
           </a>
-          <a href="http://www.kitchenwork.com/" target="_blank" rel="noopener noreferrer" className="btn-gold text-center">
-            Subscribe to kitchenwork
-          </a>
-          <a href="mailto:stephen@heirloom-sf.com?subject=Mailing List" className="btn-gold text-center">
+<a href="mailto:stephen@heirloom-sf.com?subject=Mailing List" className="btn-gold text-center">
             Join our Mailing List!
           </a>
         </div>
