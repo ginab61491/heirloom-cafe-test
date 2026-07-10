@@ -9,7 +9,7 @@ export interface PressItem {
 }
 
 // Order: Wine & Spirits first, The Philosopher Who Chose Wine second,
-// Foursquare/Eater third, then remaining items newest-first by year.
+// Bon Appetit third (ambiance quote), then remaining items newest-first by year.
 export const pressItems: PressItem[] = [
   {
     source: "Wine & Spirits Magazine",
@@ -25,9 +25,9 @@ export const pressItems: PressItem[] = [
     isFeature: true,
   },
   {
-    source: "Foursquare / Eater",
-    quote: "Go for the super-value tasting menu, or choose from dishes like duck breast salad with figs, or the excellent off-menu burger; don't miss the pairings from a seriously well-stocked cellar.",
-    url: "https://foursquare.com/v/heirloom-caf%C3%A9/4be39634b02ec9b68f0f50c0",
+    source: "Bon Appétit",
+    title: "San Francisco Travel Guide",
+    quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
   },
   {
     source: "The New York Times",
@@ -49,11 +49,6 @@ export const pressItems: PressItem[] = [
     year: 2011,
   },
   {
-    source: "Bon Appetit",
-    title: "San Francisco Travel Guide",
-    quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
-  },
-  {
     source: "SF Gate",
     title: "Heirloom Cafe Has Promising Start",
     url: "https://www.sfgate.com/restaurants/diningout/article/heirloom-cafe-has-promising-start-2299815.php",
@@ -64,16 +59,14 @@ export const pressItems: PressItem[] = [
   },
   {
     source: "San Francisco Examiner",
+    title: "Top Taste Treats of 2010",
     author: "Patricia Unterman",
+    url: "https://www.sfexaminer.com/lifestyles/top-taste-treats-of-2010/article_5e59e026-0c20-51d0-bd95-656977ede948.html",
+    year: 2010,
   },
   {
     source: "DiRoNA",
     title: "Distinguished Restaurants of North America",
-    url: "https://dirona.com/heirloom-cafe/",
-  },
-  {
-    source: "tablehopper",
-    quote: "The vibe is relaxed and comfortable — with jazz playing and soft candlelight — making this an on-point date restaurant.",
-    url: "https://www.tablehopper.com/regular/heirloom-cafe/",
+    url: "https://dirona.com/restaurants/heirloom-cafe/",
   },
 ];
