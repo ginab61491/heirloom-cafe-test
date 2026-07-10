@@ -14,14 +14,16 @@ export default function AboutPage() {
               Heirloom Caf&eacute;
             </h1>
             <div className="text-[var(--color-warm-gray)] leading-relaxed">
-              {/* First paragraph — larger */}
-              <p className="text-[17px] mb-4">For more than sixteen years, Heirloom Caf&eacute; has been a neighborhood dining room in the heart of San Francisco&rsquo;s Mission District, a place built on the belief that exceptional food, mature wine, and genuine hospitality should feel both special and approachable.</p>
+              {/* First paragraphs — visible */}
+              <div className="space-y-4 mb-4">
+                <p className="text-[17px]">For more than sixteen years, Heirloom Caf&eacute; has been a neighborhood dining room in the heart of San Francisco&rsquo;s Mission District, a place built on the belief that exceptional food, mature wine, and genuine hospitality should feel both special and approachable.</p>
+                <p className="text-[15px]">When Matt Straus opened Heirloom Caf&eacute; in 2010, he did so with two clear ambitions: to offer a wide variety of aged wines from a carefully managed cellar, and to serve simple, deeply satisfying food at reasonable prices. From the beginning, the restaurant was designed to feel intimate and personal. Less like dining out, and more like being welcomed into someone&rsquo;s home. That spirit remains at the center of everything we do.</p>
+                <p className="text-[15px]">For years, we have carefully identified and sourced wines from favorite producers across California and some of Europe&rsquo;s most storied wine regions, allowing them the time they need to evolve. Every night, we are thrilled to offer wines that speak to both the producer and the terroir from which they come.</p>
+                <p className="text-[15px]">In the kitchen, our philosophy is equally focused: concise, seasonal, selective, and delicious. The menu reflects a deep respect for ingredients and technique: simple food, prepared exceptionally well, with warmth and intention behind every plate.</p>
+              </div>
               {/* Rest — collapsed */}
               <ReadMore>
                 <div className="space-y-4 text-[15px]">
-                  <p>When Matt Straus opened Heirloom Caf&eacute; in 2010, he did so with two clear ambitions: to offer a wide variety of aged wines from a carefully managed cellar, and to serve simple, deeply satisfying food at reasonable prices. From the beginning, the restaurant was designed to feel intimate and personal. Less like dining out, and more like being welcomed into someone&rsquo;s home. That spirit remains at the center of everything we do.</p>
-                  <p>For years, we have carefully identified and sourced wines from favorite producers across California and some of Europe&rsquo;s most storied wine regions, allowing them the time they need to evolve. Every night, we are thrilled to offer wines that speak to both the producer and the terroir from which they come.</p>
-                  <p>In the kitchen, our philosophy is equally focused: concise, seasonal, selective, and delicious. The menu reflects a deep respect for ingredients and technique: simple food, prepared exceptionally well, with warmth and intention behind every plate.</p>
                   <p>In 2021, Matt moved to Great Barrington, Massachusetts to begin a new chapter with Heirloom Lodge, passing the majority ownership of Heirloom Caf&eacute; to longtime collaborators Josh DeClercq and Stephen Hallenbeck.</p>
                   <p>Together, Josh and Stephen represent the next chapter of Heirloom. One grounded in the same ideals, but with fresh energy and a deeper connection to the community that has supported the restaurant for over a decade. Between them, and alongside longtime team member Amy, they bring more than 30 years of Heirloom experience to the table.</p>
                   <p>Josh leads the kitchen and runs the dining room most nights, bringing his love of Mediterranean cooking, exceptional ingredients, and beautifully executed simplicity to every service. Stephen oversees the wine program; teaching classes, hosting tastings, managing the Wine Club, and caring for the cellar that remains the soul of the restaurant.</p>
