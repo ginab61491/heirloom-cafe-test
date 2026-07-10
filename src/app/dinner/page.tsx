@@ -68,9 +68,17 @@ export default async function DinnerPage() {
         {/* Wine by the Glass in gold frame */}
         <div className="gold-frame bg-[var(--color-warm-white)] relative">
           <div className="gold-frame-inner absolute inset-0" />
-          <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-8 text-center relative z-10">
-            Wine
+          <h2 className="font-[family-name:var(--font-serif)] text-xl text-[var(--color-charcoal)] mb-2 text-center relative z-10">
+            Wine by the Glass
           </h2>
+          <p className="text-sm text-[var(--color-warm-gray)] text-center mb-2 relative z-10">
+            Prices shown as glass / bottle. Selections change with the seasons.
+          </p>
+          <p className="text-sm text-center mb-8 relative z-10">
+            <a href="/wine" className="text-[var(--color-gold)] hover:underline">
+              Browse our full cellar list
+            </a>
+          </p>
           {wineList.map((section) => (
             <div key={section.category} className="mb-6 relative z-10">
               <h3 className="font-[family-name:var(--font-serif)] text-base text-[var(--color-wine)] mb-3">
