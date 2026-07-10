@@ -13,6 +13,12 @@ export default async function EventsPage() {
         <img src="/images/dining-room.jpeg" alt="Heirloom Cafe dining room" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/30" />
         <h1 className="absolute bottom-8 left-0 right-0 text-center font-[family-name:var(--font-serif)] text-4xl text-[var(--color-cream)]">Events</h1>
+        <a href="#upcoming" className="absolute bottom-4 left-0 right-0 flex flex-col items-center gap-1 text-[var(--color-cream)] opacity-70 hover:opacity-100 transition-opacity z-10">
+          <span className="text-xs tracking-widest uppercase">Upcoming Events</span>
+          <svg className="w-5 h-5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </a>
       </div>
 
       <div className="max-w-3xl mx-auto px-6 py-12">

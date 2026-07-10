@@ -82,7 +82,7 @@ export default function EventsClient({ events }: { events: HeirloomEvent[] }) {
   return (
     <>
       {upcoming.length > 0 && (
-        <section className="mb-12">
+        <section id="upcoming" className="mb-12">
           <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--color-charcoal)] mb-6">Upcoming Events</h2>
           <div className="space-y-4">
             {upcoming.map(e => <EventCard key={e.id} event={e} />)}
