@@ -9,6 +9,11 @@ export default function WinePage() {
   const [activeCategory, setActiveCategory] = useState('Sparkling');
   const [search, setSearch] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [clubName, setClubName] = useState('');
+  const [clubEmail, setClubEmail] = useState('');
+  const [clubTier, setClubTier] = useState('Classic Tier ($35 average bottle — $420/quarter)');
+  const [clubLoading, setClubLoading] = useState(false);
+  const [clubError, setClubError] = useState('');
 
   const currentCategory = rareWineList.find(c => c.category === activeCategory)!;
 
@@ -214,7 +219,28 @@ export default function WinePage() {
               </div>
             ) : (
               <form
-                onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}
+                onSubmit={async (e) => {
+                  e.preventDefault();
+                  setClubError('');
+                  setClubLoading(true);
+                  try {
+                    const res = await fetch('/api/wine-club', {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ name: clubName, email: clubEmail, tier: clubTier }),
+                    });
+                    const data = await res.json();
+                    if (data.ok) {
+                      setSubmitted(true);
+                    } else {
+                      setClubError(data.error ?? 'Something went wrong. Please try again.');
+                    }
+                  } catch {
+                    setClubError('Could not connect. Please check your connection and try again.');
+                  } finally {
+                    setClubLoading(false);
+                  }
+                }}
                 className="space-y-4"
               >
                 <h3 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-charcoal)] mb-2">Sign Up</h3>
@@ -223,24 +249,34 @@ export default function WinePage() {
                     type="text"
                     placeholder="Full name"
                     required
+                    value={clubName}
+                    onChange={e => setClubName(e.target.value)}
                     className="w-full px-4 py-3 rounded-lg border border-[var(--color-cream)] bg-[var(--color-warm-white)] text-[var(--color-charcoal)] placeholder:text-[var(--color-warm-gray)] placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]"
                   />
                   <input
                     type="email"
                     placeholder="Email"
                     required
+                    value={clubEmail}
+                    onChange={e => setClubEmail(e.target.value)}
                     className="w-full px-4 py-3 rounded-lg border border-[var(--color-cream)] bg-[var(--color-warm-white)] text-[var(--color-charcoal)] placeholder:text-[var(--color-warm-gray)] placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]"
                   />
                 </div>
-                <select className="w-full px-4 py-3 rounded-lg border border-[var(--color-cream)] bg-[var(--color-warm-white)] text-[var(--color-charcoal)] focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]">
-                  <option>Classic Tier ($35 average bottle &mdash; $420/quarter)</option>
-                  <option>Collector Tier ($55 average bottle &mdash; $660/quarter)</option>
+                <select
+                  value={clubTier}
+                  onChange={e => setClubTier(e.target.value)}
+                  className="w-full px-4 py-3 rounded-lg border border-[var(--color-cream)] bg-[var(--color-warm-white)] text-[var(--color-charcoal)] focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]"
+                >
+                  <option>Classic Tier ($35 average bottle — $420/quarter)</option>
+                  <option>Collector Tier ($55 average bottle — $660/quarter)</option>
                 </select>
+                {clubError && <p className="text-sm text-red-500">{clubError}</p>}
                 <button
                   type="submit"
-                  className="w-full py-3 px-6 rounded-lg bg-[var(--color-sage)] text-white font-medium hover:bg-[var(--color-sage-dark)] transition-colors"
+                  disabled={clubLoading}
+                  className="w-full py-3 px-6 rounded-lg bg-[var(--color-sage)] text-white font-medium hover:bg-[var(--color-sage-dark)] transition-colors disabled:opacity-60"
                 >
-                  Join the Wine Club
+                  {clubLoading ? 'Sending…' : 'Join the Wine Club'}
                 </button>
               </form>
             )}
