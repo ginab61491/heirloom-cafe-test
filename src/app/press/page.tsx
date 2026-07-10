@@ -32,6 +32,11 @@ export default function PressPage() {
                     <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
                       &ldquo;{item.quote}&rdquo;
                     </p>
+                    {item.quote2 && (
+                      <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed mt-2">
+                        &ldquo;{item.quote2}&rdquo;
+                      </p>
+                    )}
                   </blockquote>
 
                   <div className="flex items-baseline justify-between gap-4">

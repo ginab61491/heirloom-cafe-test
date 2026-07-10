@@ -4,6 +4,7 @@ export interface PressItem {
   note?: string;
   author?: string;
   quote?: string;
+  quote2?: string;
   url?: string;
   year?: number;
   isFeature?: boolean;
@@ -41,6 +42,7 @@ export const pressItems: PressItem[] = [
     source: "San Francisco Chronicle",
     author: "Michael Bauer",
     quote: "\u2026it feels as if you\u2019re eating in someone\u2019s home.",
+    quote2: "Exceptional, simply prepared food.",
   },
   {
     source: "The New York Times",
