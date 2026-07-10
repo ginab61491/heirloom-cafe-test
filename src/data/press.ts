@@ -70,6 +70,7 @@ export const pressItems: PressItem[] = [
   {
     source: "DiRoNA",
     title: "Distinguished Restaurants of North America",
+    note: "Distinguished Restaurants of North America Award Recipient.",
     url: "https://dirona.com/restaurants/heirloom-cafe/",
   },
 ];
