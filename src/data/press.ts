@@ -34,9 +34,8 @@ export const pressItems: PressItem[] = [
     year: 2010,
   },
   {
-    source: "Bon Appétit",
-    title: "San Francisco Travel Guide",
-    quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
+    source: "Bon App\u00e9tit",
+    quote: "A charming bistro with a bar overlooking the open kitchen.",
   },
   {
     source: "San Francisco Chronicle",
