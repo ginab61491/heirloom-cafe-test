@@ -28,6 +28,29 @@ export async function getWineList() {
   );
 }
 
+// ─── Closure notice ──────────────────────────────────────────────────────────
+
+export type ClosureNotice = {
+  enabled: boolean;
+  preset: 'private-event' | 'holiday-week' | 'july-4th' | 'custom';
+  customMessage?: string;
+  reopenDate?: string;   // YYYY-MM-DD
+  startDate?: string;    // YYYY-MM-DD
+  endDate?: string;      // YYYY-MM-DD
+} | null;
+
+export async function getClosureNotice(): Promise<ClosureNotice> {
+  try {
+    return await sanityClient.fetch<ClosureNotice>(
+      `*[_type == "closureNotice" && _id == "closureNotice"][0]{
+        enabled, preset, customMessage, reopenDate, startDate, endDate
+      }`
+    );
+  } catch {
+    return null;
+  }
+}
+
 // ─── Events ───────────────────────────────────────────────────────────────────
 
 export async function getEvents() {

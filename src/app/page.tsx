@@ -1,8 +1,12 @@
 import Link from "next/link";
+import ClosureBanner from "@/components/ClosureBanner";
 
-export default function Home() {
+export const revalidate = 60; // re-fetch Sanity data at most every 60 seconds
+
+export default async function Home() {
   return (
     <div className="flex-1">
+      <ClosureBanner />
       {/* Full-screen hero */}
       <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
         <img
