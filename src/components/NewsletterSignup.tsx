@@ -51,42 +51,38 @@ export default function NewsletterSignup() {
 
   if (state === "success") {
     return (
-      <div className="text-sm text-[var(--color-cream)]">
-        <p className="font-[family-name:var(--font-serif)] text-base text-white mb-1">Thank you!</p>
-        <p className="opacity-80">You are on the list.</p>
+      <div className="pt-4 border-t border-white/10">
+        <p className="text-xs uppercase tracking-widest text-white/50 mb-1">Mailing List</p>
+        <p className="text-sm text-white/80">You are on the list.</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-2">
-      <label htmlFor="newsletter-email" className="text-xs uppercase tracking-widest opacity-70">
-        Join our mailing list
-      </label>
-      <input
-        id="newsletter-email"
-        type="email"
-        autoComplete="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={e => { setEmail(e.target.value); if (fieldError) setFieldError(""); }}
-        className={`w-full px-4 py-2.5 text-sm rounded bg-white/10 border text-[var(--color-cream)] placeholder:text-[var(--color-cream)] placeholder:opacity-40 focus:outline-none focus:border-white/60 transition-colors ${
-          fieldError ? "border-red-300" : "border-white/25"
-        }`}
-      />
-      {fieldError && (
-        <p role="alert" className="text-xs text-red-300 -mt-1">{fieldError}</p>
-      )}
-      <button
-        type="submit"
-        disabled={state === "loading"}
-        className="btn-gold text-center disabled:opacity-60 disabled:cursor-not-allowed"
-      >
-        {state === "loading" ? "Sending..." : "Subscribe"}
-      </button>
-      {(state === "error" && submitError) && (
-        <p role="alert" className="text-xs text-red-300">{submitError}</p>
-      )}
-    </form>
+    <div className="pt-4 border-t border-white/10">
+      <p className="text-xs uppercase tracking-widest text-white/50 mb-2">Mailing List</p>
+      <form onSubmit={handleSubmit} noValidate>
+        <div className="flex gap-2">
+          <input
+            id="newsletter-email"
+            type="email"
+            autoComplete="email"
+            placeholder="Your email address"
+            value={email}
+            onChange={e => { setEmail(e.target.value); if (fieldError) setFieldError(""); }}
+            className={`flex-1 min-w-0 px-3 py-2 text-sm rounded bg-white/10 text-white placeholder:text-white/40 focus:outline-none border transition-colors ${fieldError ? "border-red-300/60" : "border-white/20 focus:border-white/50"}`}
+          />
+          <button
+            type="submit"
+            disabled={state === "loading"}
+            className="px-4 py-2 text-xs font-semibold tracking-widest uppercase text-white border border-white/40 rounded hover:bg-white/10 transition-colors disabled:opacity-50 whitespace-nowrap"
+          >
+            {state === "loading" ? "..." : "Subscribe"}
+          </button>
+        </div>
+        {fieldError && <p role="alert" className="text-xs text-red-300 mt-1">{fieldError}</p>}
+        {state === "error" && submitError && <p role="alert" className="text-xs text-red-300 mt-1">{submitError}</p>}
+      </form>
+    </div>
   );
 }
