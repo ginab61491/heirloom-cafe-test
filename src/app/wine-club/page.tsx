@@ -87,11 +87,6 @@ export default function WineClubPage() {
             <option>Local delivery (SF)</option>
             <option>Ship to me</option>
           </select>
-          <textarea
-            placeholder="Delivery instructions or notes (optional)"
-            rows={3}
-            className="w-full px-4 py-3 rounded-lg border border-[var(--color-cream-dark)] bg-[var(--color-warm-white)] text-[var(--color-earth)] placeholder:text-[var(--color-earth-light)] placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-[var(--color-sage-light)]"
-          />
           <button
             type="submit"
             className="w-full py-3 px-6 rounded-lg bg-[var(--color-sage)] text-white font-medium hover:bg-[var(--color-sage-dark)] transition-colors"
