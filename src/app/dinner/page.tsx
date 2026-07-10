@@ -1,5 +1,7 @@
 import { getPrixFixe, getALaCarte, getWineList } from "@/lib/queries";
 
+export const revalidate = 60; // refresh from Sanity every 60 seconds
+
 export default async function DinnerPage() {
   const [prixFixe, aLaCarte, wineList] = await Promise.all([
     getPrixFixe(),

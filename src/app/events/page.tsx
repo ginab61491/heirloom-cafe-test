@@ -1,6 +1,8 @@
 import { getEvents } from "@/lib/queries";
 import EventsClient from "./EventsClient";
 
+export const revalidate = 60; // refresh from Sanity every 60 seconds
+
 export default async function EventsPage() {
   const events = await getEvents();
 
