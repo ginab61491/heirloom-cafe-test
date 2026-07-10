@@ -5,6 +5,7 @@ export interface PressItem {
   author?: string;
   quote?: string;
   quote2?: string;
+  quote3?: string;
   url?: string;
   year?: number;
   isFeature?: boolean;
@@ -16,6 +17,7 @@ export const pressItems: PressItem[] = [
   {
     source: "Wine & Spirits Magazine",
     quote: "If this spot flies a bit under the radar, that may be because devotees don't want to clue the rest of the world into the mid-2000s German Rieslings and Vouvrays that owner Matt Straus offers for less than $100.",
+    quote2: "California takes on French bistro classics, like duck confit salad and bacon-and-onion tart, are completely satisfying.",
     url: "https://www.wineandspiritsmagazine.com/reviews/restaurant/heirloom-cafe",
   },
   {
@@ -36,13 +38,14 @@ export const pressItems: PressItem[] = [
   },
   {
     source: "Bon App\u00e9tit",
-    quote: "A charming bistro with a bar overlooking the open kitchen.",
+    quote: "\u2026serves new takes on simple fare like marinated-beet salad.",
   },
   {
     source: "San Francisco Chronicle",
     author: "Michael Bauer",
     quote: "\u2026it feels as if you\u2019re eating in someone\u2019s home.",
     quote2: "Exceptional, simply prepared food.",
+    quote3: "His menu is as well chosen and focused as the wines.",
   },
   {
     source: "The New York Times",

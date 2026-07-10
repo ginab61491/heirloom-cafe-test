@@ -33,6 +33,11 @@ export default function PressPage() {
                         &ldquo;{item.quote2}&rdquo;
                       </p>
                     )}
+                    {item.quote3 && (
+                      <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed mt-2">
+                        &ldquo;{item.quote3}&rdquo;
+                      </p>
+                    )}
                   </blockquote>
 
                   <p className="font-[family-name:var(--font-serif)] text-sm text-[var(--color-wine)] italic">
