@@ -47,6 +47,13 @@ export const pressItems: PressItem[] = [
     quote2: "His menu is as well chosen and focused as the wines.",
   },
   {
+    source: "San Francisco Chronicle",
+    author: "Esther Mobley",
+    quote: "Heirloom is one of those restaurants that deals in comfort, not novelty.",
+    url: "https://www.sfchronicle.com/food/wine/article/heirloom-cafe-restaurant-sf-17809207.php",
+    year: 2023,
+  },
+  {
     source: "The New York Times",
     title: "36 Hours in San Francisco",
     note: "Named in the Times\u2019 iconic \u201836 Hours\u2019 travel series \u2014 the paper\u2019s guide to a city\u2019s essential experiences.",
