@@ -34,7 +34,6 @@ export const pressItems: PressItem[] = [
     source: "San Francisco Chronicle",
     author: "Michael Bauer",
     quote: "\u2026it feels as if you\u2019re eating in someone\u2019s home.",
-    note: "Sixteen years on, that\u2019s still the whole idea.",
   },
   {
     source: "The New York Times",
