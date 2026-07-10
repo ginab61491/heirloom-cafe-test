@@ -39,6 +39,7 @@ export const pressItems: PressItem[] = [
     source: "Financial Times",
     title: "Best Restaurants of 2013",
     author: "Nicholas Lander",
+    url: "https://www.ft.com/content/e2ea17fc-66dd-11e2-a805-00144feab49a",
     year: 2013,
   },
   {
@@ -51,6 +52,11 @@ export const pressItems: PressItem[] = [
     source: "Bon Appetit",
     title: "San Francisco Travel Guide",
     quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
+  },
+  {
+    source: "SF Gate",
+    title: "Heirloom Cafe Has Promising Start",
+    url: "https://www.sfgate.com/restaurants/diningout/article/heirloom-cafe-has-promising-start-2299815.php",
   },
   {
     source: "San Francisco Chronicle",
