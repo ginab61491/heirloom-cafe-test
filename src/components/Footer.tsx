@@ -1,3 +1,7 @@
+import NewsletterSignup from "./NewsletterSignup";
+
+const newsletterEnabled = process.env.NEWSLETTER_SIGNUP_ENABLED === "true";
+
 export default function Footer() {
   return (
     <footer className="bg-[var(--color-sage)] text-[var(--color-cream)]">
@@ -13,14 +17,12 @@ export default function Footer() {
           <p><a href="mailto:stephen@heirloom-sf.com" className="hover:text-white transition-colors">stephen@heirloom-sf.com</a></p>
         </div>
 
-        {/* Gold buttons */}
+        {/* CTAs */}
         <div className="flex flex-col gap-3">
           <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold text-center">
             Make a Reservation
           </a>
-<a href="mailto:stephen@heirloom-sf.com?subject=Mailing List" className="btn-gold text-center">
-            Join our Mailing List!
-          </a>
+          {newsletterEnabled && <NewsletterSignup />}
         </div>
       </div>
 
