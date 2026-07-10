@@ -1,4 +1,5 @@
 import ReadMore from "@/components/ReadMore";
+import FarmersPartners from "@/components/FarmersPartners";
 
 export default function AboutPage() {
   return (
@@ -88,6 +89,8 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
+
+        <FarmersPartners />
 
       </div>
     </div>
