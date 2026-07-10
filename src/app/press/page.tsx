@@ -82,28 +82,23 @@ export default function PressPage() {
               <p className="text-[10px] uppercase tracking-widest text-[var(--color-warm-gray)] mb-5">Notable Coverage</p>
               <div className="space-y-0">
                 {mentions.map((item, i) => (
-                  <div key={i} className="flex items-start justify-between gap-4 py-2.5 border-b" style={{ borderColor: 'rgba(0,0,0,0.06)' }}>
-                    <div>
-                      <p className="text-sm text-[var(--color-charcoal)]">
-                        {item.url ? (
-                          <a href={item.url} target="_blank" rel="noopener noreferrer" className="font-[family-name:var(--font-serif)] hover:text-[var(--color-wine)] transition-colors">
-                            {item.source}
-                          </a>
-                        ) : (
-                          <span className="font-[family-name:var(--font-serif)]">{item.source}</span>
-                        )}
-                        {(item.title || item.author) && (
-                          <span className="text-[var(--color-warm-gray)]">
-                            {item.title ? ` — ${item.title}` : ''}{item.author ? `, ${item.author}` : ''}
-                          </span>
-                        )}
-                      </p>
-                      {item.note && (
-                        <p className="text-xs text-[var(--color-gold)] mt-0.5">{item.note}</p>
+                  <div key={i} className="py-3 border-b" style={{ borderColor: 'rgba(0,0,0,0.06)' }}>
+                    <p className="text-sm text-[var(--color-charcoal)]">
+                      {item.url ? (
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="font-[family-name:var(--font-serif)] hover:text-[var(--color-wine)] transition-colors">
+                          {item.source}
+                        </a>
+                      ) : (
+                        <span className="font-[family-name:var(--font-serif)]">{item.source}</span>
                       )}
-                    </div>
-                    {item.year && (
-                      <span className="text-xs text-[var(--color-warm-gray)] flex-shrink-0 mt-0.5">{item.year}</span>
+                      {(item.title || item.author) && (
+                        <span className="text-[var(--color-warm-gray)]">
+                          {item.title ? ` — ${item.title}` : ''}{item.author ? `, ${item.author}` : ''}
+                        </span>
+                      )}
+                    </p>
+                    {item.note && (
+                      <p className="text-xs text-[var(--color-warm-gray)] mt-1 leading-relaxed">{item.note}</p>
                     )}
                   </div>
                 ))}

@@ -47,13 +47,14 @@ export const pressItems: PressItem[] = [
   {
     source: "The New York Times",
     title: "36 Hours in San Francisco",
+    note: "Named in the Times\u2019 iconic \u201836 Hours\u2019 travel series \u2014 the paper\u2019s guide to a city\u2019s essential experiences.",
     url: "https://www.nytimes.com/2015/11/01/travel/what-to-do-in-36-hours-in-san-francisco.html",
     year: 2015,
   },
   {
     source: "Financial Times",
     title: "Best Restaurants of 2013",
-    note: "One of two American restaurants named worldwide",
+    note: "One of only two American restaurants named worldwide in the Financial Times\u2019 annual global best restaurants list.",
     author: "Nicholas Lander",
     url: "https://www.ft.com/content/e2ea17fc-66dd-11e2-a805-00144feab49a",
     year: 2013,
@@ -61,12 +62,14 @@ export const pressItems: PressItem[] = [
   {
     source: "Food and Wine",
     title: "Top Sommeliers of 2011",
+    note: "Founder Matt Straus named among the country\u2019s top sommeliers.",
     author: "Matt Straus",
     year: 2011,
   },
   {
     source: "SF Gate",
     title: "Heirloom Cafe Has Promising Start",
+    note: "An early review welcoming Heirloom Caf\u00e9 to the Mission District.",
     url: "https://www.sfgate.com/restaurants/diningout/article/heirloom-cafe-has-promising-start-2299815.php",
   },
   {
