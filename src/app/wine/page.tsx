@@ -40,9 +40,12 @@ export default function WinePage() {
           Our rare and allocated wine list — curated from a cellar built over more than fifteen years.
           Bottles range from everyday pleasures to singular library vintages. Ask your server for guidance.
         </p>
-        <p className="text-center text-xs text-[var(--color-warm-gray)] mb-10">
+        <p className="text-center text-xs text-[var(--color-warm-gray)] mb-3">
           Wine by the glass available on the{' '}
           <Link href="/dinner" className="text-[var(--color-gold)] hover:underline">dinner menu</Link>.
+        </p>
+        <p className="text-center text-xs text-[var(--color-warm-gray)] italic mb-10">
+          Please note this list is not live and inventory may have changed. Ask your server for current availability.
         </p>
 
         {/* Category tabs */}
