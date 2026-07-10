@@ -1,6 +1,7 @@
 export interface PressItem {
   source: string;
   title?: string;
+  note?: string;
   author?: string;
   quote?: string;
   url?: string;
@@ -38,6 +39,7 @@ export const pressItems: PressItem[] = [
   {
     source: "Financial Times",
     title: "Best Restaurants of 2013",
+    note: "One of two American restaurants named worldwide",
     author: "Nicholas Lander",
     url: "https://www.ft.com/content/e2ea17fc-66dd-11e2-a805-00144feab49a",
     year: 2013,
