@@ -37,7 +37,7 @@ export default function WinePage() {
 
         {/* Intro */}
         <p className="text-[var(--color-warm-gray)] leading-relaxed text-[15px] mb-3 text-center">
-          Our rare and allocated wine list — curated from a cellar built over more than fifteen years.
+          Our rare and allocated wine list, curated from a cellar built over more than fifteen years.
           Bottles range from everyday pleasures to singular library vintages. Ask your server for guidance.
         </p>
         <p className="text-center text-xs text-[var(--color-warm-gray)] mb-3">
