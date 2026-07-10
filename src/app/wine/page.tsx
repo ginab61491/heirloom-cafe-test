@@ -131,15 +131,6 @@ export default function WinePage() {
           </div>
         )}
 
-        {/* Footer links */}
-        <div className="mt-16 pt-8 border-t border-[var(--color-cream)] flex flex-col sm:flex-row gap-3 justify-center">
-          <a href="https://resy.com/cities/sf/heirloom-cafe" target="_blank" rel="noopener noreferrer" className="btn-gold text-center">
-            Make a Reservation
-          </a>
-          <Link href="/wine-club" className="btn-gold text-center">
-            Join the Wine Club
-          </Link>
-        </div>
       </div>
     </div>
   );
