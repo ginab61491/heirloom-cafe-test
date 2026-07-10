@@ -95,9 +95,18 @@ export default function FarmersPartners() {
 
   return (
     <section className="pt-14 mt-2 border-t" style={{ borderColor: 'rgba(0,0,0,0.08)' }}>
-      <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--color-charcoal)] mb-6">
-        Our Farmers &amp; Partners
-      </h2>
+      <div className="flex items-center justify-between gap-6 mb-6">
+        <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--color-charcoal)]">
+          Our Farmers &amp; Partners
+        </h2>
+        <img
+          src="/images/vegetables-illustration.png"
+          alt=""
+          aria-hidden="true"
+          className="w-24 h-24 object-contain flex-shrink-0"
+          style={{ mixBlendMode: 'multiply' }}
+        />
+      </div>
 
       {/* Opening narrative */}
       <div className="space-y-4 text-[var(--color-warm-gray)] leading-relaxed text-[15px] mb-6">
