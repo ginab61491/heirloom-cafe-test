@@ -104,7 +104,6 @@ export default function FarmersPartners() {
           alt=""
           aria-hidden="true"
           className="w-24 h-24 object-contain flex-shrink-0"
-          style={{ mixBlendMode: 'multiply' }}
         />
       </div>
 
