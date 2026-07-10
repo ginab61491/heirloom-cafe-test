@@ -36,16 +36,25 @@ export default function PressPage() {
 
                   <div className="flex items-baseline justify-between gap-4">
                     <p className="font-[family-name:var(--font-serif)] text-sm text-[var(--color-wine)] italic">
-                      {item.url ? (
-                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
-                          {item.title ?? item.source}
-                        </a>
-                      ) : (item.title ?? item.source)}
-                      {item.title && (
-                        <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>
-                      )}
-                      {!item.title && item.author && (
-                        <span className="not-italic text-[var(--color-warm-gray)]">, {item.author}</span>
+                      {item.author ? (
+                        <>
+                          {item.url ? (
+                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
+                              {item.author}
+                            </a>
+                          ) : item.author}
+                          <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>
+                          {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.title}</span>}
+                        </>
+                      ) : (
+                        <>
+                          {item.url ? (
+                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
+                              {item.title ?? item.source}
+                            </a>
+                          ) : (item.title ?? item.source)}
+                          {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>}
+                        </>
                       )}
                     </p>
                     {item.year && (

@@ -26,6 +26,14 @@ export const pressItems: PressItem[] = [
     isFeature: true,
   },
   {
+    source: "San Francisco Examiner",
+    title: "Top Taste Treats of 2010",
+    author: "Patricia Unterman",
+    quote: "\u2026crafts a handful of hyper-local dishes to pair with really nice wines.",
+    url: "https://www.sfexaminer.com/lifestyles/top-taste-treats-of-2010/article_5e59e026-0c20-51d0-bd95-656977ede948.html",
+    year: 2010,
+  },
+  {
     source: "Bon Appétit",
     title: "San Francisco Travel Guide",
     quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
@@ -59,13 +67,6 @@ export const pressItems: PressItem[] = [
     source: "SF Gate",
     title: "Heirloom Cafe Has Promising Start",
     url: "https://www.sfgate.com/restaurants/diningout/article/heirloom-cafe-has-promising-start-2299815.php",
-  },
-  {
-    source: "San Francisco Examiner",
-    title: "Top Taste Treats of 2010",
-    author: "Patricia Unterman",
-    url: "https://www.sfexaminer.com/lifestyles/top-taste-treats-of-2010/article_5e59e026-0c20-51d0-bd95-656977ede948.html",
-    year: 2010,
   },
   {
     source: "DiRoNA",
