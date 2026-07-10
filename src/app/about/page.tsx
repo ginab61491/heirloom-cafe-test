@@ -5,11 +5,11 @@ export default function AboutPage() {
     <div className="bg-[var(--color-cream)]">
       {/* Top section: side by side */}
       <div className="max-w-5xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-16">
-          <div className="rounded-lg overflow-hidden">
-            <img src="/images/storefront-window.jpeg" alt="Heirloom Cafe storefront with gold lettering" className="w-full h-full object-cover" />
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 items-start mb-16">
+          <div className="md:col-span-2 rounded-lg overflow-hidden">
+            <img src="/images/storefront-window.jpeg" alt="Heirloom Cafe storefront with gold lettering" className="w-full h-auto" />
           </div>
-          <div>
+          <div className="md:col-span-3">
             <h1 className="font-[family-name:var(--font-serif)] text-3xl text-[var(--color-charcoal)] mb-6">
               Heirloom Caf&eacute;
             </h1>
