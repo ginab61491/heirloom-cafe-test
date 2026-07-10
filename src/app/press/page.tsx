@@ -24,10 +24,6 @@ export default function PressPage() {
             <div className="space-y-10 mb-14">
               {featured.map((item, i) => (
                 <div key={i}>
-                  {item.isFeature && (
-                    <p className="text-[10px] uppercase tracking-widest text-[var(--color-gold)] mb-2">Feature</p>
-                  )}
-
                   <blockquote className="pl-4 border-l border-[var(--color-gold)] mb-3">
                     <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
                       &ldquo;{item.quote}&rdquo;
@@ -39,33 +35,28 @@ export default function PressPage() {
                     )}
                   </blockquote>
 
-                  <div className="flex items-baseline justify-between gap-4">
-                    <p className="font-[family-name:var(--font-serif)] text-sm text-[var(--color-wine)] italic">
-                      {item.author ? (
-                        <>
-                          {item.url ? (
-                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
-                              {item.author}
-                            </a>
-                          ) : item.author}
-                          <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>
-                          {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.title}</span>}
-                        </>
-                      ) : (
-                        <>
-                          {item.url ? (
-                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
-                              {item.title ?? item.source}
-                            </a>
-                          ) : (item.title ?? item.source)}
-                          {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>}
-                        </>
-                      )}
-                    </p>
-                    {item.year && (
-                      <span className="text-xs text-[var(--color-warm-gray)] flex-shrink-0">{item.year}</span>
+                  <p className="font-[family-name:var(--font-serif)] text-sm text-[var(--color-wine)] italic">
+                    {item.author ? (
+                      <>
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
+                            {item.author}
+                          </a>
+                        ) : item.author}
+                        <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>
+                        {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.title}</span>}
+                      </>
+                    ) : (
+                      <>
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-charcoal)] transition-colors">
+                            {item.title ?? item.source}
+                          </a>
+                        ) : (item.title ?? item.source)}
+                        {item.title && <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>}
+                      </>
                     )}
-                  </div>
+                  </p>
                   {item.note && (
                     <p className="text-sm text-[var(--color-charcoal)] italic mt-2">{item.note}</p>
                   )}
