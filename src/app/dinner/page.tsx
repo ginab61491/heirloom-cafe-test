@@ -1,7 +1,11 @@
-import { prixFixe, aLaCarte } from "@/data/menu";
-import { wineList } from "@/data/wines";
+import { getPrixFixe, getALaCarte, getWineList } from "@/lib/queries";
 
-export default function DinnerPage() {
+export default async function DinnerPage() {
+  const [prixFixe, aLaCarte, wineList] = await Promise.all([
+    getPrixFixe(),
+    getALaCarte(),
+    getWineList(),
+  ]);
   return (
     <div className="bg-[var(--color-cream)]">
       {/* Hero — crossfade slideshow */}
