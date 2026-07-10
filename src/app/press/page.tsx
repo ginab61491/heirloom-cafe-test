@@ -44,11 +44,17 @@ export default function PressPage() {
                       {item.title && (
                         <span className="not-italic text-[var(--color-warm-gray)]">, {item.source}</span>
                       )}
+                      {!item.title && item.author && (
+                        <span className="not-italic text-[var(--color-warm-gray)]">, {item.author}</span>
+                      )}
                     </p>
                     {item.year && (
                       <span className="text-xs text-[var(--color-warm-gray)] flex-shrink-0">{item.year}</span>
                     )}
                   </div>
+                  {item.note && (
+                    <p className="text-sm text-[var(--color-charcoal)] italic mt-2">{item.note}</p>
+                  )}
 
                   {i < featured.length - 1 && (
                     <div className="w-12 h-px bg-[var(--color-gold)] mt-10" />

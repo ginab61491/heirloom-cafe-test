@@ -10,7 +10,7 @@ export interface PressItem {
 }
 
 // Order: Wine & Spirits first, The Philosopher Who Chose Wine second,
-// Bon Appetit third (ambiance quote), then remaining items newest-first by year.
+// Bon Appetit third, SF Chronicle fourth (with editorial note), then remaining items newest-first by year.
 export const pressItems: PressItem[] = [
   {
     source: "Wine & Spirits Magazine",
@@ -29,6 +29,12 @@ export const pressItems: PressItem[] = [
     source: "Bon Appétit",
     title: "San Francisco Travel Guide",
     quote: "This charming bistro has high ceilings, old wood floors, and a bar overlooking the open kitchen.",
+  },
+  {
+    source: "San Francisco Chronicle",
+    author: "Michael Bauer",
+    quote: "\u2026it feels as if you\u2019re eating in someone\u2019s home.",
+    note: "Sixteen years on, that\u2019s still the whole idea.",
   },
   {
     source: "The New York Times",
@@ -54,10 +60,6 @@ export const pressItems: PressItem[] = [
     source: "SF Gate",
     title: "Heirloom Cafe Has Promising Start",
     url: "https://www.sfgate.com/restaurants/diningout/article/heirloom-cafe-has-promising-start-2299815.php",
-  },
-  {
-    source: "San Francisco Chronicle",
-    author: "Michael Bauer",
   },
   {
     source: "San Francisco Examiner",
