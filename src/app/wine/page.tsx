@@ -7,7 +7,6 @@ import { rareWineList } from "@/data/rareWines";
 export default function WinePage() {
   const [activeTab, setActiveTab] = useState<'list' | 'club'>('list');
   const [activeCategory, setActiveCategory] = useState('Sparkling');
-  const [search, setSearch] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [clubName, setClubName] = useState('');
   const [clubEmail, setClubEmail] = useState('');
@@ -17,17 +16,7 @@ export default function WinePage() {
 
   const currentCategory = rareWineList.find(c => c.category === activeCategory)!;
 
-  const filteredSections = search.trim()
-    ? currentCategory.sections.map(section => ({
-        ...section,
-        groups: section.groups.map(group => ({
-          ...group,
-          wines: group.wines.filter(w =>
-            w.name.toLowerCase().includes(search.toLowerCase())
-          ),
-        })).filter(g => g.wines.length > 0),
-      })).filter(s => s.groups.length > 0)
-    : currentCategory.sections;
+  const filteredSections = currentCategory.sections;
 
   return (
     <div className="bg-[var(--color-cream)]">
@@ -86,7 +75,7 @@ export default function WinePage() {
               {rareWineList.map(cat => (
                 <button
                   key={cat.category}
-                  onClick={() => { setActiveCategory(cat.category); setSearch(''); }}
+                  onClick={() => setActiveCategory(cat.category)}
                   className={`px-5 py-2.5 text-sm font-medium transition-colors border-b-2 -mb-px ${
                     activeCategory === cat.category
                       ? 'border-[var(--color-gold)] text-[var(--color-charcoal)]'
@@ -98,31 +87,10 @@ export default function WinePage() {
               ))}
             </div>
 
-            {/* Search */}
-            <div className="mb-8 relative">
-              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--color-warm-gray)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-              </svg>
-              <input
-                type="text"
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-                placeholder={`Search ${activeCategory.toLowerCase()} wines...`}
-                className="w-full pl-9 pr-4 py-2.5 text-sm bg-[var(--color-warm-white)] border border-[var(--color-cream)] rounded text-[var(--color-charcoal)] placeholder:text-[var(--color-warm-gray)] focus:outline-none focus:border-[var(--color-gold)]"
-              />
-              {search && (
-                <button onClick={() => setSearch('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--color-warm-gray)] hover:text-[var(--color-charcoal)]">
-                  ✕
-                </button>
-              )}
-            </div>
 
             {/* Wine list */}
-            {filteredSections.length === 0 ? (
-              <p className="text-center text-[var(--color-warm-gray)] text-sm py-8">No wines found for &ldquo;{search}&rdquo;</p>
-            ) : (
-              <div className="space-y-10">
-                {filteredSections.map(section => (
+            <div className="space-y-10">
+              {filteredSections.map(section => (
                   <div key={section.section}>
                     <div className="flex items-center gap-4 mb-5">
                       <h2 className="font-[family-name:var(--font-serif)] text-lg text-[var(--color-wine)] whitespace-nowrap">
@@ -157,8 +125,7 @@ export default function WinePage() {
                     </div>
                   </div>
                 ))}
-              </div>
-            )}
+            </div>
           </>
         )}
 
