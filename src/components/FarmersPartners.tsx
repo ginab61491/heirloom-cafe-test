@@ -158,9 +158,6 @@ export default function FarmersPartners() {
             />
           </div>
 
-          <p className="text-sm text-[var(--color-warm-gray)] italic text-center pb-4">
-            The menu changes nightly. The relationships don&rsquo;t.
-          </p>
         </>
       )}
     </section>
