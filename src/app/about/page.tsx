@@ -66,7 +66,8 @@ export default function AboutPage() {
           <div className="gold-frame-inner absolute inset-0" />
           <div className="relative z-10 space-y-2 text-sm text-[var(--color-warm-gray)] mb-6">
             <p>2500 Folsom Street, San Francisco</p>
-            <p>Tuesday &ndash; Saturday, 5:45 &ndash; 9:30 PM</p>
+            <p>Tuesday &ndash; Thursday, 5:45 &ndash; 9:30 PM</p>
+            <p>Friday &ndash; Saturday, 5:45 &ndash; 10:00 PM</p>
             <p>415 821 2500</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center relative z-10">
